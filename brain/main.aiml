@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+    <category>
+        <pattern>*</pattern>
+        <template>
+            Maaf, informasi mengenai <star/> belum tersedia.
+        </template>
+    </category>
+
+   <!-- Introduction -->
+    <category>
+        <pattern>HALO</pattern>
+        <template>
+            <think><set name="topic">main</set></think>
+            Halo, Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang:
+            <ul>
+                <li>Tentang Santika Premiere Slipi</li>
+                <li>Kamar Hotel</li>
+                <li>Acara Pernikahan</li>
+                <li>Ruangan Rapat</li>
+                <li>Kendaraan</li>
+                <li>Makanan dan Minuman</li>
+                <li>Fasilitas Lain.</li>
+            </ul>
+        </template>
+    </category>
+
+    <category>
+            <pattern>HALO _</pattern>
+            <template>
+                <srai>HALO</srai>    
+            </template>
+    </category>
+
+    <category>
+            <pattern>_ HALO</pattern>
+            <template>
+                <srai>HALO</srai>    
+            </template>
+    </category>
+
+    <category>
+            <pattern>_ HALO _</pattern>
+            <template>
+                <srai>HALO</srai>    
+            </template>
+    </category>
+
+    <category>
+        <pattern>_ SANTIKA PREMIERE SLIPI</pattern>
+        <template>
+            <srai>SANTIKA PREMIERE SLIPI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA PREMIERE SLIPI _</pattern>
+        <template>
+            <srai>SANTIKA PREMIERE SLIPI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SANTIKA PREMIERE SLIPI _</pattern>
+        <template>
+            <srai>SANTIKA PREMIERE SLIPI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR</pattern>
+        <template>
+            <srai>KAMAR HOTEL</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ KAMAR</pattern>
+        <template>
+            <srai>KAMAR HOTEL</srai>    
+        </template>
+    </category>
+
+    <!-- <category>
+        <pattern>KAMAR *</pattern>
+        <template>
+            <srai><star index = "1"/></srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ KAMAR *</pattern>
+        <template>
+            <srai><star index = "2"/></srai>    
+        </template>
+    </category> -->
+    
+    <!-- <category>
+        <pattern>_ KAMAR *</pattern>
+        <template>
+            <srai>KAMAR <star index = "2"/></srai>    
+        </template>
+    </category> -->
+    
+    <!-- <category>
+        <pattern># NIKAH #</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category> -->
+    
+    <category>
+        <pattern>_ NIKAH</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>NIKAH _</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ NIKAH _</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category>
+
+    <!-- <category>
+        <pattern># NIKAHAN #</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category> -->
+
+    <category>
+        <pattern>_ NIKAHAN</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>NIKAHAN _</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ NIKAHAN _</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PERNIKAHAN</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PERNIKAHAN _</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PERNIKAHAN _</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ RAPAT</pattern>
+        <template>
+            <srai>RUANGAN RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RAPAT _</pattern>
+        <template>
+            <srai>RUANGAN RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ RAPAT _</pattern>
+        <template>
+            <srai>RUANGAN RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ TRANSPORT</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>TRANSPORT _</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ TRANSPORT _</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOBIL</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>MOBIL _</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOBIL _</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ KENDARAAN</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KENDARAAN _</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ KENDARAAN _</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MAKANAN</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>MAKANAN _</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MAKANAN _</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MINUMAN</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MINUMAN _</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MINUMAN _</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ RESTAURAN</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESTAURAN _</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ RESTAURAN _</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ RESTORAN</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESTORAN _</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ RESTORAN _</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MAKANAN DAN MINUMAN</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>MAKANAN DAN MINUMAN _</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MAKANAN DAN MINUMAN _</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ LAIN</pattern>
+        <template>
+            <srai>FASILITAS LAIN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>LAIN _</pattern>
+        <template>
+            <srai>FASILITAS LAIN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ LAIN _</pattern>
+        <template>
+            <srai>FASILITAS LAIN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ LAINNYA</pattern>
+        <template>
+            <srai>FASILITAS LAIN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>LAINNYA _</pattern>
+        <template>
+            <srai>FASILITAS LAIN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ LAINNYA _</pattern>
+        <template>
+            <srai>FASILITAS LAIN</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SANTIKA PREMIERE SLIPI</pattern>
+        <template>
+            Santika Hotel dan Resorts adalah salah satu grup hotel terbesar di Indonesia. Dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981.
+        </template>
+    </category>
+    
+</aiml>

@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+    <category>
+        <pattern>KAMAR HOTEL</pattern>
+        <template>
+            <think><set name="topic">hotel</set></think>
+            Hotel Santika Premiere menyediakan berbagai jenis kamar
+            <ul>
+                <li>Deluxe</li>
+                <li>Club Premiere</li>
+                <li>Deluxe Suite</li>
+                <li>Executive Suite</li>
+                <li>Family Suite</li>
+                <li>Santika Suite</li>
+                <li>Info lain</li>
+            </ul>
+        </template>
+    </category>
+
+    <!-- <category>
+        <pattern>KAMAR _ DELUXE _</pattern>
+        <template>
+            <srai>DELUXE</srai>    
+        </template>
+    </category> -->
+
+    <!-- <category>
+        <pattern>KAMAR _ CLUB PREMIERE _</pattern>
+        <template>
+            <srai>CLUB PREMIERE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR _ $DELUXE SUITE _</pattern>
+        <template>
+            <srai>DELUXE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR _ EXECUTIVE SUITE _</pattern>
+        <template>
+            <srai>EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR _ FAMILY SUITE _</pattern>
+        <template>
+            <srai>EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR _ SANTIKA SUITE _</pattern>
+        <template>
+            <srai>EXECUTIVE SUITE</srai>    
+        </template>
+    </category> -->
+
+    <!-- <topic name="hotel"> -->
+
+        <category>
+            <pattern>_ DELUXE</pattern>
+            <template>
+                <srai>DELUXE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>DELUXE _</pattern>
+            <template>
+                <srai>DELUXE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ DELUXE _</pattern>
+            <template>
+                <srai>DELUXE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ CLUB PREMIERE</pattern>
+            <template>
+                <srai>CLUB PREMIERE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>CLUB PREMIERE _</pattern>
+            <template>
+                <srai>CLUB PREMIERE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ CLUB PREMIERE _</pattern>
+            <template>
+                <srai>CLUB PREMIERE</srai>    
+            </template>
+        </category>
+        
+        <category>
+            <pattern>_ DELUXE SUITE</pattern>
+            <template>
+                <srai>DELUXE SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>DELUXE SUITE _</pattern>
+            <template>
+                <srai>DELUXE SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ DELUXE SUITE _</pattern>
+            <template>
+                <srai>DELUXE SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ EXECUTIVE</pattern>
+            <template>
+                <srai>EXECUTIVE SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>EXECUTIVE _</pattern>
+            <template>
+                <srai>EXECUTIVE SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ EXECUTIVE _</pattern>
+            <template>
+                <srai>EXECUTIVE SUITE</srai>    
+            </template>
+        </category>
+        
+        <category>
+            <pattern>_ EXECUTIVE SUITE</pattern>
+            <template>
+                <srai>EXECUTIVE SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>EXECUTIVE SUITE _</pattern>
+            <template>
+                <srai>EXECUTIVE SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ EXECUTIVE SUITE _</pattern>
+            <template>
+                <srai>EXECUTIVE SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ KELUARGA</pattern>
+            <template>
+                <srai>FAMILY SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>KELUARGA _</pattern>
+            <template>
+                <srai>FAMILY SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ KELUARGA _</pattern>
+            <template>
+                <srai>FAMILY SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ FAMILY SUITE</pattern>
+            <template>
+                <srai>FAMILY SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>FAMILY SUITE _</pattern>
+            <template>
+                <srai>FAMILY SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ FAMILY SUITE _</pattern>
+            <template>
+                <srai>FAMILY SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ SANTIKA</pattern>
+            <template>
+                <srai>SANTIKA SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>SANTIKA _</pattern>
+            <template>
+                <srai>SANTIKA SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ SANTIKA _</pattern>
+            <template>
+                <srai>SANTIKA SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ SANTIKA SUITE</pattern>
+            <template>
+                <srai>SANTIKA SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>SANTIKA SUITE _</pattern>
+            <template>
+                <srai>SANTIKA SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ SANTIKA SUITE _</pattern>
+            <template>
+                <srai>SANTIKA SUITE</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ INFO</pattern>
+            <template>
+                <srai>INFO LAIN</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>INFO _</pattern>
+            <template>
+                <srai>INFO LAIN</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ INFO _</pattern>
+            <template>
+                <srai>INFO LAIN</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ INFORMASI</pattern>
+            <template>
+                <srai>INFO LAIN</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>INFORMASI _</pattern>
+            <template>
+                <srai>INFO LAIN</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ INFORMASI _</pattern>
+            <template>
+                <srai>INFO LAIN</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ LAIN</pattern>
+            <template>
+                <srai>INFO LAIN</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>LAIN _</pattern>
+            <template>
+                <srai>INFO LAIN</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ LAIN _</pattern>
+            <template>
+                <srai>INFO LAIN</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ LAINNYA</pattern>
+            <template>
+                <srai>INFO LAIN</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>LAINNYA _</pattern>
+            <template>
+                <srai>INFO LAIN</srai>    
+            </template>
+        </category>
+
+        <category>
+            <pattern>_ LAINNYA _</pattern>
+            <template>
+                <srai>INFO LAIN</srai>    
+            </template>
+        </category>
+
+    <!-- </topic> -->
+
+    <category>
+        <pattern>DELUXE</pattern>
+        <template>
+            Spesifikasi Kamar Hotel Deluxe adalah:
+            <ul>
+                <li>1 Kamar untuk 2 Orang.</li>
+                <li>Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).</li>
+                <li>Disediakan Standing Shower.</li>
+                <li>Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.</li>
+                <li>Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.</li>
+            </ul>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLUB PREMIERE</pattern>
+        <template>
+            Spesifikasi Kamar Hotel Club Premiere adalah:
+            <ul>
+                <li>1 Kamar untuk 2 Orang.</li>
+                <li>Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).</li>
+                <li>Disediakan Standing Shower.</li>
+                <li>Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.</li>
+                <li>Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.</li>
+                <li>Minibar di kamar dapat digunakan secara gratis.</li>
+                <li>Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.</li>
+                <li>Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.</li>
+                <li>Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.</li>
+            </ul>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DELUXE SUITE</pattern>
+        <template>
+            Spesifikasi Kamar Hotel Deluxe Suite adalah:
+            <ul>
+                <li>1 Kamar untuk 2 Orang.</li>
+                <li>Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).</li>
+                <li>Disediakan Standing Shower dan bathrobe.</li>
+                <li>Memiliki Living Room</li>
+                <li>Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.</li>
+                <li>Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.</li>
+                <li>Minibar di kamar dapat digunakan secara gratis.</li>
+                <li>Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.</li>
+                <li>Disediakan setrika dan papan setrika.</li>
+                <li>Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.</li>
+                <li>Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.</li>
+            </ul>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EXECUTIVE SUITE</pattern>
+        <template>
+            Spesifikasi Kamar Hotel Executive Suite adalah:
+            <ul>
+                <li>1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.</li>
+                <li>Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).</li>
+                <li>Disediakan Standing Shower dan bathrobe.</li>
+                <li>Memiliki Living Room</li>
+                <li>Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.</li>
+                <li>Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.</li>
+                <li>Minibar di kamar dapat digunakan secara gratis.</li>
+                <li>Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.</li>
+                <li>Disediakan setrika dan papan setrika.</li>
+                <li>Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.</li>
+                <li>Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.</li>
+            </ul>
+        </template>
+    </category>
+
+    <category>
+        <pattern>FAMILY SUITE</pattern>
+        <template>
+            Spesifikasi Kamar Hotel Family Suite adalah:
+            <ul>
+                <li>Disediakan Bathtub Shower dan bathrobe.</li>
+                <li>Memiliki Living Room</li>
+                <li>Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.</li>
+                <li>Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.</li>
+                <li>Minibar di kamar dapat digunakan secara gratis.</li>
+                <li>Disediakan water equil secara gratis.</li>
+                <li>Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.</li>
+                <li>Disediakan setrika dan papan setrika.</li>
+                <li>Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.</li>
+                <li>Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.</li>
+            </ul>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA SUITE</pattern>
+        <template>
+            Spesifikasi Kamar Hotel Santika Suite adalah:
+            <ul>
+                <li>Hanya ada 1 kamar di Hotel.</li>
+                <li>1 Kamar terdiri dari 2 lantai.</li>
+                <li>Lantai Pertama adalah Ruangan Rapat dan Lantai Kedua adalah lantai dengan tiga kamar.</li>
+                <li>Disediakan Bathtub Shower dan bathrobe.</li>
+                <li>Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.</li>
+                <li>Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.</li>
+                <li>Minibar di kamar dapat digunakan secara gratis.</li>
+                <li>Disediakan water equil secara gratis.</li>
+                <li>Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.</li>
+                <li>Disediakan setrika dan papan setrika.</li>
+                <li>Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.</li>
+            </ul>
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFO LAIN</pattern>
+        <template>
+            Informasi lain mengenai kamar yang dipesan.
+            <ul>
+                <li>Arah view kamar sesuai dengan ketersediaan kamar saat kamar akan ditempati.</li>
+                <li>Connecting Room dapat di-request sesuai ketersediaan.</li>
+            </ul>
+        </template>
+    </category>
+    
+</aiml>

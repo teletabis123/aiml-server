@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+    <category>
+        <pattern>FASILITAS LAIN</pattern>
+        <template>
+            <ul>
+            <li>Kolam Renang</li>
+            <li>Kids Zone</li>
+            <li>Health Club</li>
+            <li>Tempat Parkir</li>
+            <li>Check in / Check Out</li>
+            </ul>
+        </template>
+   </category>
+
+    <category>
+        <pattern>_ KOLAM RENANG</pattern>
+        <template>
+            <srai>KOLAM RENANG</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KOLAM RENANG _</pattern>
+        <template>
+            <srai>KOLAM RENANG</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ KOLAM RENANG _</pattern>
+        <template>
+            <srai>KOLAM RENANG</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ BERENANG</pattern>
+        <template>
+            <srai>KOLAM RENANG</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BERENANG _</pattern>
+        <template>
+            <srai>KOLAM RENANG</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ BERENANG _</pattern>
+        <template>
+            <srai>KOLAM RENANG</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ POOL</pattern>
+        <template>
+            <srai>KOLAM RENANG</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>POOL _</pattern>
+        <template>
+            <srai>KOLAM RENANG</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ POOL _</pattern>
+        <template>
+            <srai>KOLAM RENANG</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ KIDS ZONE</pattern>
+        <template>
+            <srai>KIDS ZONE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KIDS ZONE _</pattern>
+        <template>
+            <srai>KIDS ZONE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ KIDS ZONE _</pattern>
+        <template>
+            <srai>KIDS ZONE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ BERMAIN</pattern>
+        <template>
+            <srai>KIDS ZONE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BERMAIN _</pattern>
+        <template>
+            <srai>KIDS ZONE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ BERMAIN _</pattern>
+        <template>
+            <srai>KIDS ZONE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ANAK</pattern>
+        <template>
+            <srai>KIDS ZONE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>ANAK _</pattern>
+        <template>
+            <srai>KIDS ZONE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ANAK _</pattern>
+        <template>
+            <srai>KIDS ZONE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ HEALTH CLUB</pattern>
+        <template>
+            <srai>HEALTH CLUB</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HEALTH CLUB _</pattern>
+        <template>
+            <srai>HEALTH CLUB</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ HEALTH CLUB _</pattern>
+        <template>
+            <srai>HEALTH CLUB</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ GYM</pattern>
+        <template>
+            <srai>HEALTH CLUB</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>GYM _</pattern>
+        <template>
+            <srai>HEALTH CLUB</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ GYM _</pattern>
+        <template>
+            <srai>HEALTH CLUB</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ FITNESS</pattern>
+        <template>
+            <srai>HEALTH CLUB</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>FITNESS _</pattern>
+        <template>
+            <srai>HEALTH CLUB</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ FITNESS _</pattern>
+        <template>
+            <srai>HEALTH CLUB</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MASSAGE</pattern>
+        <template>
+            <srai>HEALTH CLUB</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>MASSAGE _</pattern>
+        <template>
+            <srai>HEALTH CLUB</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MASSAGE _</pattern>
+        <template>
+            <srai>HEALTH CLUB</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PIJAT</pattern>
+        <template>
+            <srai>HEALTH CLUB</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PIJAT _</pattern>
+        <template>
+            <srai>HEALTH CLUB</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PIJAT _</pattern>
+        <template>
+            <srai>HEALTH CLUB</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ TEMPAT PARKIR</pattern>
+        <template>
+            <srai>TEMPAT PARKIR</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>TEMPAT PARKIR _</pattern>
+        <template>
+            <srai>TEMPAT PARKIR</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ TEMPAT PARKIR _</pattern>
+        <template>
+            <srai>TEMPAT PARKIR</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PARKIR</pattern>
+        <template>
+            <srai>TEMPAT PARKIR</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>PARKIR _</pattern>
+        <template>
+            <srai>TEMPAT PARKIR</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PARKIR _</pattern>
+        <template>
+            <srai>TEMPAT PARKIR</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PARKING _</pattern>
+        <template>
+            <srai>TEMPAT PARKIR</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CHECK IN</pattern>
+        <template>
+            <srai>CHECK IN DAN CHECK OUT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>CHECK IN _</pattern>
+        <template>
+            <srai>CHECK IN DAN CHECK OUT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CHECK IN _</pattern>
+        <template>
+            <srai>CHECK IN DAN CHECK OUT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CHECK OUT</pattern>
+        <template>
+            <srai>CHECK IN DAN CHECK OUT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>CHECK OUT _</pattern>
+        <template>
+            <srai>CHECK IN DAN CHECK OUT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CHECK OUT _</pattern>
+        <template>
+            <srai>CHECK IN DAN CHECK OUT</srai>    
+        </template>
+    </category>
+
+   <category>
+        <pattern>KOLAM RENANG</pattern>
+        <template>
+            Informasi mengenai Kolam Renang:
+            <ul>
+                <li>Buka jam 6 pagi sampai dengan 8 malam.</li>
+                <li>Ada area untuk anak-anak dan dewasa yang dipartisi.</li>
+            </ul>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KIDS ZONE</pattern>
+        <template>
+            Informasi mengenai Kids Zone:
+            <ul>
+                <li>Adalah area bermain anak-anak.</li>
+                <li>Berada di sebelah kiri dari pool.</li>
+            </ul>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HEALTH CLUB</pattern>
+        <template>
+            Informasi mengenai Health Club:
+            <ul>
+                <li>Fasilitas: Fitness Center, Sauna, dan Massage.</li>
+                <li>Buka jam 6 pagi sampai 10 malam.</li>
+                <li>Massage dapat dilakukan langsung di kamar ataupun langsung di tempat.</li>
+                <li>Massage tidak terbatas hanya untuk yang menginap.</li>
+            </ul>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TEMPAT PARKIR</pattern>
+        <template>
+            Informasi mengenai Tempat Parkir:
+            <ul>
+                <li>Dua lantai basement</li>
+                <li>Parkir Gratis</li>
+            </ul>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CHECK IN DAN CHECK OUT</pattern>
+        <template>
+            Informasi mengenai Check in / Check Out:
+            <ul>
+                <li>Jam Check In jam 2 siang dan Check Out jam 12 siang. Diberikan toleransi 1/2 jam.</li>
+                <li>Untuk Check Out akan ditelpon jam 10 untuk diingatkan.</li>
+                <li>Early Check In.</li>
+                <li>
+                    <ul>
+                        <li>Sampai sebelum jam 8 pagi, ditambah 50% dari biaya kamar.</li>
+                        <li>Dari jam 9 pagi sampai dengan jam Check Out Normal, ditambah 25% dari biaya kamar.</li>
+                    </ul>
+                </li>
+                <li>Late Check Out.</li>
+                <li>
+                    <ul>
+                        <li>Dari jam Check Out Normal sampai jam 6 sore, ditambah 50% dari biaya kamar.</li>
+                        <li>Jam Check Out setelah jam 6 sore, ditambah 100% dari biaya kamar.</li>
+                    </ul>
+                </li>
+            </ul>
+        </template>
+    </category>
+    
+</aiml>
