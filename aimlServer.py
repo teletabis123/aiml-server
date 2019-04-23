@@ -61,7 +61,8 @@ def index(query):
     #tutup il
     begin = 0
     end = len(response)
-    objJson = objJson + '}, "message":{"0": "'
+    #ubah dari "message":{0": "' ke "message":[0": "'
+    objJson = objJson + '}, "message":[0": "'
     if jumlah == 0:
         #print(response)
         objJson = objJson + response
@@ -91,7 +92,8 @@ def index(query):
         objJson = objJson + '}'
     
     # tutup message + Closing JSON
-    objJson = objJson + "}}"
+    objJson = objJson + "]}"
+    #ubah dari objJson = objJson + "}}" ke objJson = objJson + "]}"
     # JSONify objJson untuk return objek dalam bentuk JSON
     return objJson
 
