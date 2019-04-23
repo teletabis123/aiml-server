@@ -79,7 +79,9 @@ def index(query):
     for i in range(1, jumlah+1):
         #i untuk tiap ul yang ada
         end = len(response)
-        objJson = objJson + ',"'+str(i)+'": {"0": "'
+        objJson = objJson + ',"'+str(i)+'": ["0": "'
+        #from objJson = objJson + ',"'+str(i)+'": {"0": "'
+        #to objJson = objJson + ',"'+str(i)+'": ["0": "'
         #message '0' judul ul
         end = response.find("@?",begin, end)-1 #karena ada spasi
         objJson = objJson + response[begin:end] + '"'
@@ -89,7 +91,9 @@ def index(query):
             #message per li:
             objJson = objJson + ', "'+str(j)+'": "' + response[begin:end] + '" '
         begin = response.find("?@",begin, len(response)) + 3
-        objJson = objJson + '}'
+        #from objJson = objJson + '}'
+        #to objJson = objJson + ']'
+        objJson = objJson + ']'
     
     # tutup message + Closing JSON
     objJson = objJson + "]}"
