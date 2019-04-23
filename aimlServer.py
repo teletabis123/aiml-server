@@ -62,7 +62,7 @@ def index(query):
     begin = 0
     end = len(response)
     #ubah dari "message":{"0": "' ke "message":["0": "'
-    objJson = objJson + '}, "message":["0": "'
+    objJson = objJson + '}, "message":{"0": "'
     if jumlah == 0:
         #print(response)
         objJson = objJson + response
@@ -79,7 +79,7 @@ def index(query):
     for i in range(1, jumlah+1):
         #i untuk tiap ul yang ada
         end = len(response)
-        objJson = objJson + ',"'+str(i)+'": ["0": "'
+        objJson = objJson + ',"'+str(i)+'": {"0": "'
         #from objJson = objJson + ',"'+str(i)+'": {"0": "'
         #to objJson = objJson + ',"'+str(i)+'": ["0": "'
         #message '0' judul ul
@@ -93,10 +93,10 @@ def index(query):
         begin = response.find("?@",begin, len(response)) + 3
         #from objJson = objJson + '}'
         #to objJson = objJson + ']'
-        objJson = objJson + ']'
+        objJson = objJson + '}'
     
     # tutup message + Closing JSON
-    objJson = objJson + "]}"
+    objJson = objJson + "}}"
     #ubah dari objJson = objJson + "}}" ke objJson = objJson + "]}"
     # JSONify objJson untuk return objek dalam bentuk JSON
     return objJson
