@@ -1,56 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
+<aiml version="2.0" encoding="UTF-8">
 
     <category>
         <pattern>MAKANAN DAN MINUMAN</pattern>
         <template>
             Hotel Santika Premiere menyediakan 2 Restaurant
-            <ul>
-                <li>Harmoni Buffet</li>
-                <li>Yan Palace</li>
-            </ul>
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ HARMONI</pattern>
-        <template>
-            <srai>HARMONI BUFFET</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>HARMONI _</pattern>
-        <template>
-            <srai>HARMONI BUFFET</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ HARMONI</pattern>
-        <template>
-            <srai>HARMONI BUFFET</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>BUFFET _</pattern>
-        <template>
-            <srai>HARMONI BUFFET</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ BUFFET _</pattern>
-        <template>
-            <srai>HARMONI BUFFET</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ BUFFET _</pattern>
-        <template>
-            <srai>HARMONI BUFFET</srai>    
+            @?
+                @-Harmoni Buffet-@
+                @-Yan Palace-@
+            ?@
         </template>
     </category>
 
@@ -72,27 +30,6 @@
         <pattern>_ HARMONI BUFFET _</pattern>
         <template>
             <srai>HARMONI BUFFET</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ YAN</pattern>
-        <template>
-            <srai>YAN PALACE</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>YAN _</pattern>
-        <template>
-            <srai>YAN PALACE</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ YAN _</pattern>
-        <template>
-            <srai>YAN PALACE</srai>    
         </template>
     </category>
 
@@ -121,9 +58,9 @@
         <pattern>HARMONI BUFFET</pattern>
         <template>
             Spesifikasi Restauran Harmoni BUffet adalah:
-            <ul>
-                <li>Di Harmony disediakan buffet untuk makanan tradisional, western, dan eastern.</li>
-            </ul>
+            @?
+                @-Di Harmony disediakan buffet untuk makanan tradisional, western, dan eastern.-@
+            ?@
         </template>
     </category>
 
@@ -131,10 +68,10 @@
         <pattern>YAN PALACE</pattern>
         <template>
             Spesifikasi Restauran Yan Palace adalah:
-            <ul>
-                <li>Untuk Yan Palace dikhususkan untuk reservasi yang dapat langsung dilakukan saat datang ke restoran.</li>
-                <li>Dibuka jam 12-2 siang untuk makan siang, dan jam 6 sore - 9 malam untuk makan malam.</li>
-            </ul>
+            @?
+                @-Untuk Yan Palace dikhususkan untuk reservasi yang dapat langsung dilakukan saat datang ke restoran.-@
+                @-Dibuka jam 12-2 siang untuk makan siang, dan jam 6 sore - 9 malam untuk makan malam.-@
+            ?@
         </template>
     </category>
     

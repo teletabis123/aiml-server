@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
+<aiml version="2.0" encoding="UTF-8">
 
     <category>
         <pattern>FASILITAS LAIN</pattern>
         <template>
-            <ul>
-            <li>Kolam Renang</li>
-            <li>Kids Zone</li>
-            <li>Health Club</li>
-            <li>Tempat Parkir</li>
-            <li>Check in / Check Out</li>
-            </ul>
+            @?
+            @-Kolam Renang-@
+            @-Kids Zone-@
+            @-Health Club-@
+            @-Tempat Parkir-@
+            @-Check in / Check Out-@
+            ?@
         </template>
    </category>
 
@@ -267,70 +267,21 @@
     </category>
 
     <category>
-        <pattern>_ PARKIR</pattern>
-        <template>
-            <srai>TEMPAT PARKIR</srai>    
-        </template>
-    </category>
-    
-    <category>
-        <pattern>PARKIR _</pattern>
-        <template>
-            <srai>TEMPAT PARKIR</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ PARKIR _</pattern>
-        <template>
-            <srai>TEMPAT PARKIR</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ PARKING _</pattern>
-        <template>
-            <srai>TEMPAT PARKIR</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ CHECK IN</pattern>
+        <pattern>_ CHECK IN DAN CHECK OUT</pattern>
         <template>
             <srai>CHECK IN DAN CHECK OUT</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>CHECK IN _</pattern>
+        <pattern>CHECK IN DAN CHECK OUT _</pattern>
         <template>
             <srai>CHECK IN DAN CHECK OUT</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>_ CHECK IN _</pattern>
-        <template>
-            <srai>CHECK IN DAN CHECK OUT</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ CHECK OUT</pattern>
-        <template>
-            <srai>CHECK IN DAN CHECK OUT</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>CHECK OUT _</pattern>
-        <template>
-            <srai>CHECK IN DAN CHECK OUT</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ CHECK OUT _</pattern>
+        <pattern>_ CHECK IN DAN CHECK OUT _</pattern>
         <template>
             <srai>CHECK IN DAN CHECK OUT</srai>    
         </template>
@@ -340,10 +291,10 @@
         <pattern>KOLAM RENANG</pattern>
         <template>
             Informasi mengenai Kolam Renang:
-            <ul>
-                <li>Buka jam 6 pagi sampai dengan 8 malam.</li>
-                <li>Ada area untuk anak-anak dan dewasa yang dipartisi.</li>
-            </ul>
+            @?
+                @-Buka jam 6 pagi sampai dengan 8 malam.-@
+                @-Ada area untuk anak-anak dan dewasa yang dipartisi.-@
+            ?@
         </template>
     </category>
 
@@ -351,10 +302,10 @@
         <pattern>KIDS ZONE</pattern>
         <template>
             Informasi mengenai Kids Zone:
-            <ul>
-                <li>Adalah area bermain anak-anak.</li>
-                <li>Berada di sebelah kiri dari pool.</li>
-            </ul>
+            @?
+                @-Adalah area bermain anak-anak.-@
+                @-Berada di sebelah kiri dari pool.-@
+            ?@
         </template>
     </category>
 
@@ -362,12 +313,12 @@
         <pattern>HEALTH CLUB</pattern>
         <template>
             Informasi mengenai Health Club:
-            <ul>
-                <li>Fasilitas: Fitness Center, Sauna, dan Massage.</li>
-                <li>Buka jam 6 pagi sampai 10 malam.</li>
-                <li>Massage dapat dilakukan langsung di kamar ataupun langsung di tempat.</li>
-                <li>Massage tidak terbatas hanya untuk yang menginap.</li>
-            </ul>
+            @?
+                @-Fasilitas: Fitness Center, Sauna, dan Massage.-@
+                @-Buka jam 6 pagi sampai 10 malam.-@
+                @-Massage dapat dilakukan langsung di kamar ataupun langsung di tempat.-@
+                @-Massage tidak terbatas hanya untuk yang menginap.-@
+            ?@
         </template>
     </category>
 
@@ -375,35 +326,32 @@
         <pattern>TEMPAT PARKIR</pattern>
         <template>
             Informasi mengenai Tempat Parkir:
-            <ul>
-                <li>Dua lantai basement</li>
-                <li>Parkir Gratis</li>
-            </ul>
+            @?
+                @-Dua lantai basement-@
+                @-Parkir Gratis-@
+            ?@
         </template>
     </category>
 
     <category>
         <pattern>CHECK IN DAN CHECK OUT</pattern>
         <template>
-            Informasi mengenai Check in / Check Out:
-            <ul>
-                <li>Jam Check In jam 2 siang dan Check Out jam 12 siang. Diberikan toleransi 1/2 jam.</li>
-                <li>Untuk Check Out akan ditelpon jam 10 untuk diingatkan.</li>
-                <li>Early Check In.</li>
-                <li>
-                    <ul>
-                        <li>Sampai sebelum jam 8 pagi, ditambah 50% dari biaya kamar.</li>
-                        <li>Dari jam 9 pagi sampai dengan jam Check Out Normal, ditambah 25% dari biaya kamar.</li>
-                    </ul>
-                </li>
-                <li>Late Check Out.</li>
-                <li>
-                    <ul>
-                        <li>Dari jam Check Out Normal sampai jam 6 sore, ditambah 50% dari biaya kamar.</li>
-                        <li>Jam Check Out setelah jam 6 sore, ditambah 100% dari biaya kamar.</li>
-                    </ul>
-                </li>
-            </ul>
+            Informasi mengenai Check in / Check Out:@^
+            Informasi Umum:
+            @?
+                @-Jam Check In jam 2 siang dan Check Out jam 12 siang. Diberikan toleransi 1/2 jam.-@
+                @-Untuk Check Out akan ditelpon jam 10 untuk diingatkan.-@
+            ?@
+            Early Check In
+            @?
+                @-Sampai sebelum jam 8 pagi, ditambah 50% dari biaya kamar.-@
+                @-Dari jam 9 pagi sampai dengan jam Check Out Normal, ditambah 25% dari biaya kamar.-@
+            ?@
+            Late Check Out
+            @?
+                @-Dari jam Check Out Normal sampai jam 6 sore, ditambah 50% dari biaya kamar.-@
+                @-Jam Check Out setelah jam 6 sore, ditambah 100% dari biaya kamar.-@
+            ?@
         </template>
     </category>
     

@@ -12,17 +12,18 @@
     <category>
         <pattern>HALO</pattern>
         <template>
-            <think><set name="topic">main</set></think>
-            Halo, Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang:
-            <ul>
-                <li>Tentang Santika Premiere Slipi</li>
-                <li>Kamar Hotel</li>
-                <li>Acara Pernikahan</li>
-                <li>Ruangan Rapat</li>
-                <li>Kendaraan</li>
-                <li>Makanan dan Minuman</li>
-                <li>Fasilitas Lain.</li>
-            </ul>
+            <!-- <think><set name="topic">main</set></think> -->
+            <!-- Halo, Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang: -->
+            halo
+            @?
+                @-Tentang Santika Premiere Slipi-@
+                @-Kamar Hotel-@
+                @-Acara Pernikahan-@
+                @-Ruangan Rapat-@
+                @-Kendaraan-@
+                @-Makanan dan Minuman-@
+                @-Fasilitas Lain.-@
+            ?@
         </template>
     </category>
 
@@ -48,27 +49,6 @@
     </category>
 
     <category>
-        <pattern>_ SANTIKA PREMIERE SLIPI</pattern>
-        <template>
-            <srai>SANTIKA PREMIERE SLIPI</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>SANTIKA PREMIERE SLIPI _</pattern>
-        <template>
-            <srai>SANTIKA PREMIERE SLIPI</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ SANTIKA PREMIERE SLIPI _</pattern>
-        <template>
-            <srai>SANTIKA PREMIERE SLIPI</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>KAMAR</pattern>
         <template>
             <srai>KAMAR HOTEL</srai>    
@@ -81,34 +61,6 @@
             <srai>KAMAR HOTEL</srai>    
         </template>
     </category>
-
-    <!-- <category>
-        <pattern>KAMAR *</pattern>
-        <template>
-            <srai><star index = "1"/></srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ KAMAR *</pattern>
-        <template>
-            <srai><star index = "2"/></srai>    
-        </template>
-    </category> -->
-    
-    <!-- <category>
-        <pattern>_ KAMAR *</pattern>
-        <template>
-            <srai>KAMAR <star index = "2"/></srai>    
-        </template>
-    </category> -->
-    
-    <!-- <category>
-        <pattern># NIKAH #</pattern>
-        <template>
-            <srai>ACARA PERNIKAHAN</srai>    
-        </template>
-    </category> -->
     
     <category>
         <pattern>_ NIKAH</pattern>
@@ -130,13 +82,6 @@
             <srai>ACARA PERNIKAHAN</srai>    
         </template>
     </category>
-
-    <!-- <category>
-        <pattern># NIKAHAN #</pattern>
-        <template>
-            <srai>ACARA PERNIKAHAN</srai>    
-        </template>
-    </category> -->
 
     <category>
         <pattern>_ NIKAHAN</pattern>
@@ -181,21 +126,21 @@
     </category>
     
     <category>
-        <pattern>_ RAPAT</pattern>
+        <pattern>_ RUANGAN RAPAT</pattern>
         <template>
             <srai>RUANGAN RAPAT</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>RAPAT _</pattern>
+        <pattern>RUANGAN RAPAT _</pattern>
         <template>
             <srai>RUANGAN RAPAT</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>_ RAPAT _</pattern>
+        <pattern>_ RUANGAN RAPAT _</pattern>
         <template>
             <srai>RUANGAN RAPAT</srai>    
         </template>

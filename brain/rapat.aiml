@@ -1,47 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
+<aiml version="2.0" encoding="UTF-8">
 
     <category>
         <pattern>RUANGAN RAPAT</pattern>
         <template>
+            Informasi mengenai ruangan Rapat yang ada.@^
             <think><set name="topic">rapat</set></think>
-            Fasilitas yang tersedia
-            <ul>
-                <li>Sound System, Microphone, LCD Projectior dan Screen</li>
-                <li>Flip Chart, Board Marker, Meeting Kits</li>
-                <li>Mineral Water, Reception Table, Wi-fi</li>
-            </ul>
-            Informasi lain yang dapat diketahui mengenai Ruangan Rapat
-            <ul>
-                <li>Paket Pemesanan Ruangan dan Kamar yang tersedia</li>
-                <li>Ruangan Rapat yang tersedia</li>
-                <li>Proses Pemesanan Ruang Rapat</li>
-            </ul>
+            Fasilitas yang tersedia:
+            @?
+                @-Sound System, Microphone, LCD Projectior dan Screen-@
+                @-Flip Chart, Board Marker, Meeting Kits-@
+                @-Mineral Water, Reception Table, Wi-fi-@
+            ?@
+            Informasi lain yang dapat diketahui mengenai Ruangan Rapat:
+            @?
+                @-Paket Meeting, Pemesanan Paket Meeting-@
+                @-Paket Kamar Meeting, Ruangan dan Kamar yang tersedia untuk pemesanan paket meeting-@
+                @-Jenis Ruang Rapat, Jenis kamar hotel yang tersedia-@
+                @-Proses Pemesanan Ruang Rapat-@
+            ?@
         </template>
     </category>
 
-    <topic name="rapat">
+    <!-- Paket yang ada, AWAL -->
+    <category>
+        <pattern>PAKET MEETING</pattern>
+        <template>
+            Paket rapat:@^
+            <!-- <srai>PAKET MEETING 2</srai> -->
+            Half Day Meeting
+            @?
+                @-Rp. 380.000,- /pax/day-@
+                @-1 Coffee Break, 1 Meal-@
+                @-Waktu penggunaan 4 jam-@
+            ?@
+            Full Day Meeting
+            @?
+                @-Rp. 480.000,- /pax/day-@
+                @-2 Coffee Break, 1 Meal-@
+                @-Waktu penggunaan 8 jam-@
+            ?@
+            Half Day Meeting
+            @?
+                @-Rp. 580.000,- /pax/day-@
+                @-2 Coffee Break, 2 Meal-@
+                @-Waktu penggunaan 12 jam-@
+            ?@
+            Half Day Meeting
+            @?
+                @-Rp. 925.000,- /pax/day-@
+                @-2 Coffee Break, 2 Meal-@
+                @-Waktu penggunaan 12 jam-@
+                @-Deluxe Twin Room-@
+            ?@
+            Half Day Meeting
+            @?
+                @-Rp. 1.375.000,- /pax/day-@
+                @-2 Coffee Break, 2 Meal-@
+                @-Waktu penggunaan 12 jam-@
+                @-Deluxe Queen Room-@
+            ?@
+        </template>
+    </category>
 
-        <category>
-            <pattern>_ PAKET</pattern>
-            <template>
-                <srai>PAKET</srai>    
-            </template>
-        </category>
+    <!-- Room rate -->
+    <category>
+        <pattern>PAKET KAMAR MEETING</pattern>
+        <template>
+            Harga kamar dengan pemesanan ruangan rapat
+            @?
+                @-Kamar Deluxe          : Rp.   900.000,nett/night-@
+                @-Kamar Club Premiere   : Rp. 1.250.000,nett/night-@
+                @-Kamar Deluxe Suite    : Rp. 1.600.000,nett/night-@
+                @-Kamar Executive Suite : Rp. 1.950.000,nett/night-@
+            ?@
+        </template>
+    </category>
 
-        <category>
-            <pattern>PAKET _</pattern>
-            <template>
-                <srai>PAKET</srai>    
-            </template>
-        </category>
+    <!-- Ruangan 1, awalnya -->
+    <category>
+        <pattern>JENIS RUANG RAPAT</pattern>
+        <template>
+            Ruangan Rapat Yang Tersedia:@^
+            <!-- <srai>RUANGAN 2</srai> -->
+            Balai Agung Betawi
+            @?
+                @-Ukuran: 24.6M x 16M-@
+                @-Kapasitas Theater: 500 orang-@
+                @-Kapasitas Class Room: 210 orang-@
+            ?@
+            Betawi I
+            @?
+                @-Ukuran: 7.8M x 16M-@
+                @-Kapasitas Theater: 132 orang-@
+                @-Kapasitas Class Room: 63 orang-@
+            ?@
+            Betawi II
+            @?
+                @-Ukuran: 8.9M x 16M-@
+                @-Kapasitas Theater: 154 orang-@
+                @-Kapasitas Class Room: 84 orang-@
+            ?@
+            Betawi III
+            @?
+                @-Ukuran: 7.8M x 16M-@
+                @-Kapasitas Theater: 132 orang-@
+                @-Kapasitas Class Room: 63 orang-@
+            ?@
+            Seruni
+            @?
+                @-Ukuran: 21.6M x 7.7M-@
+                @-Kapasitas Theater: 216 orang-@
+                @-Kapasitas Class Room: 90 orang-@
+            ?@
+            Seruni I
+            @?
+                @-Ukuran: 5.3M x 7.7M-@
+                @-Kapasitas Theater: 40 orang-@
+                @-Kapasitas Class Room: 18 orang-@
+            ?@
+            Seruni II
+            @?
+                @-Ukuran: 5.7M x 7.7M-@
+                @-Kapasitas Theater: 40 orang-@
+                @-Kapasitas Class Room: 18 orang-@
+            ?@
+            Seruni III
+            @?
+                @-Ukuran: 5.2M x 7.7M-@
+                @-Kapasitas Theater: 40 orang-@
+                @-Kapasitas Class Room: 18 orang-@
+            ?@
+            Seruni IV
+            @?
+                @-Ukuran: 5.2M x 7.7M-@
+                @-Kapasitas Theater: 40 orang-@
+                @-Kapasitas Class Room: 18 orang-@
+            ?@
+            Kenanga
+            @?
+                @-Ukuran: 10.2M x 6.75M-@
+                @-Kapasitas Theater: 50 orang-@
+                @-Kapasitas Class Room: 24 orang-@
+            ?@
+            Cempaka
+            @?
+                @-Ukuran: 16.5M x 5.15M-@
+                @-Kapasitas Theater: 96 orang-@
+                @-Kapasitas Class Room: 36 orang-@
+            ?@
+            Cempaka I
+            @?
+                @-Ukuran: 8.3M x 5.15M-@
+                @-Kapasitas Theater: 40 orang-@
+                @-Kapasitas Class Room: 18 orang-@
+            ?@
+            Cempaka II
+            @?
+                @-Ukuran: 8.1M x 5.15M-@
+                @-Kapasitas Theater: 50 orang-@
+                @-Kapasitas Class Room: 18 orang-@
+            ?@
+            Mawar
+            @?
+                @-Ukuran: 19.8M x 6.5M-@
+                @-Kapasitas Theater: 160 orang-@
+                @-Kapasitas Class Room: 60 orang-@
+            ?@
+            Mawar I
+            @?
+                @-Ukuran: 7.8M x 7.4M-@
+                @-Kapasitas Theater: 60 orang-@
+                @-Kapasitas Class Room: 24 orang-@
+            ?@
+            Mawar II
+            @?
+                @-Ukuran: 11.9M x 7.4M-@
+                @-Kapasitas Theater: 80 orang-@
+                @-Kapasitas Class Room: 36 orang-@
+            ?@
+        </template>
+    </category>
 
-        <category>
-            <pattern>_ PAKET _</pattern>
-            <template>
-                <srai>PAKET</srai>    
-            </template>
-        </category>
+    <category>
+        <pattern>PROSES PESAN</pattern>
+        <template>
+            Proses untuk memesan Ruangan Rapat
+            @?
+                @-Contact Sales.-@
+                @-Meninggalkan contact email/telp-@
+                @-Akan di-follow up oleh sales masing-masing-@
+                @-Bila pemesanan OK maka akan dikirimkan surat penawaran melalui email-@
+                @-Bila pemesanan disetujui maka akan dikirimkan confirmation letter-@
+                @-Dari Pemesan akan mengirimkan confirmation letter dan DP 50% via email/WA-@
+                @-Pembayaran harus lunas 2 minggu sebelum acara-@
+                @-Untuk special request, early checkin bisa langsung ke sales-@
+                @-Pembatalan akan menyebabkan DP hangus-@
+            ?@
+        </template>
+    </category>
 
         <category>
             <pattern>_ PAKET MEETING</pattern>
@@ -65,149 +222,44 @@
         </category>
 
         <category>
-            <pattern>_ MEETING</pattern>
+            <pattern>_ PAKET KAMAR MEETING</pattern>
             <template>
-                <srai>PAKET MEETING</srai>    
+                <srai>PAKET KAMAR MEETING</srai>    
             </template>
         </category>
 
         <category>
-            <pattern>MEETING _</pattern>
+            <pattern>PAKET KAMAR MEETING _</pattern>
             <template>
-                <srai>PAKET MEETING</srai>
+                <srai>PAKET KAMAR MEETING</srai>    
             </template>
         </category>
 
         <category>
-            <pattern>_ MEETING _</pattern>
+            <pattern>_ PAKET KAMAR MEETING _</pattern>
             <template>
-                <srai>PAKET MEETING</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ KAMAR</pattern>
-            <template>
-                <srai>KAMAR RAPAT</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>KAMAR _</pattern>
-            <template>
-                <srai>KAMAR RAPAT</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ KAMAR _</pattern>
-            <template>
-                <srai>KAMAR RAPAT</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ KAMAR RAPAT</pattern>
-            <template>
-                <srai>KAMAR RAPAT</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>KAMAR RAPAT _</pattern>
-            <template>
-                <srai>KAMAR RAPAT</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ KAMAR RAPAT _</pattern>
-            <template>
-                <srai>KAMAR RAPAT</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ RUANGAN RAPAT</pattern>
-            <template>
-                <srai>RUANGAN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>RUANGAN RAPAT _</pattern>
-            <template>
-                <srai>RUANGAN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ RUANGAN RAPAT _</pattern>
-            <template>
-                <srai>RUANGAN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ RUANGAN</pattern>
-            <template>
-                <srai>RUANGAN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>RUANGAN _</pattern>
-            <template>
-                <srai>RUANGAN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ RUANGAN _</pattern>
-            <template>
-                <srai>RUANGAN</srai>    
+                <srai>PAKET KAMAR MEETING</srai>    
             </template>
         </category>
 
         <category>
             <pattern>_ RUANG RAPAT</pattern>
             <template>
-                <srai>RUANGAN</srai>    
+                <srai>JENIS RUANG RAPAT</srai>    
             </template>
         </category>
 
         <category>
             <pattern>RUANG RAPAT _</pattern>
             <template>
-                <srai>RUANGAN</srai>    
+                <srai>JENIS RUANG RAPAT</srai>    
             </template>
         </category>
 
         <category>
             <pattern>_ RUANG RAPAT _</pattern>
             <template>
-                <srai>RUANGAN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ RUANG</pattern>
-            <template>
-                <srai>RUANGAN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>RUANG _</pattern>
-            <template>
-                <srai>RUANGAN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ RUANG _</pattern>
-            <template>
-                <srai>RUANGAN</srai>    
+                <srai>JENIS RUANG RAPAT</srai>    
             </template>
         </category>
 
@@ -253,231 +305,7 @@
             </template>
         </category>
 
-        <category>
-            <pattern>_ PROSES</pattern>
-            <template>
-                <srai>PROSES PESAN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>PROSES _</pattern>
-            <template>
-                <srai>PROSES PESAN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ PROSES _</pattern>
-            <template>
-                <srai>PROSES PESAN</srai>    
-            </template>
-        </category>
-        
-    </topic>
-
     <!-- Paket ruangan + kamar -->
-    <category>
-        <pattern>PAKET</pattern>
-        <template>
-            Paket Ruangan Rapat dan Kamar Yang Tersedia
-            <ul>
-                <li>Meeting Package</li>
-                <li>Room Rate</li>
-            </ul>
-        </template>
-    </category>
-
-    <!-- Paket yang ada, AWAL -->
-    <category>
-        <pattern>PAKET MEETING</pattern>
-        <template>
-            Paket rapat:
-            <srai>PAKET MEETING 2</srai>
-        </template>
-    </category>
-
-    <!-- LIST PAKET MEETING -->
-    <category>
-        <pattern>PAKET MEETING 2</pattern>
-        <template>
-            Half Day Meeting
-            <ul>
-                <li>Rp. 380.000,- /pax/day</li>
-                <li>1 Coffee Break, 1 Meal</li>
-                <li>Waktu penggunaan 4 jam</li>
-            </ul>
-            Full Day Meeting
-            <ul>
-                <li>Rp. 480.000,- /pax/day</li>
-                <li>2 Coffee Break, 1 Meal</li>
-                <li>Waktu penggunaan 8 jam</li>
-            </ul>
-            Half Day Meeting
-            <ul>
-                <li>Rp. 580.000,- /pax/day</li>
-                <li>2 Coffee Break, 2 Meal</li>
-                <li>Waktu penggunaan 12 jam</li>
-            </ul>
-            Half Day Meeting
-            <ul>
-                <li>Rp. 925.000,- /pax/day</li>
-                <li>2 Coffee Break, 2 Meal</li>
-                <li>Waktu penggunaan 12 jam</li>
-                <li>Deluxe Twin Room</li>
-            </ul>
-            Half Day Meeting
-            <ul>
-                <li>Rp. 1.375.000,- /pax/day</li>
-                <li>2 Coffee Break, 2 Meal</li>
-                <li>Waktu penggunaan 12 jam</li>
-                <li>Deluxe Queen Room</li>
-            </ul>
-        </template>
-    </category>
-
-    <!-- Room rate -->
-    <category>
-        <pattern>KAMAR RAPAT</pattern>
-        <template>
-            Harga kamar dengan pemesanan ruangan rapat
-            <ul>
-                <li>Kamar Deluxe          : Rp.   900.000,nett/night</li>
-                <li>Kamar Club Premiere   : Rp. 1.250.000,nett/night</li>
-                <li>Kamar Deluxe Suite    : Rp. 1.600.000,nett/night</li>
-                <li>Kamar Executive Suite : Rp. 1.950.000,nett/night</li>
-            </ul>
-        </template>
-    </category>
-
-    <!-- Ruangan 1, awalnya -->
-    <category>
-        <pattern>RUANGAN</pattern>
-        <template>
-            Ruangan Rapat Yang Tersedia:
-            <srai>RUANGAN 2</srai>
-        </template>
-    </category>
-
-    <!-- Ruangan 2, list RUANGAN RAPAT -->
-    <category>
-        <pattern>RUANGAN 2</pattern>
-        <template>
-            Balai Agung Betawi
-            <ul>
-                <li>Ukuran: 24.6M x 16M</li>
-                <li>Kapasitas Theater: 500 orang</li>
-                <li>Kapasitas Class Room: 210 orang</li>
-            </ul>
-            Betawi I
-            <ul>
-                <li>Ukuran: 7.8M x 16M</li>
-                <li>Kapasitas Theater: 132 orang</li>
-                <li>Kapasitas Class Room: 63 orang</li>
-            </ul>
-            Betawi II
-            <ul>
-                <li>Ukuran: 8.9M x 16M</li>
-                <li>Kapasitas Theater: 154 orang</li>
-                <li>Kapasitas Class Room: 84 orang</li>
-            </ul>
-            Betawi III
-            <ul>
-                <li>Ukuran: 7.8M x 16M</li>
-                <li>Kapasitas Theater: 132 orang</li>
-                <li>Kapasitas Class Room: 63 orang</li>
-            </ul>
-            Seruni
-            <ul>
-                <li>Ukuran: 21.6M x 7.7M</li>
-                <li>Kapasitas Theater: 216 orang</li>
-                <li>Kapasitas Class Room: 90 orang</li>
-            </ul>
-            Seruni I
-            <ul>
-                <li>Ukuran: 5.3M x 7.7M</li>
-                <li>Kapasitas Theater: 40 orang</li>
-                <li>Kapasitas Class Room: 18 orang</li>
-            </ul>
-            Seruni II
-            <ul>
-                <li>Ukuran: 5.7M x 7.7M</li>
-                <li>Kapasitas Theater: 40 orang</li>
-                <li>Kapasitas Class Room: 18 orang</li>
-            </ul>
-            Seruni III
-            <ul>
-                <li>Ukuran: 5.2M x 7.7M</li>
-                <li>Kapasitas Theater: 40 orang</li>
-                <li>Kapasitas Class Room: 18 orang</li>
-            </ul>
-            Seruni IV
-            <ul>
-                <li>Ukuran: 5.2M x 7.7M</li>
-                <li>Kapasitas Theater: 40 orang</li>
-                <li>Kapasitas Class Room: 18 orang</li>
-            </ul>
-            Kenanga
-            <ul>
-                <li>Ukuran: 10.2M x 6.75M</li>
-                <li>Kapasitas Theater: 50 orang</li>
-                <li>Kapasitas Class Room: 24 orang</li>
-            </ul>
-            Cempaka
-            <ul>
-                <li>Ukuran: 16.5M x 5.15M</li>
-                <li>Kapasitas Theater: 96 orang</li>
-                <li>Kapasitas Class Room: 36 orang</li>
-            </ul>
-            Cempaka I
-            <ul>
-                <li>Ukuran: 8.3M x 5.15M</li>
-                <li>Kapasitas Theater: 40 orang</li>
-                <li>Kapasitas Class Room: 18 orang</li>
-            </ul>
-            Cempaka II
-            <ul>
-                <li>Ukuran: 8.1M x 5.15M</li>
-                <li>Kapasitas Theater: 50 orang</li>
-                <li>Kapasitas Class Room: 18 orang</li>
-            </ul>
-            Mawar
-            <ul>
-                <li>Ukuran: 19.8M x 6.5M</li>
-                <li>Kapasitas Theater: 160 orang</li>
-                <li>Kapasitas Class Room: 60 orang</li>
-            </ul>
-            Mawar I
-            <ul>
-                <li>Ukuran: 7.8M x 7.4M</li>
-                <li>Kapasitas Theater: 60 orang</li>
-                <li>Kapasitas Class Room: 24 orang</li>
-            </ul>
-            Mawar II
-            <ul>
-                <li>Ukuran: 11.9M x 7.4M</li>
-                <li>Kapasitas Theater: 80 orang</li>
-                <li>Kapasitas Class Room: 36 orang</li>
-            </ul>
-        </template>
-    </category>
-
-    <category>
-        <pattern>PROSES PESAN</pattern>
-        <template>
-            Proses untuk memesan Ruangan Rapat
-            <ul>
-                <li>Contact Sales.</li>
-                <li>Meninggalkan contact email/telp</li>
-                <li>Akan di-follow up oleh sales masing-masing</li>
-                <li>Bila pemesanan OK maka akan dikirimkan surat penawaran melalui email</li>
-                <li>Bila pemesanan disetujui maka akan dikirimkan confirmation letter</li>
-                <li>Dari Pemesan akan mengirimkan confirmation letter dan DP 50% via email/WA</li>
-                <li>Pembayaran harus lunas 2 minggu sebelum acara</li>
-                <li>Untuk special request, early checkin bisa langsung ke sales</li>
-                <li>Pembatalan akan menyebabkan DP hangus</li>
-            </ul>
-        </template>
-    </category>
+    
    
 </aiml>
