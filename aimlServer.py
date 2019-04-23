@@ -30,7 +30,7 @@ def index(query):
     objJson = objJson + '"ul": '+ str(jumlah) + ', "il": { "0":1'
     #tambah di "il" sesuai il di tiap ul yang ada
     jumlahIl = []
-    indexIl = [[]for i in xrange(jumlah)]
+    indexIl = [[]for i in range(jumlah)]
     beginUl = 0
     #beginUl untuk <ul>
     endUl = len(response)
