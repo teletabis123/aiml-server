@@ -61,8 +61,8 @@ def index(query):
     #tutup il
     begin = 0
     end = len(response)
-    #ubah dari "message":{0": "' ke "message":[0": "'
-    objJson = objJson + '}, "message":[0": "'
+    #ubah dari "message":{"0": "' ke "message":["0": "'
+    objJson = objJson + '}, "message":["0": "'
     if jumlah == 0:
         #print(response)
         objJson = objJson + response
