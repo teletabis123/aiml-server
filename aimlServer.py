@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 @app.route("/<query>")
 def index(query):
-    if "ketersediaan" in query.lower() or "pengecekkan" in query.lower():
+    if "ketersediaan" in query.lower() or "pengecekan" in query.lower():
         #print("Masuk")
         jenis = 0
         sedia = query.lower()
