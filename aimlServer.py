@@ -57,32 +57,33 @@ def index(query):
         if tanggalBenar and jenis!=0 :
             date = tahun+'-'+bulan+'-'+tanggal
             #print(date)
+            hasil = 0
             twin = -1
-            if jenis == 1:
-                room_type = str(32)
-                r = requests.get('https://staging-santika.oval.id/fastbooking-availabilty/?hotel=98&date='+ date +'&room_type='+ room_type +'&format=json')
-                hasil = json.loads(r.content)
-                #print(hasil)
-                king = hasil["count"]
-                room_type = str(33)
-                r = requests.get('https://staging-santika.oval.id/fastbooking-availabilty/?hotel=98&date='+ date +'&room_type='+ room_type +'&format=json')
-                hasil = json.loads(r.content)
-                twin = hasil["count"]
-            elif jenis == 2:
-                room_type = str(34)
-                r = requests.get('https://staging-santika.oval.id/fastbooking-availabilty/?hotel=98&date='+ date +'&room_type='+ room_type +'&format=json')
-                hasil = json.loads(r.content)
-                king = hasil["count"]
-                room_type = str(35)
-                r = requests.get('https://staging-santika.oval.id/fastbooking-availabilty/?hotel=98&date='+ date +'&room_type='+ room_type +'&format=json')
-                hasil = json.loads(r.content)
-                twin = hasil["count"]
-            else:
-                room_type = str(36)
-                r = requests.get('https://staging-santika.oval.id/fastbooking-availabilty/?hotel=98&date='+ date +'&room_type='+ room_type +'&format=json')
-                hasil = json.loads(r.content)
-                #print(hasil)
-                king = hasil["count"]
+#             if jenis == 1:
+#                 room_type = str(32)
+#                 r = requests.get('https://staging-santika.oval.id/fastbooking-availabilty/?hotel=98&date='+ date +'&room_type='+ room_type +'&format=json')
+#                 hasil = json.loads(r.content)
+#                 #print(hasil)
+#                 king = hasil["count"]
+#                 room_type = str(33)
+#                 r = requests.get('https://staging-santika.oval.id/fastbooking-availabilty/?hotel=98&date='+ date +'&room_type='+ room_type +'&format=json')
+#                 hasil = json.loads(r.content)
+#                 twin = hasil["count"]
+#             elif jenis == 2:
+#                 room_type = str(34)
+#                 r = requests.get('https://staging-santika.oval.id/fastbooking-availabilty/?hotel=98&date='+ date +'&room_type='+ room_type +'&format=json')
+#                 hasil = json.loads(r.content)
+#                 king = hasil["count"]
+#                 room_type = str(35)
+#                 r = requests.get('https://staging-santika.oval.id/fastbooking-availabilty/?hotel=98&date='+ date +'&room_type='+ room_type +'&format=json')
+#                 hasil = json.loads(r.content)
+#                 twin = hasil["count"]
+#             else:
+#                 room_type = str(36)
+#                 r = requests.get('https://staging-santika.oval.id/fastbooking-availabilty/?hotel=98&date='+ date +'&room_type='+ room_type +'&format=json')
+#                 hasil = json.loads(r.content)
+#                 #print(hasil)
+#                 king = hasil["count"]
             message = '{ "message": "Kamar ' + kamar + ' yang tersedia pada tanggal ' + tanggal + '/' + bulan + '/' + tahun
             message = message + ' adalah ' + str(king) + ' kamar King Size'
             if twin != -1:
