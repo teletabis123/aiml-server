@@ -110,8 +110,10 @@ def index(query):
         jumlah = response.count("@?")
         if jumlah == -1:
             jumlah = 0
-	if jumlah != 0:
-            objJson = objJson + "header: " + objJson.split('@')[0] + ","
+        if jumlah != 0:
+            keep = response.split('@?')[0]
+            print(keep)
+            objJson = objJson + '"header" :"' + keep.strip() + '",'
         #objJson = str(response.find("?@"))
         #objJson = response[:5]
         objJson = objJson + '"ul": '+ str(jumlah) + ', "il": [ {"0": 1}'
