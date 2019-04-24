@@ -14,7 +14,7 @@
     </category>
 
     <category>
-        <pattern>Classic</pattern>
+        <pattern>CLASSIC</pattern>
         <template>
             Informasi mengenai Event Pernikahan Classic:
             @?
@@ -31,7 +31,7 @@
     </category>
 
     <category>
-        <pattern>Romantic</pattern>
+        <pattern>ROMANTIC</pattern>
         <template>
             Informasi mengenai Event Pernikahan Romantic:
             @?
@@ -54,7 +54,7 @@
     </category>
 
     <category>
-        <pattern>Royal</pattern>
+        <pattern>ROYAL</pattern>
         <template>
             Informasi mengenai Event Pernikahan Royal:
             @?
@@ -78,23 +78,65 @@
     </category>
 
     <category>
-        <pattern>Classic _</pattern>
+        <pattern>CLASSIC _</pattern>
         <template>
-            <srai>Classic</srai>    
+            <srai>CLASSIC</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>Romantic _</pattern>
+        <pattern>ROMANTIC _</pattern>
         <template>
-            <srai>Romantic</srai>    
+            <srai>ROMANTIC</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>Royal _</pattern>
+        <pattern>ROYAL _</pattern>
         <template>
-            <srai>Royal</srai>    
+            <srai>ROYAL</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>PERNIKAHAN CLASSIC _</pattern>
+        <template>
+            <srai>CLASSIC</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PERNIKAHAN ROMANTIC _</pattern>
+        <template>
+            <srai>ROMANTIC</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>PERNIKAHAN ROYAL _</pattern>
+        <template>
+            <srai>ROYAL</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>PERNIKAHAN CLASSIC</pattern>
+        <template>
+            <srai>CLASSIC</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PERNIKAHAN ROMANTIC</pattern>
+        <template>
+            <srai>ROMANTIC</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>PERNIKAHAN ROYAL</pattern>
+        <template>
+            <srai>ROYAL</srai>    
         </template>
     </category>
 
