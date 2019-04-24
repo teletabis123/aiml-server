@@ -27,10 +27,10 @@ def index(query):
         jumlah = 0
     #objJson = str(response.find("?@"))
     #objJson = response[:5]
-    objJson = objJson + '"ul": '+ str(jumlah) + ', "il": { "0":1'
+    objJson = objJson + '"ul": '+ str(jumlah) + ', "il": [ "0": 1'
     #tambah di "il" sesuai il di tiap ul yang ada
     jumlahIl = []
-    indexIl = [[]for i in range(jumlah)]
+    indexIl = [[]for i in xrange(jumlah)]
     beginUl = 0
     #beginUl untuk <ul>
     endUl = len(response)
@@ -61,8 +61,7 @@ def index(query):
     #tutup il
     begin = 0
     end = len(response)
-    #ubah dari "message":{"0": "' ke "message":["0": "'
-    objJson = objJson + '}, "message":{"0": "'
+    objJson = objJson + ' ], "message": [ "0": "'
     if jumlah == 0:
         #print(response)
         objJson = objJson + response
@@ -79,9 +78,7 @@ def index(query):
     for i in range(1, jumlah+1):
         #i untuk tiap ul yang ada
         end = len(response)
-        objJson = objJson + ',"'+str(i)+'": {"0": "'
-        #from objJson = objJson + ',"'+str(i)+'": {"0": "'
-        #to objJson = objJson + ',"'+str(i)+'": ["0": "'
+        objJson = objJson + ', "'+str(i)+'": [ "0": "'
         #message '0' judul ul
         end = response.find("@?",begin, end)-1 #karena ada spasi
         objJson = objJson + response[begin:end] + '"'
@@ -91,13 +88,10 @@ def index(query):
             #message per li:
             objJson = objJson + ', "'+str(j)+'": "' + response[begin:end] + '" '
         begin = response.find("?@",begin, len(response)) + 3
-        #from objJson = objJson + '}'
-        #to objJson = objJson + ']'
-        objJson = objJson + '}'
+        objJson = objJson + ']'
     
     # tutup message + Closing JSON
-    objJson = objJson + "}}"
-    #ubah dari objJson = objJson + "}}" ke objJson = objJson + "]}"
+    objJson = objJson + " ] }"
     # JSONify objJson untuk return objek dalam bentuk JSON
     return objJson
 
