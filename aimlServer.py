@@ -88,6 +88,7 @@ def index(query):
             message = message + ' adalah ' + str(king) + ' kamar King Size'
             if twin != -1:
                 message = message + ' dan ' + str(twin) + ' kamar Twin Size'
+            message = message + '" }'
             return message
         else:
             #Output salah
