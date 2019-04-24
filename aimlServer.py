@@ -112,7 +112,7 @@ def index(query):
             jumlah = 0
         #objJson = str(response.find("?@"))
         #objJson = response[:5]
-        objJson = objJson + '"ul": '+ str(jumlah) + ', "il": [ "0": 1'
+        objJson = objJson + '"ul": '+ str(jumlah) + ', "il": [ {"0": 1}'
         #tambah di "il" sesuai il di tiap ul yang ada
         jumlahIl = []
         indexIl = [[]for i in range(jumlah)]
@@ -137,7 +137,7 @@ def index(query):
                 begin = response.find("-@",begin, endUl) + 3
                 #print(objJson)
                 #print(response.find("@-",begin, endUl),begin, end)
-            objJson = objJson + ', "'+str(i)+'": '+str(il)
+            objJson = objJson + ', {"'+str(i)+'": '+str(il) + "}"
             jumlahIl.append(il)
             beginUl = end + 2
             #beginUl untuk cari <ul> baru lagi kalau ada
@@ -146,7 +146,7 @@ def index(query):
         #tutup il
         begin = 0
         end = len(response)
-        objJson = objJson + ' ], "message": [ "0": "'
+        objJson = objJson + 's ], "message": [ {"0": "'
         if jumlah == 0:
             #print(response)
             objJson = objJson + response
@@ -155,7 +155,7 @@ def index(query):
             objJson = objJson + response[0:end]
         #print(end)
         #print(response.find("\n",0, len(response)))
-        objJson = objJson + '"' # tutup message "0": ""
+        objJson = objJson + '"}' # tutup message "0": ""
         
         begin = end+3
         
@@ -163,15 +163,15 @@ def index(query):
         for i in range(1, jumlah+1):
             #i untuk tiap ul yang ada
             end = len(response)
-            objJson = objJson + ', "'+str(i)+'": [ "0": "'
+            objJson = objJson + ', {"'+str(i)+'": [ {"0": "'
             #message '0' judul ul
             end = response.find("@?",begin, end)-1 #karena ada spasi
-            objJson = objJson + response[begin:end] + '"'
+            objJson = objJson + response[begin:end] + '"}'
             for j in range(1, jumlahIl[i-1] + 1):
                 begin = indexIl[i-1][j-1]
                 end = response.find("-@",begin,len(response))
                 #message per li:
-                objJson = objJson + ', "'+str(j)+'": "' + response[begin:end] + '" '
+                objJson = objJson + ', "{'+str(j)+'": "' + response[begin:end] + '"} '
             begin = response.find("?@",begin, len(response)) + 3
             objJson = objJson + ']'
         
