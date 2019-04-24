@@ -4,7 +4,7 @@
     <category>
         <pattern>*</pattern>
         <template>
-            Maaf, informasi mengenai <star/> belum tersedia.
+            Maaf, informasi mengenai <star/> belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
         </template>
     </category>
 
@@ -99,6 +99,104 @@
     </category>
 
     <category>
+        <pattern>HI</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>TEST</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>TES</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BONJOUR</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KONICHIWA</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>KONNICHIWA</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALOHA</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>APA KABAR</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>APA KABAR _</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>MAU NANYA DONG</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>MIN</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>MIN MAU NANYA DONG</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PERMISI</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PERMISI _</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>KAMAR</pattern>
         <template>
             <srai>KAMAR HOTEL</srai>    
@@ -107,6 +205,14 @@
 
     <category>
         <pattern>KAMAR HOTEL _</pattern>
+        <template>
+            <srai>KAMAR HOTEL</srai>    
+        </template>
+    </category>
+
+    <!-- Harga belum terdaftar, utk sementara diarahkan ke detail dari jenis kamar hotel -->
+    <category>
+        <pattern>HARGA KAMAR _</pattern>
         <template>
             <srai>KAMAR HOTEL</srai>    
         </template>
@@ -150,6 +256,36 @@
 
     <category>
         <pattern>RUANGAN RAPAT _</pattern>
+        <template>
+            <srai>RUANGAN RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>MEETING ROOM _</pattern>
+        <template>
+            <srai>RUANGAN RAPAT</srai>    
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>INFORMASI MEETING ROOM</pattern>
+        <template>
+            <srai>RUANGAN RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFORMASI RUANGAN RAPAT</pattern>
+        <template>
+            <srai>RUANGAN RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>ADA APA AJA TIPE MEETING ROOM</pattern>
         <template>
             <srai>RUANGAN RAPAT</srai>    
         </template>
@@ -234,6 +370,13 @@
     </category>
 
     <category>
+        <pattern>ADA RESTORAN APA DISANA</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>MAKANAN DAN MINUMAN _</pattern>
         <template>
             <srai>MAKANAN DAN MINUMAN</srai>    
@@ -249,6 +392,20 @@
 
     <category>
         <pattern>FASILITAS LAIN _</pattern>
+        <template>
+            <srai>FASILITAS LAIN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>FASILITAS HOTELNYA APA AJA</pattern>
+        <template>
+            <srai>FASILITAS LAIN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>FASILITAS HOTEL _</pattern>
         <template>
             <srai>FASILITAS LAIN</srai>    
         </template>
