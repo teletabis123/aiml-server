@@ -171,7 +171,7 @@ def index(query):
                 begin = indexIl[i-1][j-1]
                 end = response.find("-@",begin,len(response))
                 #message per li:
-                objJson = objJson + ', "{'+str(j)+'": "' + response[begin:end] + '"} '
+                objJson = objJson + ', {"'+str(j)+'": "' + response[begin:end] + '"} '
             begin = response.find("?@",begin, len(response)) + 3
             objJson = objJson + ']'
         
