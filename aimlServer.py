@@ -158,7 +158,7 @@ def index(query):
         #objJson = objJson + il > 0 ? '"}' : '"}]' # tutup message "0": ""
         if il > 0: # tutup message "0": ""
             objJson = objJson + '"}'
-        elif il == 0:
+        else:
             objJson = objJson + '"}]'
         
         begin = end+3
