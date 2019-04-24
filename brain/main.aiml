@@ -209,6 +209,13 @@
             <srai>KAMAR HOTEL</srai>    
         </template>
     </category>
+    
+    <category>
+        <pattern>KAMAR HOTELNYA _</pattern>
+        <template>
+            <srai>KAMAR HOTEL</srai>    
+        </template>
+    </category>
 
     <!-- Harga belum terdaftar, utk sementara diarahkan ke detail dari jenis kamar hotel -->
     <category>
