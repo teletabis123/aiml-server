@@ -146,7 +146,7 @@ def index(query):
         #tutup il
         begin = 0
         end = len(response)
-        objJson = objJson + 's ], "message": [ {"0": "'
+        objJson = objJson + ' ], "message": [ {"0": "'
         if jumlah == 0:
             #print(response)
             objJson = objJson + response
