@@ -181,7 +181,11 @@ def index(query):
             objJson = objJson + ']'
         
         # tutup message + Closing JSON
-        objJson = objJson + " }"
+        if il == 0: # tutup message "0": ""
+            objJson = objJson + '}'
+        else:
+            objJson = objJson + '}]}'
+        #objJson = objJson + " }"
         # JSONify objJson untuk return objek dalam bentuk JSON
         return objJson
 
