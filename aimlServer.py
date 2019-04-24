@@ -155,7 +155,7 @@ def index(query):
             objJson = objJson + response[0:end]
         #print(end)
         #print(response.find("\n",0, len(response)))
-        objJson = objJson + '"]}' # tutup message "0": ""
+        objJson = objJson + '"}]' # tutup message "0": ""
         
         begin = end+3
         
