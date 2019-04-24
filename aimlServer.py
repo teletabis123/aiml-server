@@ -176,7 +176,7 @@ def index(query):
             objJson = objJson + ']'
         
         # tutup message + Closing JSON
-        objJson = objJson + " }]}"
+        objJson = objJson + " }"
         # JSONify objJson untuk return objek dalam bentuk JSON
         return objJson
 
