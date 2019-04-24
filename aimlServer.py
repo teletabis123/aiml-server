@@ -151,7 +151,7 @@ def index(query):
         elif jumlah != 1:
             end = response.find("@^")
             objJson = objJson + response[0:end]
-        print(end)
+        #print(end)
         #print(response.find("\n",0, len(response)))
         objJson = objJson + '"' # tutup message "0": ""
         
