@@ -119,6 +119,7 @@ def index(query):
         beginUl = 0
         #beginUl untuk <ul>
         endUl = len(response)
+        il = 0
         # dilakukan sejumlah ul yang ada
         for i in range(1,jumlah+1):
             beginUl = response.find("@?",beginUl, endUl)
