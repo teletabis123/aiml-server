@@ -16,7 +16,7 @@ app = Flask(__name__)
 @app.route("/<query>")
 def index(query):
     if "ketersediaan" in query.lower() or "pengecekkan" in query.lower():
-        print("Masuk")
+        #print("Masuk")
         jenis = 0
         sedia = query.lower()
         if "deluxe suite" in sedia:
@@ -50,13 +50,13 @@ def index(query):
                 tahun = sedia[indexTahunAwal:]
             else:
                 tahun = sedia[indexTahunAwal:indexTahunAkhir]
-            print(kamar,tanggal,bulan,tahun)
+            #print(kamar,tanggal,bulan,tahun)
             if(not(tanggal.isnumeric() and bulan.isnumeric() and tahun.isnumeric()) or not(len(tanggal)==2 and len(bulan)==2 and len(tahun)==4)):
                 tanggalBenar = False
-        print(tanggal,bulan,tahun)
+        #print(tanggal,bulan,tahun)
         if tanggalBenar and jenis!=0 :
             date = tahun+'-'+bulan+'-'+tanggal
-            print(date)
+            #print(date)
             twin = -1
             if jenis == 1:
                 room_type = str(32)
