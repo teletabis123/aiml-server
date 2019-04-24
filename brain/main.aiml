@@ -267,5 +267,53 @@
             <srai>SANTIKA PREMIERE SLIPI</srai>
         </template>
     </category>
+    
+    <category>
+        <pattern>TELETUBBIES</pattern>
+        <template>
+            <srai>TELETABIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TINKYWINKY</pattern>
+        <template>
+            <srai>TELETABIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DIPSY</pattern>
+        <template>
+            <srai>TELETABIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LAALAA</pattern>
+        <template>
+            <srai>TELETABIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PO</pattern>
+        <template>
+            <srai>TELETABIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TELETABIS</pattern>
+        <template>
+            Made By:
+            @?
+                @-Aldric Leonardo-@
+                @-Vionie Laorensa-@
+                @-Matthew Evans Audric Rengkung-@
+                @-James Christian Wira-@
+            ?@
+        </template>
+    </category>
 
 </aiml>
