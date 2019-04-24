@@ -253,6 +253,13 @@
             <srai>ACARA PERNIKAHAN</srai>    
         </template>
     </category>
+    
+    <category>
+        <pattern>PERNIKAHAN</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category>
 
     <category>
         <pattern>RUANGAN RAPAT _</pattern>
