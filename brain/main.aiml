@@ -18,12 +18,20 @@
             @?
                 @-Tentang Santika Premiere Slipi-@
                 @-Kamar Hotel-@
+                @-Cek Ketersediaan Kamar-@
                 @-Acara Pernikahan-@
                 @-Ruangan Rapat-@
                 @-Kendaraan-@
                 @-Makanan dan Minuman-@
                 @-Fasilitas Lain.-@
             ?@
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA PREMIERE SLIPI</pattern>
+        <template>
+            Santika Hotel dan Resorts adalah salah satu grup hotel terbesar di Indonesia. Dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981.
         </template>
     </category>
 
@@ -35,17 +43,59 @@
     </category>
 
     <category>
-            <pattern>_ HALO</pattern>
+            <pattern>HALOO _</pattern>
             <template>
                 <srai>HALO</srai>    
             </template>
     </category>
 
     <category>
-            <pattern>_ HALO _</pattern>
+            <pattern>HALLO _</pattern>
             <template>
                 <srai>HALO</srai>    
             </template>
+    </category>
+
+    <category>
+            <pattern>HELO _</pattern>
+            <template>
+                <srai>HALO</srai>    
+            </template>
+    </category>
+
+    <category>
+            <pattern>HELLO _</pattern>
+            <template>
+                <srai>HALO</srai>    
+            </template>
+    </category>
+
+    <category>
+        <pattern>HAI</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HAI _</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HAII</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HAII _</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
     </category>
 
     <category>
@@ -56,14 +106,14 @@
     </category>
 
     <category>
-        <pattern>_ KAMAR</pattern>
+        <pattern>KAMAR HOTEL _</pattern>
         <template>
             <srai>KAMAR HOTEL</srai>    
         </template>
     </category>
-    
+
     <category>
-        <pattern>_ NIKAH</pattern>
+        <pattern>NIKAH</pattern>
         <template>
             <srai>ACARA PERNIKAHAN</srai>    
         </template>
@@ -77,14 +127,7 @@
     </category>
 
     <category>
-        <pattern>_ NIKAH _</pattern>
-        <template>
-            <srai>ACARA PERNIKAHAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ NIKAHAN</pattern>
+        <pattern>NIKAHAN</pattern>
         <template>
             <srai>ACARA PERNIKAHAN</srai>    
         </template>
@@ -97,38 +140,11 @@
         </template>
     </category>
 
-    <category>
-        <pattern>_ NIKAHAN _</pattern>
-        <template>
-            <srai>ACARA PERNIKAHAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ PERNIKAHAN</pattern>
-        <template>
-            <srai>ACARA PERNIKAHAN</srai>    
-        </template>
-    </category>
 
     <category>
         <pattern>PERNIKAHAN _</pattern>
         <template>
             <srai>ACARA PERNIKAHAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ PERNIKAHAN _</pattern>
-        <template>
-            <srai>ACARA PERNIKAHAN</srai>    
-        </template>
-    </category>
-    
-    <category>
-        <pattern>_ RUANGAN RAPAT</pattern>
-        <template>
-            <srai>RUANGAN RAPAT</srai>    
         </template>
     </category>
 
@@ -140,14 +156,7 @@
     </category>
 
     <category>
-        <pattern>_ RUANGAN RAPAT _</pattern>
-        <template>
-            <srai>RUANGAN RAPAT</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ TRANSPORT</pattern>
+        <pattern>TRANSPORT</pattern>
         <template>
             <srai>KENDARAAN</srai>    
         </template>
@@ -161,14 +170,7 @@
     </category>
     
     <category>
-        <pattern>_ TRANSPORT _</pattern>
-        <template>
-            <srai>KENDARAAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ MOBIL</pattern>
+        <pattern>MOBIL</pattern>
         <template>
             <srai>KENDARAAN</srai>    
         </template>
@@ -182,77 +184,29 @@
     </category>
 
     <category>
-        <pattern>_ MOBIL _</pattern>
-        <template>
-            <srai>KENDARAAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ KENDARAAN</pattern>
-        <template>
-            <srai>KENDARAAN</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>KENDARAAN _</pattern>
         <template>
             <srai>KENDARAAN</srai>    
         </template>
     </category>
 
-    <category>
-        <pattern>_ KENDARAAN _</pattern>
-        <template>
-            <srai>KENDARAAN</srai>    
-        </template>
-    </category>
 
     <category>
-        <pattern>_ MAKANAN</pattern>
+        <pattern>MAKANAN</pattern>
         <template>
             <srai>MAKANAN DAN MINUMAN</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>MAKANAN _</pattern>
+        <pattern>MINUMAN</pattern>
         <template>
             <srai>MAKANAN DAN MINUMAN</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>_ MAKANAN _</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ MINUMAN</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ MINUMAN _</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ MINUMAN _</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ RESTAURAN</pattern>
+        <pattern>MINUMAN _</pattern>
         <template>
             <srai>MAKANAN DAN MINUMAN</srai>    
         </template>
@@ -266,14 +220,7 @@
     </category>
 
     <category>
-        <pattern>_ RESTAURAN _</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ RESTORAN</pattern>
+        <pattern>RESTAURANT _</pattern>
         <template>
             <srai>MAKANAN DAN MINUMAN</srai>    
         </template>
@@ -287,20 +234,6 @@
     </category>
 
     <category>
-        <pattern>_ RESTORAN _</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ MAKANAN DAN MINUMAN</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>MAKANAN DAN MINUMAN _</pattern>
         <template>
             <srai>MAKANAN DAN MINUMAN</srai>    
@@ -308,59 +241,31 @@
     </category>
 
     <category>
-        <pattern>_ MAKANAN DAN MINUMAN _</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ LAIN</pattern>
+        <pattern>FASILITAS</pattern>
         <template>
             <srai>FASILITAS LAIN</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>LAIN _</pattern>
+        <pattern>FASILITAS LAIN _</pattern>
         <template>
             <srai>FASILITAS LAIN</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>_ LAIN _</pattern>
+        <pattern>SANTIKA PREMIERE SLIPI _</pattern>
         <template>
-            <srai>FASILITAS LAIN</srai>    
+            <srai>SANTIKA PREMIERE SLIPI</srai>
         </template>
     </category>
 
     <category>
-        <pattern>_ LAINNYA</pattern>
+        <pattern>HOTEL</pattern>
         <template>
-            <srai>FASILITAS LAIN</srai>    
+            <srai>SANTIKA PREMIERE SLIPI</srai>
         </template>
     </category>
 
-    <category>
-        <pattern>LAINNYA _</pattern>
-        <template>
-            <srai>FASILITAS LAIN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ LAINNYA _</pattern>
-        <template>
-            <srai>FASILITAS LAIN</srai>    
-        </template>
-    </category>
-    
-    <category>
-        <pattern>SANTIKA PREMIERE SLIPI</pattern>
-        <template>
-            Santika Hotel dan Resorts adalah salah satu grup hotel terbesar di Indonesia. Dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981.
-        </template>
-    </category>
-    
 </aiml>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+    <category>
+        <pattern>CEK KETERSEDIAAN KAMAR</pattern>
+        <template>
+            Cek ketersediaan kamar dengan kata kunci 'pengecekkan' atau 'ketersediaan'. Struktur penulisan tanggal: DD-MM-YYYY
+            @?
+                @-Kamar Deluxe Room : Deluxe-@
+                @-Kamar Club Premiere : Club Premiere-@
+                @-Kamar Deluxe Suite : Deluxe Suite-@
+            ?@
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CEK</pattern>
+        <template>
+            <srai>CEK KETERSEDIAAN KAMAR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KETERSEDIAAN</pattern>
+        <template>
+            <srai>CEK KETERSEDIAAN KAMAR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KETERSEDIAAN KAMAR</pattern>
+        <template>
+            <srai>CEK KETERSEDIAAN KAMAR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KETERSEDIAAN KAMAR _</pattern>
+        <template>
+            <srai>CEK KETERSEDIAAN KAMAR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CEK KETERSEDIAAN</pattern>
+        <template>
+            <srai>CEK KETERSEDIAAN KAMAR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CEK KETERSEDIAAN KAMAR _</pattern>
+        <template>
+            <srai>CEK KETERSEDIAAN KAMAR</srai>
+        </template>
+    </category>
+    
+</aiml>

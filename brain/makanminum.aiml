@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0" encoding="UTF-8">
+<aiml>
 
     <category>
         <pattern>MAKANAN DAN MINUMAN</pattern>
@@ -13,13 +13,6 @@
     </category>
 
     <category>
-        <pattern>_ HARMONI BUFFET</pattern>
-        <template>
-            <srai>HARMONI BUFFET</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>HARMONI BUFFET _</pattern>
         <template>
             <srai>HARMONI BUFFET</srai>    
@@ -27,28 +20,14 @@
     </category>
 
     <category>
-        <pattern>_ HARMONI BUFFET _</pattern>
+        <pattern>BUFFET _</pattern>
         <template>
             <srai>HARMONI BUFFET</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>_ YAN PALACE</pattern>
-        <template>
-            <srai>YAN PALACE</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>YAN PALACE _</pattern>
-        <template>
-            <srai>YAN PALACE</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ YAN PALACE _</pattern>
         <template>
             <srai>YAN PALACE</srai>    
         </template>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0" encoding="UTF-8">
+<aiml>
     
     <category>
         <pattern>ACARA PERNIKAHAN</pattern>
@@ -13,71 +13,6 @@
         </template>
     </category>
 
-    <category>
-        <pattern>_ Classic</pattern>
-        <template>
-            <srai>Classic</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>Classic _</pattern>
-        <template>
-            <srai>Classic</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ Classic _</pattern>
-        <template>
-            <srai>Classic</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ Romantic</pattern>
-        <template>
-            <srai>Romantic</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>Romantic _</pattern>
-        <template>
-            <srai>Romantic</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ Romantic _</pattern>
-        <template>
-            <srai>Romantic</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ Royal</pattern>
-        <template>
-            <srai>Royal</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>Royal _</pattern>
-        <template>
-            <srai>Royal</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ Royal _</pattern>
-        <template>
-            <srai>Royal</srai>    
-        </template>
-    </category>
-
-    <!-- List -->
-    
     <category>
         <pattern>Classic</pattern>
         <template>
@@ -139,6 +74,27 @@
                 @-Voucher Buffet makan malam untuk pasangan yang menikah.-@
                 @-Penginapan bulan madu 2 malam di hotel di Santika Indonesia Hotel and Resort.-@
             ?@
+        </template>
+    </category>
+
+    <category>
+        <pattern>Classic _</pattern>
+        <template>
+            <srai>Classic</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>Romantic _</pattern>
+        <template>
+            <srai>Romantic</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>Royal _</pattern>
+        <template>
+            <srai>Royal</srai>    
         </template>
     </category>
 

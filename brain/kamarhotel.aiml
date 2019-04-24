@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0" encoding="UTF-8">
+<aiml>
 
     <category>
         <pattern>KAMAR HOTEL</pattern>
@@ -17,334 +17,6 @@
             ?@
         </template>
     </category>
-
-    <!-- <category>
-        <pattern>KAMAR _ DELUXE _</pattern>
-        <template>
-            <srai>DELUXE</srai>    
-        </template>
-    </category> -->
-
-    <!-- <category>
-        <pattern>KAMAR _ CLUB PREMIERE _</pattern>
-        <template>
-            <srai>CLUB PREMIERE</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>KAMAR _ $DELUXE SUITE _</pattern>
-        <template>
-            <srai>DELUXE SUITE</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>KAMAR _ EXECUTIVE SUITE _</pattern>
-        <template>
-            <srai>EXECUTIVE SUITE</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>KAMAR _ FAMILY SUITE _</pattern>
-        <template>
-            <srai>EXECUTIVE SUITE</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>KAMAR _ SANTIKA SUITE _</pattern>
-        <template>
-            <srai>EXECUTIVE SUITE</srai>    
-        </template>
-    </category> -->
-
-    <!-- <topic name="hotel"> -->
-
-        
-
-        <category>
-            <pattern>_ CLUB PREMIERE</pattern>
-            <template>
-                <srai>CLUB PREMIERE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>CLUB PREMIERE _</pattern>
-            <template>
-                <srai>CLUB PREMIERE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ CLUB PREMIERE _</pattern>
-            <template>
-                <srai>CLUB PREMIERE</srai>    
-            </template>
-        </category>
-        
-        <!-- <category>
-            <pattern>_ DELUXE SUITE</pattern>
-            <template>
-                <srai>DELUXE SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>DELUXE SUITE _</pattern>
-            <template>
-                <srai>DELUXE SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ DELUXE SUITE _</pattern>
-            <template>
-                <srai>DELUXE SUITE</srai>    
-            </template>
-        </category> -->
-
-        <category>
-            <pattern>_ DELUXE</pattern>
-            <template>
-                <srai>DELUXE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>DELUXE _</pattern>
-            <template>
-                <srai>DELUXE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ DELUXE _</pattern>
-            <template>
-                <srai>DELUXE</srai>    
-            </template>
-        </category>
-
-        <!-- <category>
-            <pattern>_ EXECUTIVE</pattern>
-            <template>
-                <srai>EXECUTIVE SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>EXECUTIVE _</pattern>
-            <template>
-                <srai>EXECUTIVE SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ EXECUTIVE _</pattern>
-            <template>
-                <srai>EXECUTIVE SUITE</srai>    
-            </template>
-        </category> -->
-        
-        <category>
-            <pattern>_ EXECUTIVE SUITE</pattern>
-            <template>
-                <srai>EXECUTIVE SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>EXECUTIVE SUITE _</pattern>
-            <template>
-                <srai>EXECUTIVE SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ EXECUTIVE SUITE _</pattern>
-            <template>
-                <srai>EXECUTIVE SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ KELUARGA</pattern>
-            <template>
-                <srai>FAMILY SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>KELUARGA _</pattern>
-            <template>
-                <srai>FAMILY SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ KELUARGA _</pattern>
-            <template>
-                <srai>FAMILY SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ FAMILY SUITE</pattern>
-            <template>
-                <srai>FAMILY SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>FAMILY SUITE _</pattern>
-            <template>
-                <srai>FAMILY SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ FAMILY SUITE _</pattern>
-            <template>
-                <srai>FAMILY SUITE</srai>    
-            </template>
-        </category>
-
-        <!-- <category>
-            <pattern>_ SANTIKA</pattern>
-            <template>
-                <srai>SANTIKA SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>SANTIKA _</pattern>
-            <template>
-                <srai>SANTIKA SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ SANTIKA _</pattern>
-            <template>
-                <srai>SANTIKA SUITE</srai>    
-            </template>
-        </category> -->
-
-        <category>
-            <pattern>_ SANTIKA SUITE</pattern>
-            <template>
-                <srai>SANTIKA SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>SANTIKA SUITE _</pattern>
-            <template>
-                <srai>SANTIKA SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ SANTIKA SUITE _</pattern>
-            <template>
-                <srai>SANTIKA SUITE</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ INFO</pattern>
-            <template>
-                <srai>INFO LAIN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>INFO _</pattern>
-            <template>
-                <srai>INFO LAIN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ INFO _</pattern>
-            <template>
-                <srai>INFO LAIN</srai>    
-            </template>
-        </category>
-
-        <!-- <category>
-            <pattern>_ INFORMASI</pattern>
-            <template>
-                <srai>INFO LAIN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>INFORMASI _</pattern>
-            <template>
-                <srai>INFO LAIN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ INFORMASI _</pattern>
-            <template>
-                <srai>INFO LAIN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ LAIN</pattern>
-            <template>
-                <srai>INFO LAIN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>LAIN _</pattern>
-            <template>
-                <srai>INFO LAIN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ LAIN _</pattern>
-            <template>
-                <srai>INFO LAIN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ LAINNYA</pattern>
-            <template>
-                <srai>INFO LAIN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>LAINNYA _</pattern>
-            <template>
-                <srai>INFO LAIN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ LAINNYA _</pattern>
-            <template>
-                <srai>INFO LAIN</srai>    
-            </template>
-        </category> -->
-
-    <!-- </topic> -->
-
-    <!-- <category>
-        <pattern>DELUXE SUITE</pattern>
-        <template>
-            
-        </template>
-    </category> -->
 
     <category>
         <pattern>DELUXE</pattern>
@@ -392,8 +64,6 @@
             ?@
         </template>
     </category>
-
-    
 
     <category>
         <pattern>EXECUTIVE SUITE</pattern>
@@ -464,5 +134,70 @@
             ?@
         </template>
     </category>
-    
+
+    <category>
+        <pattern>DELUXE _</pattern>
+        <template>
+            <srai>DELUXE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLUB PREMIERE _</pattern>
+        <template>
+            <srai>CLUB PREMIERE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>EXECUTIVE SUITE _</pattern>
+        <template>
+            <srai>EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KELUARGA _</pattern>
+        <template>
+            <srai>FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>FAMILY SUITE _</pattern>
+        <template>
+            <srai>FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA SUITE _</pattern>
+        <template>
+            <srai>SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFO _</pattern>
+        <template>
+            <srai>INFO LAIN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>LAIN _</pattern>
+        <template>
+            <srai>INFO LAIN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>LAINNYA _</pattern>
+        <template>
+            <srai>INFO LAIN</srai>    
+        </template>
+    </category>
+
+
+
 </aiml>
