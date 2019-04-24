@@ -156,7 +156,7 @@ def index(query):
         #print(end)
         #print(response.find("\n",0, len(response)))
         #objJson = objJson + il > 0 ? '"}' : '"}]' # tutup message "0": ""
-        if li > 0: # tutup message "0": ""
+        if il > 0: # tutup message "0": ""
             objJson = objJson + '"}'
         else:
             objJson = objJson + '"}]'
