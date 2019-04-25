@@ -64,7 +64,7 @@ def index(query):
                 else:
                     maxHari = 31
             #print(maxHari)
-            if tanggal < 0 or tanggal > maxHari:
+            if int(tanggal) < 0 or int(tanggal) > maxHari:
                 tanggalBenar = False
                     
         #print(tanggal,bulan,tahun)
