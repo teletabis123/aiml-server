@@ -21,8 +21,8 @@
                 @-Cek Ketersediaan Kamar-@
                 @-Acara Pernikahan-@
                 @-Ruangan Rapat-@
-                @-Kendaraan-@
-                @-Makanan dan Minuman-@
+                @-Transportasi-@
+                @-Restoran-@
                 @-Fasilitas Lain.-@
             ?@
         </template>
@@ -35,6 +35,13 @@
         </template>
     </category>
 
+    <category>
+        <pattern>TENTANG SANTIKA PREMIERE SLIPI</pattern>
+        <template>
+            Santika Hotel dan Resorts adalah salah satu grup hotel terbesar di Indonesia. Dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981.
+        </template>
+    </category>    
+    
     <category>
             <pattern>HALO _</pattern>
             <template>
