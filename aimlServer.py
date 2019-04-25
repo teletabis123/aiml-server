@@ -98,7 +98,7 @@ def index(query):
                 hasil = json.loads(r.content)
                 #print(hasil)
                 king = hasil["count"]
-            message = '{ "message": "Kamar ' + kamar + ' yang tersedia pada tanggal ' + tanggal + '/' + bulan + '/' + tahun
+            message = '{ "message": "Kamar ' + kamar + ' yang tersedia pada tanggal ' + tanggal + '-' + bulan + '-' + tahun
             message = message + ' adalah ' + str(king) + ' kamar King Size'
             if twin != -1:
                 message = message + ' dan ' + str(twin) + ' kamar Twin Size'
