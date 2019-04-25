@@ -53,6 +53,20 @@ def index(query):
             #print(kamar,tanggal,bulan,tahun)
             if(not(tanggal.isnumeric() and bulan.isnumeric() and tahun.isnumeric()) or not(len(tanggal)==2 and len(bulan)==2 and len(tahun)==4)):
                 tanggalBenar = False
+            if bulan == "02":
+                if(int(tahun) % 4 == 0):
+                    maxHari = 29
+                else:
+                    maxHari = 28
+            else:
+                if bulan == "04" or bulan == "06" or bulan == "09" or bulan == "11":
+                    maxHari = 30
+                else:
+                    maxHari = 31
+            #print(maxHari)
+            if tanggal < 0 or tanggal > maxHari:
+                tanggalBenar = False
+                    
         #print(tanggal,bulan,tahun)
         if tanggalBenar and jenis!=0 :
             date = tahun+'-'+bulan+'-'+tanggal
