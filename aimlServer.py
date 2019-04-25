@@ -6,9 +6,9 @@ from flask import Flask
 
 kernel = aiml.Kernel()
 
-for filename in os.listdir("brain"):
-    if filename.endswith(".aiml"):
-        kernel.learn("brain/" + filename)
+kernel.learn("std-startup.xml")
+
+kernel.respond("load aiml b")
 
 
 app = Flask(__name__)
