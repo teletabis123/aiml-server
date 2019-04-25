@@ -13,27 +13,6 @@
     </category>
 
     <category>
-        <pattern>HARMONI BUFFET _</pattern>
-        <template>
-            <srai>HARMONI BUFFET</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>BUFFET _</pattern>
-        <template>
-            <srai>HARMONI BUFFET</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>YAN PALACE _</pattern>
-        <template>
-            <srai>YAN PALACE</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>HARMONI BUFFET</pattern>
         <template>
             Spesifikasi Restauran Harmoni BUffet adalah:
@@ -51,6 +30,69 @@
                 @-Untuk Yan Palace dikhususkan untuk reservasi yang dapat langsung dilakukan saat datang ke restoran.-@
                 @-Dibuka jam 12-2 siang untuk makan siang, dan jam 6 sore - 9 malam untuk makan malam.-@
             ?@
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARMONI</pattern>
+        <template>
+            <srai>HARMONI BUFFET</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ HARMONI</pattern>
+        <template>
+            <srai>HARMONI BUFFET</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARMONI BUFFET _</pattern>
+        <template>
+            <srai>HARMONI BUFFET</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ HARMONI BUFFET _</pattern>
+        <template>
+            <srai>HARMONI BUFFET</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BUFFET</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BUFFET _</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>YAN PALACE _</pattern>
+        <template>
+            <srai>YAN PALACE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ YAN PALACE</pattern>
+        <template>
+            <srai>YAN PALACE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ YAN PALACE _</pattern>
+        <template>
+            <srai>YAN PALACE</srai>    
         </template>
     </category>
     

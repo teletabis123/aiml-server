@@ -2,6 +2,20 @@
 <aiml>
 
     <category>
+        <pattern>CEK KAMAR</pattern>
+        <template>
+            <srai>CEK KETERSEDIAAN KAMAR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CEK KAMAR * PADA TANGGAL *</pattern>
+        <template>
+            @@<star index="1"/> <star index="2"/>
+        </template>
+    </category>
+
+    <category>
         <pattern>CEK KETERSEDIAAN KAMAR</pattern>
         <template>
             Cek ketersediaan kamar dengan kata kunci 'pengecekan' atau 'ketersediaan'. Struktur penulisan tanggal: DD-MM-YYYY
@@ -50,20 +64,6 @@
 
     <category>
         <pattern>CEK KETERSEDIAAN KAMAR _</pattern>
-        <template>
-            <srai>CEK KETERSEDIAAN KAMAR</srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>CEK KAMAR _</pattern>
-        <template>
-            <srai>CEK KETERSEDIAAN KAMAR</srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>CEK KAMAR</pattern>
         <template>
             <srai>CEK KETERSEDIAAN KAMAR</srai>
         </template>

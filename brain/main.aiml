@@ -38,7 +38,7 @@
     <category>
         <pattern>TENTANG SANTIKA PREMIERE SLIPI</pattern>
         <template>
-            Santika Hotel dan Resorts adalah salah satu grup hotel terbesar di Indonesia. Dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981.
+            <srai>SANTIKA PREMIERE SLIPI</srai>
         </template>
     </category>    
     
@@ -71,7 +71,42 @@
     </category>
 
     <category>
+            <pattern>HALO</pattern>
+            <template>
+                <srai>HALO</srai>    
+            </template>
+    </category>
+
+    <category>
+            <pattern>HALOO</pattern>
+            <template>
+                <srai>HALO</srai>    
+            </template>
+    </category>
+
+    <category>
+            <pattern>HALLO</pattern>
+            <template>
+                <srai>HALO</srai>    
+            </template>
+    </category>
+
+    <category>
+            <pattern>HELO</pattern>
+            <template>
+                <srai>HALO</srai>    
+            </template>
+    </category>
+
+    <category>
             <pattern>HELLO _</pattern>
+            <template>
+                <srai>HALO</srai>    
+            </template>
+    </category>
+
+    <category>
+            <pattern>HELLO</pattern>
             <template>
                 <srai>HALO</srai>    
             </template>
@@ -181,14 +216,21 @@
             <srai>HALO</srai>    
         </template>
     </category>
-    
+
     <category>
-        <pattern>MIN MAU NANYA DONG</pattern>
+        <pattern>MIN _</pattern>
         <template>
             <srai>HALO</srai>    
         </template>
     </category>
 
+    <category>
+        <pattern>MIN, _</pattern>
+        <template>
+            <srai>HALO</srai>    
+        </template>
+    </category>
+    
     <category>
         <pattern>PERMISI</pattern>
         <template>
@@ -211,7 +253,35 @@
     </category>
 
     <category>
+        <pattern>_ KAMAR</pattern>
+        <template>
+            <srai>KAMAR HOTEL</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ KAMAR _</pattern>
+        <template>
+            <srai>KAMAR HOTEL</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>KAMAR HOTEL _</pattern>
+        <template>
+            <srai>KAMAR HOTEL</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ KAMAR HOTEL</pattern>
+        <template>
+            <srai>KAMAR HOTEL</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ KAMAR HOTEL _</pattern>
         <template>
             <srai>KAMAR HOTEL</srai>    
         </template>
@@ -219,14 +289,6 @@
     
     <category>
         <pattern>KAMAR HOTELNYA _</pattern>
-        <template>
-            <srai>KAMAR HOTEL</srai>    
-        </template>
-    </category>
-
-    <!-- Harga belum terdaftar, utk sementara diarahkan ke detail dari jenis kamar hotel -->
-    <category>
-        <pattern>HARGA KAMAR _</pattern>
         <template>
             <srai>KAMAR HOTEL</srai>    
         </template>
@@ -240,7 +302,21 @@
     </category>
 
     <category>
+        <pattern>_ NIKAH</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>NIKAH _</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ NIKAH _</pattern>
         <template>
             <srai>ACARA PERNIKAHAN</srai>    
         </template>
@@ -254,12 +330,32 @@
     </category>
 
     <category>
+        <pattern>_ NIKAHAN</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>NIKAHAN _</pattern>
         <template>
             <srai>ACARA PERNIKAHAN</srai>    
         </template>
     </category>
 
+    <category>
+        <pattern>_ NIKAHAN _</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PERNIKAHAN</pattern>
+        <template>
+            <srai>ACARA PERNIKAHAN</srai>    
+        </template>
+    </category>
 
     <category>
         <pattern>PERNIKAHAN _</pattern>
@@ -269,14 +365,35 @@
     </category>
     
     <category>
-        <pattern>PERNIKAHAN</pattern>
+        <pattern>_ PERNIKAHAN _</pattern>
         <template>
             <srai>ACARA PERNIKAHAN</srai>    
         </template>
     </category>
-
+    
     <category>
         <pattern>RUANGAN RAPAT _</pattern>
+        <template>
+            <srai>RUANGAN RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ RUANGAN RAPAT</pattern>
+        <template>
+            <srai>RUANGAN RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ RUANGAN RAPAT _</pattern>
+        <template>
+            <srai>RUANGAN RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>MEETING ROOM</pattern>
         <template>
             <srai>RUANGAN RAPAT</srai>    
         </template>
@@ -289,7 +406,19 @@
         </template>
     </category>
 
+    <category>
+        <pattern>_ MEETING ROOM</pattern>
+        <template>
+            <srai>RUANGAN RAPAT</srai>    
+        </template>
+    </category>
 
+    <category>
+        <pattern>_ MEETING ROOM _</pattern>
+        <template>
+            <srai>RUANGAN RAPAT</srai>    
+        </template>
+    </category>
 
     <category>
         <pattern>INFORMASI MEETING ROOM</pattern>
@@ -306,14 +435,28 @@
     </category>
 
     <category>
-        <pattern>ADA APA AJA TIPE MEETING ROOM</pattern>
+        <pattern>TRANSPORT</pattern>
         <template>
-            <srai>RUANGAN RAPAT</srai>    
+            <srai>KENDARAAN</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>TRANSPORT</pattern>
+        <pattern>_ TRANSPORT</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>TRANSPORT _</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ TRANSPORT _</pattern>
         <template>
             <srai>KENDARAAN</srai>    
         </template>
@@ -334,7 +477,14 @@
     </category>
 
     <category>
-        <pattern>TRANSPORT _</pattern>
+        <pattern>_ TRANSPORTASI</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ TRANSPORTASI _</pattern>
         <template>
             <srai>KENDARAAN</srai>    
         </template>
@@ -355,7 +505,35 @@
     </category>
 
     <category>
+        <pattern>_ MOBIL</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOBIL _</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>KENDARAAN _</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ KENDARAAN</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ KENDARAAN _</pattern>
         <template>
             <srai>KENDARAAN</srai>    
         </template>
@@ -364,6 +542,20 @@
 
     <category>
         <pattern>MAKANAN</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MAKANAN</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MAKANAN _ MINUMAN _</pattern>
         <template>
             <srai>MAKANAN DAN MINUMAN</srai>    
         </template>
@@ -389,6 +581,28 @@
             <srai>MAKANAN DAN MINUMAN</srai>    
         </template>
     </category>
+        
+    <category>
+        <pattern>_ RESTAURAN</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+        
+    <category>
+        <pattern>RESTAURAN _</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+        
+    <category>
+        <pattern>_ RESTAURAN _</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
 
     <category>
         <pattern>RESTAURANT</pattern>
@@ -398,14 +612,7 @@
     </category>
 
     <category>
-        <pattern>RESTORAN</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-    
-    <category>
-        <pattern>RESTAURAN _</pattern>
+        <pattern>_ RESTAURANT</pattern>
         <template>
             <srai>MAKANAN DAN MINUMAN</srai>    
         </template>
@@ -419,6 +626,20 @@
     </category>
 
     <category>
+        <pattern>_ RESTAURANT _</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESTORAN</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>RESTORAN _</pattern>
         <template>
             <srai>MAKANAN DAN MINUMAN</srai>    
@@ -426,21 +647,36 @@
     </category>
 
     <category>
-        <pattern>ADA RESTORAN APA DISANA</pattern>
+        <pattern>_ RESTORAN</pattern>
         <template>
             <srai>MAKANAN DAN MINUMAN</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>MAKANAN DAN MINUMAN _</pattern>
+        <pattern>_ RESTORAN _</pattern>
         <template>
             <srai>MAKANAN DAN MINUMAN</srai>    
         </template>
     </category>
+
 
     <category>
         <pattern>FASILITAS</pattern>
+        <template>
+            <srai>FASILITAS LAIN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ FASILITAS</pattern>
+        <template>
+            <srai>FASILITAS LAIN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ FASILITAS _</pattern>
         <template>
             <srai>FASILITAS LAIN</srai>    
         </template>
@@ -454,7 +690,7 @@
     </category>
 
     <category>
-        <pattern>FASILITAS HOTELNYA APA AJA</pattern>
+        <pattern>_ FASILITAS LAIN</pattern>
         <template>
             <srai>FASILITAS LAIN</srai>    
         </template>
@@ -462,6 +698,13 @@
 
     <category>
         <pattern>FASILITAS HOTEL _</pattern>
+        <template>
+            <srai>FASILITAS LAIN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>FASILITAS HOTELNYA _</pattern>
         <template>
             <srai>FASILITAS LAIN</srai>    
         </template>

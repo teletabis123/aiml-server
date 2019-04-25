@@ -136,7 +136,21 @@
     </category>
 
     <category>
+        <pattern>_ DELUXE</pattern>
+        <template>
+            <srai>DELUXE</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>DELUXE _</pattern>
+        <template>
+            <srai>DELUXE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ DELUXE _</pattern>
         <template>
             <srai>DELUXE</srai>    
         </template>
@@ -150,7 +164,36 @@
     </category>
 
     <category>
+        <pattern>_ CLUB PREMIERE</pattern>
+        <template>
+            <srai>CLUB PREMIERE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CLUB PREMIERE _</pattern>
+        <template>
+            <srai>CLUB PREMIERE</srai>    
+        </template>
+    </category>
+
+
+    <category>
         <pattern>EXECUTIVE SUITE _</pattern>
+        <template>
+            <srai>EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ EXECUTIVE SUITE</pattern>
+        <template>
+            <srai>EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ EXECUTIVE SUITE _</pattern>
         <template>
             <srai>EXECUTIVE SUITE</srai>    
         </template>
@@ -164,7 +207,35 @@
     </category>
 
     <category>
+        <pattern>_ KELUARGA</pattern>
+        <template>
+            <srai>FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ KELUARGA _</pattern>
+        <template>
+            <srai>FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>FAMILY SUITE _</pattern>
+        <template>
+            <srai>FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ FAMILY SUITE</pattern>
+        <template>
+            <srai>FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ FAMILY SUITE _</pattern>
         <template>
             <srai>FAMILY SUITE</srai>    
         </template>
@@ -178,14 +249,28 @@
     </category>
 
     <category>
-        <pattern>INFO _</pattern>
+        <pattern>_ SANTIKA SUITE</pattern>
+        <template>
+            <srai>SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SANTIKA SUITE _</pattern>
+        <template>
+            <srai>SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>LAIN _</pattern>
         <template>
             <srai>INFO LAIN</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>LAIN _</pattern>
+        <pattern>_ LAIN _</pattern>
         <template>
             <srai>INFO LAIN</srai>    
         </template>
@@ -198,6 +283,10 @@
         </template>
     </category>
 
-
-
+    <category>
+        <pattern>_ LAINNYA _</pattern>
+        <template>
+            <srai>INFO LAIN</srai>    
+        </template>
+    </category>
 </aiml>

@@ -97,44 +97,44 @@
             <srai>ROYAL</srai>    
         </template>
     </category>
-    
+
     <category>
-        <pattern>PERNIKAHAN CLASSIC _</pattern>
+        <pattern>_ CLASSIC</pattern>
         <template>
             <srai>CLASSIC</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>PERNIKAHAN ROMANTIC _</pattern>
+        <pattern>_ ROMANTIC</pattern>
         <template>
             <srai>ROMANTIC</srai>    
         </template>
     </category>
-    
+
     <category>
-        <pattern>PERNIKAHAN ROYAL _</pattern>
+        <pattern>_ ROYAL</pattern>
         <template>
             <srai>ROYAL</srai>    
         </template>
     </category>
-    
+
     <category>
-        <pattern>PERNIKAHAN CLASSIC</pattern>
+        <pattern>_ CLASSIC _</pattern>
         <template>
             <srai>CLASSIC</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>PERNIKAHAN ROMANTIC</pattern>
+        <pattern>_ ROMANTIC _</pattern>
         <template>
             <srai>ROMANTIC</srai>    
         </template>
     </category>
-    
+
     <category>
-        <pattern>PERNIKAHAN ROYAL</pattern>
+        <pattern>_ ROYAL _</pattern>
         <template>
             <srai>ROYAL</srai>    
         </template>
