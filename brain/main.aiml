@@ -14,7 +14,7 @@
         <template>
             <!-- <think><set name="topic">main</set></think> -->
             <!-- Halo, Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang: -->
-            halo
+            Halo,  Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang: 
             @?
                 @-Tentang Santika Premiere Slipi-@
                 @-Kamar Hotel-@
@@ -318,6 +318,20 @@
             <srai>KENDARAAN</srai>    
         </template>
     </category>
+    
+    <category>
+        <pattern>TRANSPORTASI</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>TRANSPORTASI _</pattern>
+        <template>
+            <srai>KENDARAAN</srai>    
+        </template>
+    </category>
 
     <category>
         <pattern>TRANSPORT _</pattern>
@@ -369,6 +383,27 @@
         </template>
     </category>
 
+    <category>
+        <pattern>RESTAURAN</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESTAURANT</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESTORAN</pattern>
+        <template>
+            <srai>MAKANAN DAN MINUMAN</srai>    
+        </template>
+    </category>
+    
     <category>
         <pattern>RESTAURAN _</pattern>
         <template>
