@@ -15,8 +15,14 @@ app = Flask(__name__)
 
 @app.route("/<query>")
 def index(query):
-    if "ketersediaan" in query.lower() or "pengecekan" in query.lower():
-        #print("Masuk")
+    # Opening JSON
+    response = kernel.respond(query)
+    # Pengubahan string response ke dalam string bentuk JSON:
+    # 1. Cek jumlah <ul> dan <li>
+    # 2. sejumlah <ul> akan disimpan di JSON sebelum chat dari bot ada
+    #    a. 0 berarti hanya kalimat
+    #    b. n <ul> akan membuat jumlah objek di JSON
+    if response[:2] == "@@":
         jenis = 0
         sedia = query.lower()
         if "deluxe suite" in sedia:
@@ -107,19 +113,11 @@ def index(query):
         else:
             #Output salah
             if jenis == 0:
-                return '{ "message": "Input Kamar Salah" }'
+                return '{ "message": "Format pengecekkan kamar salah" }'
             else:
                 # print(kamar)
-                return '{ "message": "Input Penanggalan Salah" }'
-
+                return '{ "message": "Format tanggal yang anda masukkan salah" }'
     else:
-        # Opening JSON
-        response = kernel.respond(query)
-        # Pengubahan string response ke dalam string bentuk JSON:
-        # 1. Cek jumlah <ul> dan <li>
-        # 2. sejumlah <ul> akan disimpan di JSON sebelum chat dari bot ada
-        #    a. 0 berarti hanya kalimat
-        #    b. n <ul> akan membuat jumlah objek di JSON
         objJson = "{"
         jumlah = response.count("@?")
         if jumlah == -1:
@@ -206,6 +204,7 @@ def index(query):
         #objJson = objJson + " }"
         # JSONify objJson untuk return objek dalam bentuk JSON
         return objJson
+
 
 if __name__ == '__main__':
     app.run(debug=True)
