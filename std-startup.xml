@@ -6,11 +6,12 @@
 <template>
 
 <!-- Load standard AIML set -->
+<learn>brain/utama.aiml</learn>
 <learn>brain/fasilitaslain.aiml</learn>
 <learn>brain/kamarhotel.aiml</learn>
 <learn>brain/kendaraan.aiml</learn>
 <learn>brain/ketersediaan.aiml</learn>
-<learn>brain/main.aiml</learn>
+
 <learn>brain/makananminuman.aiml</learn>
 <learn>brain/pernikahan.aiml</learn>
 <learn>brain/rapat.aiml</learn>
