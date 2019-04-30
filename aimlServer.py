@@ -150,6 +150,7 @@ def messageChat(response):
     indexLi = [[]for i in range(jumlah)] # untuk menyimpan index awal dari tiap list di response, Array 2D untuk tiap ul
     beginUl = 0 # untuk menyimpan index pertama dari ul
     endUl = len(response) # untuk menyimpan index terakhir dari message, index terakhir
+    il = 0
     # untuk mencari li dan indexnya
     for i in range(1,jumlah+1): # sejumlah ul yang ada di response
         beginUl = response.find("@?",beginUl, endUl) # beginUl diawali dari @? untuk tiap ul
