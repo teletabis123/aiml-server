@@ -194,13 +194,13 @@ def messageChat(response):
             end = response.find("-@",begin,len(response)) # -@ penanda li berhenti
             objJson = objJson + ', {"'+str(j)+'": "' + response[begin:end] + '"} ' # menyimpan message tiap li
         begin = response.find("?@",begin, len(response)) + 3 # diperbarui untuk ul selanjutnya bila ada
-        objJson = objJson + ']' # penutup li di ul
+        objJson = objJson + ']}' # penutup li di ul
     
     # menutup message yang akan dikembalikan
     if il == 0: # tutup message bila tidak ada bulleting
         objJson = objJson + '}'
     else: # tutup message bila ada bulleting
-        objJson = objJson + '}]}'
+        objJson = objJson + ']}'
     # Mengembalikan message
     return objJson
 
