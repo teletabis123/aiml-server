@@ -79,6 +79,7 @@ def getRequestContent(date, room_type):
 # menentukan kamar yang diminta dan tanggal dari yang penanggalan yang benar
 # request ke API dan mengembalikan message availability
 def messageAvailability(sedia):
+    message = '{"ul": 0, "il": [ {"0": 1} ], "message": [ {"0": "'
     jenis = 0
     if "deluxe suite" in sedia:
         kamar = "Deluxe Suite"
@@ -113,17 +114,17 @@ def messageAvailability(sedia):
             room_type = str(36)
             hasil = getRequestContent(date,room_type)
             king = hasil["count"]
-        message = '{ "message": "Kamar ' + kamar + ' yang tersedia pada tanggal ' + tanggal + '-' + bulan + '-' + tahun
+        message = message + 'Kamar ' + kamar + ' yang tersedia pada tanggal ' + tanggal + '-' + bulan + '-' + tahun
         message = message + ' adalah ' + str(king) + ' kamar King Size'
         if twin != -1:
             message = message + ' dan ' + str(twin) + ' kamar Twin Size'
-        message = message + '" }'
-        return message
     else: # bila input salah
         if jenis == 0:
-            return '{ "message": "Format pengecekkan kamar salah" }'
+            message = message + 'Format pengecekkan kamar salah'
         else:
-            return '{ "message": "Format tanggal yang anda masukkan salah" }'
+            message = message + 'Format tanggal yang anda masukkan salah'
+    message = message + '" }]}'
+    return message
 
 # UL adalah penunjuk berapa banyak bulleting di message
 # Function untuk mengetahui jumlah UL yang ada di return message
