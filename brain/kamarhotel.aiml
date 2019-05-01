@@ -21,7 +21,7 @@
     <category>
         <pattern>DELUXE</pattern>
         <template>
-            Kamar Hotel Deluxe dan Deluxe Suite\n
+            Kamar Hotel Deluxe dan Deluxe Suite@^
             Spesifikasi Kamar Hotel Deluxe adalah:
             @?
                 @-1 Kamar untuk 2 Orang.-@
