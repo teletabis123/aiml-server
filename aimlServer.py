@@ -137,12 +137,6 @@ def messageChat(response):
     # Pembuka message yang dikembalikan
     objJson = "{"
     jumlah = jumlahUl(response)
-    if jumlah == -1:
-        jumlah = 0
-    if jumlah != 0:
-        keep = response.split('@?')[0]
-        print(keep)
-        objJson = objJson + '"header" :"' + keep.strip() + '",'
     # Untuk membentuk message yang memberitahukan jumlah ul, dan li dari ul ke-0
     objJson = objJson + '"ul": '+ str(jumlah) + ', "il": [ {"0": 1}'
     # Untuk menaruh di message jumlah list(li) yang ada di tiap bulleting(ul) yang ada
@@ -175,6 +169,9 @@ def messageChat(response):
     elif jumlah != 1: # untuk menyimpan message awal sebelum masuk ke bulleting
         end = response.find("@^") # untuk menyimpan index terakhir dari message
         objJson = objJson + response[0:end]
+    #else:
+     #   end = response.find("@-")
+      #  objJson = objJson + response[0:end]
     # untuk menutup message awal
     if il == 0: # tutup message tidak ada ul, berarti tutup message
         objJson = objJson + '"}]'
@@ -186,6 +183,8 @@ def messageChat(response):
         end = len(response) # penanda penutup ul
         objJson = objJson + ', {"'+str(i)+'": [ {"0": "' # untuk membuka message untuk ul ke i
         #message '0' judul ul
+        if(jumlah == 1):
+            begin = 0
         end = response.find("@?",begin, end)-1 # index pembuka message di start ul
         objJson = objJson + response[begin:end] + '"}' # menyimpan message awal ul
         # menyimpan message di tiap li
