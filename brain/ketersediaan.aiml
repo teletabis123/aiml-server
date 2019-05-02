@@ -14,15 +14,23 @@
             @@<star index="1"/> <star index="2"/>
         </template>
     </category>
+    
+    <category>
+        <pattern>CEK KAMAR * TANGGAL *</pattern>
+        <template>
+            @@<star index="1"/> <star index="2"/>
+        </template>
+    </category>
 
     <category>
         <pattern>CEK KETERSEDIAAN KAMAR</pattern>
         <template>
-            Cek ketersediaan kamar dengan kata kunci 'pengecekan' atau 'ketersediaan'. Struktur penulisan tanggal: DD-MM-YYYY
+            Cek ketersediaan kamar dengan kata kunci 'cek kamar' dan 'pada tanggal'. Struktur penulisan tanggal: DD-MM-YYYY
             @?
                 @-Kamar Deluxe Room : Deluxe-@
                 @-Kamar Club Premiere : Club Premiere-@
                 @-Kamar Deluxe Suite : Deluxe Suite-@
+                @-Contoh: cek kamar deluxe pada tanggal 02-05-2019-@
             ?@
         </template>
     </category>
