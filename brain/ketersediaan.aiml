@@ -9,7 +9,7 @@
     </category>
 
     <category>
-        <pattern>CEK KAMAR * PADA TANGGAL *</pattern>
+        <pattern>CEK KAMAR * TANGGAL *</pattern>
         <template>
             @@<star index="1"/> <star index="2"/>
         </template>
