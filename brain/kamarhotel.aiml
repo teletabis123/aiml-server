@@ -127,10 +127,14 @@
     <category>
         <pattern>INFO LAIN</pattern>
         <template>
-            Informasi lain mengenai kamar yang dipesan.
+            Informasi lain mengenai kamar yang dapat dipesan.@^
             @?
-                @-Arah view kamar sesuai dengan ketersediaan kamar saat kamar akan ditempati.-@
-                @-Connecting Room dapat di-request sesuai ketersediaan.-@
+                @-1. Dekat Lift-@
+                @-2. Smoking / Non-Smoking-@
+                @-3. Menghadap Matahari-@
+                @-4. Pool View / Resident View / Sudirman View-@
+                @-5. Connecting Room-@
+                @-Permintaan kamar sesuai dengan ketersediaan kamar saat kamar akan ditempati.-@
             ?@
         </template>
     </category>

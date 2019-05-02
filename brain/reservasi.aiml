@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>RESERVASI</pattern>
+        <template>
+            Informasi Mengenai Reservasi@^
+            Reservasi dapat dilakukan melalui:
+            @?
+                @-1. Email-@
+                @-2. Phone-@
+                @-3. WA-@
+                @-4. Santika.com-@
+                @-5. mySantika-@
+                @-Nama, Email, No.HP, dan Guarantee (nomor CC atau transfer bank harga 1 malam) dibutuhkan saat kedatangan. Resepsionis akan meminta KTP untuk difotokopi-@
+            ?@
+            Bekerja Sama dengan:
+            @?
+                @-1. Agoda-@
+                @-2. Traveloka-@
+                @-3. Expedia-@
+                @-4. Tiket.com-@
+                @-5. Pegipegi-@
+                @-Syarat dan ketentuan dapat dilihat pada booking details masing-masing.-@
+            ?@
+        </template>
+    </category>
+
+    <category>
+        <pattern>PEMBAYARAN</pattern>
+        <template>
+            Informasi Mengenai Pembayaran@^
+            Jika Customer memiliki myValue ID (SIP Santika Important Person):
+            @?
+                @-1. Payment dapat dilakukan menggunakan poin myValue-@
+                @-2. Bisa mendapatkan potongan biaya sebesar Rp 50.000,--@
+            ?@
+            Upsale dan Upgrade:
+            @?
+                @-1. Pada Upsale terdapat penambahan biaya kamar.-@
+                @-2. Upgrade dapat dilakukan bila kondisi kamar tidak memungkinkan, seperti banjir atau kamar bocor.-@
+                @-3. Pada upgrade, kamar dan harga akan tetap sama-@
+                @-4. Saat melakukan upsale dan upgrade tetap harus melihat availability kamar hotel.-@
+            ?@
+        </template>
+    </category>
+</aiml>

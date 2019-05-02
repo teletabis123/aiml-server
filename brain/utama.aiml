@@ -20,6 +20,8 @@
                 @-Tentang Santika Premiere Slipi-@
                 @-Kamar Hotel-@
                 @-Cek Ketersediaan Kamar-@
+                @-Mengenai Reservasi-@
+                @-Mengenai Pembayaran-@
                 @-Acara Pernikahan-@
                 @-Ruangan Rapat-@
                 @-Transportasi-@
@@ -37,7 +39,7 @@
     </category>
 
     <category>
-        <pattern>TENTANG SANTIKA PREMIERE SLIPI</pattern>
+        <pattern>_ SANTIKA PREMIERE SLIPI</pattern>
         <template>
             <srai>SANTIKA PREMIERE SLIPI</srai>
         </template>
@@ -285,6 +287,132 @@
         <pattern>KAMAR HOTELNYA _</pattern>
         <template>
             <srai>KAMAR HOTEL</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESERVASI _</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ RESERVASI</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ RESERVASI _</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PEMESANAN _</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PEMESANAN</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PEMESANAN _</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN _</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PESAN</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PESAN _</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESANAN _</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PESANAN</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PESANAN _</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PEMBAYARAN _</pattern>
+        <template>
+            <srai>PEMBAYARAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PEMBAYARAN</pattern>
+        <template>
+            <srai>PEMBAYARAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PEMBAYARAN _</pattern>
+        <template>
+            <srai>PEMBAYARAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BAYAR _</pattern>
+        <template>
+            <srai>PEMBAYARAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ BAYAR</pattern>
+        <template>
+            <srai>PEMBAYARAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ BAYAR _</pattern>
+        <template>
+            <srai>PEMBAYARAN</srai>    
         </template>
     </category>
 
@@ -705,7 +833,28 @@
     </category>
 
     <category>
+        <pattern>SANTIKA PREMIERE</pattern>
+        <template>
+            <srai>SANTIKA PREMIERE SLIPI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SANTIKA PREMIERE</pattern>
+        <template>
+            <srai>SANTIKA PREMIERE SLIPI</srai>
+        </template>
+    </category>
+
+    <category>
         <pattern>SANTIKA PREMIERE SLIPI _</pattern>
+        <template>
+            <srai>SANTIKA PREMIERE SLIPI</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ SANTIKA PREMIERE SLIPI _</pattern>
         <template>
             <srai>SANTIKA PREMIERE SLIPI</srai>
         </template>
