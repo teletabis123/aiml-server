@@ -14,13 +14,6 @@
             @@<star index="1"/> <star index="2"/>
         </template>
     </category>
-    
-    <category>
-        <pattern>CEK KAMAR * TANGGAL *</pattern>
-        <template>
-            @@<star index="1"/> <star index="2"/>
-        </template>
-    </category>
 
     <category>
         <pattern>CEK KETERSEDIAAN KAMAR</pattern>
