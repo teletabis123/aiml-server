@@ -127,7 +127,7 @@
     <category>
         <pattern>INFO LAIN</pattern>
         <template>
-            Informasi lain mengenai kamar yang dapat dipesan.@^
+            Informasi lain mengenai kamar yang dapat dipesan.
             @?
                 @-1. Dekat Lift-@
                 @-2. Smoking / Non-Smoking-@
