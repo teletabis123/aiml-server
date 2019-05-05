@@ -4,13 +4,14 @@
     <category>
         <pattern>FASILITAS LAIN</pattern>
         <template>
-            @?
-            @-Kolam Renang-@
-            @-Kids Zone-@
-            @-Health Club-@
-            @-Tempat Parkir-@
-            @-Check in / Check Out-@
-            ?@
+            Fasilitas lain yang ada:
+            [ul]
+                [li]Kolam Renang[/li]
+                [li]Kids Zone[/li]
+                [li]Health Club[/li]
+                [li]Tempat Parkir[/li]
+                [li]Check in / Check Out[/li]
+            [/ul]
         </template>
    </category>
 
@@ -18,10 +19,10 @@
         <pattern>KOLAM RENANG</pattern>
         <template>
             Informasi mengenai Kolam Renang:
-            @?
-                @-Buka jam 6 pagi sampai dengan 8 malam.-@
-                @-Ada area untuk anak-anak dan dewasa yang dipartisi.-@
-            ?@
+            [ul]
+                [li]Buka jam 6 pagi sampai dengan 8 malam.[/li]
+                [li]Ada area untuk anak-anak dan dewasa yang dipartisi.[/li]
+            [/ul]
         </template>
     </category>
 
@@ -29,10 +30,10 @@
         <pattern>KIDS ZONE</pattern>
         <template>
             Informasi mengenai Kids Zone:
-            @?
-                @-Adalah area bermain anak-anak.-@
-                @-Berada di sebelah kiri dari pool.-@
-            ?@
+            [ul]
+                [li]Adalah area bermain anak-anak.[/li]
+                [li]Berada di sebelah kiri dari pool.[/li]
+            [/ul]
         </template>
     </category>
 
@@ -40,12 +41,12 @@
         <pattern>HEALTH CLUB</pattern>
         <template>
             Informasi mengenai Health Club:
-            @?
-                @-Fasilitas: Fitness Center, Sauna, dan Massage.-@
-                @-Buka jam 6 pagi sampai 10 malam.-@
-                @-Massage dapat dilakukan langsung di kamar ataupun langsung di tempat.-@
-                @-Massage tidak terbatas hanya untuk yang menginap.-@
-            ?@
+            [ul]
+                [li]Fasilitas: Fitness Center, Sauna, dan Massage.[/li]
+                [li]Buka jam 6 pagi sampai 10 malam.[/li]
+                [li]Massage dapat dilakukan langsung di kamar ataupun langsung di tempat.[/li]
+                [li]Massage tidak terbatas hanya untuk yang menginap.[/li]
+            [/ul]
         </template>
     </category>
 
@@ -53,32 +54,32 @@
         <pattern>TEMPAT PARKIR</pattern>
         <template>
             Informasi mengenai Tempat Parkir:
-            @?
-                @-Dua lantai basement-@
-                @-Parkir Gratis-@
-            ?@
+            [ul]
+                [li]Dua lantai basement[/li]
+                [li]Parkir Gratis[/li]
+            [/ul]
         </template>
     </category>
 
     <category>
         <pattern>CHECK IN DAN CHECK OUT</pattern>
         <template>
-            Informasi mengenai Check in / Check Out:@^
+            Informasi mengenai Check in / Check Out:[enter]
             Informasi Umum:
-            @?
-                @-Jam Check In jam 2 siang dan Check Out jam 12 siang. Diberikan toleransi 1/2 jam.-@
-                @-Untuk Check Out akan ditelpon jam 10 untuk diingatkan.-@
-            ?@
+            [ul]
+                [li]Jam Check In jam 2 siang dan Check Out jam 12 siang. Diberikan toleransi 1/2 jam.[/li]
+                [li]Untuk Check Out akan ditelpon jam 10 untuk diingatkan.[/li]
+            [/ul]
             Early Check In
-            @?
-                @-Sampai sebelum jam 8 pagi, ditambah 50% dari biaya kamar.-@
-                @-Dari jam 9 pagi sampai dengan jam Check Out Normal, ditambah 25% dari biaya kamar.-@
-            ?@
+            [ul]
+                [li]Sampai sebelum jam 8 pagi, ditambah 50% dari biaya kamar.[/li]
+                [li]Dari jam 9 pagi sampai dengan jam Check Out Normal, ditambah 25% dari biaya kamar.[/li]
+            [/ul]
             Late Check Out
-            @?
-                @-Dari jam Check Out Normal sampai jam 6 sore, ditambah 50% dari biaya kamar.-@
-                @-Jam Check Out setelah jam 6 sore, ditambah 100% dari biaya kamar.-@
-            ?@
+            [ul]
+                [li]Dari jam Check Out Normal sampai jam 6 sore, ditambah 50% dari biaya kamar.[/li]
+                [li]Jam Check Out setelah jam 6 sore, ditambah 100% dari biaya kamar.[/li]
+            [/ul]
         </template>
     </category>
 

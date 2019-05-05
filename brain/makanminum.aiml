@@ -5,10 +5,10 @@
         <pattern>MAKANAN DAN MINUMAN</pattern>
         <template>
             Hotel Santika Premiere menyediakan 2 Restaurant
-            @?
-                @-Harmoni Buffet-@
-                @-Yan Palace-@
-            ?@
+            [ul]
+                [li]Harmoni Buffet[/li]
+                [li]Yan Palace[/li]
+            [/ul]
         </template>
     </category>
 
@@ -16,9 +16,9 @@
         <pattern>HARMONI BUFFET</pattern>
         <template>
             Spesifikasi Restauran Harmoni BUffet adalah:
-            @?
-                @-Di Harmony disediakan buffet untuk makanan tradisional, western, dan eastern.-@
-            ?@
+            [ul]
+                [li]Di Harmony disediakan buffet untuk makanan tradisional, western, dan eastern.[/li]
+            [/ul]
         </template>
     </category>
 
@@ -26,10 +26,10 @@
         <pattern>YAN PALACE</pattern>
         <template>
             Spesifikasi Restauran Yan Palace adalah:
-            @?
-                @-Untuk Yan Palace dikhususkan untuk reservasi yang dapat langsung dilakukan saat datang ke restoran.-@
-                @-Dibuka jam 12-2 siang untuk makan siang, dan jam 6 sore - 9 malam untuk makan malam.-@
-            ?@
+            [ul]
+                [li]Untuk Yan Palace dikhususkan untuk reservasi yang dapat langsung dilakukan saat datang ke restoran.[/li]
+                [li]Dibuka jam 12-2 siang untuk makan siang, dan jam 6 sore - 9 malam untuk makan malam.[/li]
+            [/ul]
         </template>
     </category>
 

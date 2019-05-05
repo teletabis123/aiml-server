@@ -5,10 +5,10 @@
         <pattern>KENDARAAN</pattern>
         <template>
             Kendaraan disediakan untuk transportasi antar bandara dan hotel. Untuk reservasi dapat dilakukan sehari sebelum, dan dapat dilakukan melalui telefon dan front office hotel. Berikut daftar kendaraan yang tersedia
-            @?
-                @-Innova, Avanza  : Rp. 330.000,00-@
-                @-Hyundai h1      : Rp. 450.000,00-@
-            ?@
+            [ul]
+                [li]Innova, Avanza  : Rp. 330.000,00[/li]
+                [li]Hyundai h1      : Rp. 450.000,00[/li]
+            [/ul]
         </template>
     </category>
     

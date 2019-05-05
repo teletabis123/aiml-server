@@ -15,16 +15,16 @@
             <!-- <think><set name="topic">main</set></think> -->
             <!-- Halo, Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang: -->
             Halo,  Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang: 
-            @?
-                @-Tentang Santika Premiere Slipi-@
-                @-Kamar Hotel-@
-                @-Cek Ketersediaan Kamar-@
-                @-Acara Pernikahan-@
-                @-Ruangan Rapat-@
-                @-Transportasi-@
-                @-Restoran-@
-                @-Fasilitas Lain.-@
-            ?@
+            [ul]
+                [li]Tentang Santika Premiere Slipi[/li]
+                [li]Kamar Hotel[/li]
+                [li]Cek Ketersediaan Kamar[/li]
+                [li]Acara Pernikahan[/li]
+                [li]Ruangan Rapat[/li]
+                [li]Transportasi[/li]
+                [li]Restoran[/li]
+                [li]Fasilitas Lain.[/li]
+            [/ul]
         </template>
     </category>
 
@@ -763,12 +763,12 @@
         <pattern>TELETABIS</pattern>
         <template>
             Made By:
-            @?
-                @-Aldric Leonardo-@
-                @-Vionie Laorensa-@
-                @-Matthew Evans Audric Rengkung-@
-                @-James Christian Wira-@
-            ?@
+            [ul]
+                [li]Aldric Leonardo[/li]
+                [li]Vionie Laorensa[/li]
+                [li]Matthew Evans Audric Rengkung[/li]
+                [li]James Christian Wira[/li]
+            [/ul]
         </template>
     </category>
 

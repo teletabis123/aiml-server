@@ -11,7 +11,7 @@
     <category>
         <pattern>CEK KAMAR * TANGGAL *</pattern>
         <template>
-            @@<star index="1"/> <star index="2"/>
+            [request]<star index="1"/> <star index="2"/>
         </template>
     </category>
 
@@ -19,12 +19,12 @@
         <pattern>CEK KETERSEDIAAN KAMAR</pattern>
         <template>
             Cek ketersediaan kamar dengan kata kunci 'cek kamar' dan 'pada tanggal'. Struktur penulisan tanggal: DD-MM-YYYY
-            @?
-                @-Kamar Deluxe Room : Deluxe-@
-                @-Kamar Club Premiere : Club Premiere-@
-                @-Kamar Deluxe Suite : Deluxe Suite-@
-                @-Contoh: cek kamar deluxe pada tanggal 02-05-2019-@
-            ?@
+            [ul]
+                [li]Kamar Deluxe Room : Deluxe[/li]
+                [li]Kamar Club Premiere : Club Premiere[/li]
+                [li]Kamar Deluxe Suite : Deluxe Suite[/li]
+                [footer]Contoh: cek kamar deluxe tanggal 02-05-2019[/footer]
+            [/ul]
         </template>
     </category>
     

@@ -5,11 +5,11 @@
         <pattern>ACARA PERNIKAHAN</pattern>
         <template>
             Ada 3 jenis Event yang dapat dilakukan
-            @?
-                @-Classic-@
-                @-Romantic-@
-                @-Royal-@
-            ?@
+            [ul]
+                [li]Classic[/li]
+                [li]Romantic[/li]
+                [li]Royal[/li]
+            [/ul]
         </template>
     </category>
 
@@ -17,16 +17,16 @@
         <pattern>CLASSIC</pattern>
         <template>
             Informasi mengenai Event Pernikahan Classic:
-            @?
-                @-Harga: Rp. 85.000.000,- nett-@
-                @-12 menu buffet untuk 200 orang.-@
-                @-Food Testing untuk 8 orang.-@
-                @-Family Buffet untuk 10 orang.-@
-                @-Kios makanan 2 jam untuk 75 porsi.-@
-                @-French pastries untuk 2 meja VIP.-@
-                @-Penginapan 1 malam di 2 kamar Deluxe.-@
-                @-Free Parking area-@
-            ?@
+            [ul]
+                [li]Harga: Rp. 85.000.000,- nett[/li]
+                [li]12 menu buffet untuk 200 orang.[/li]
+                [li]Food Testing untuk 8 orang.[/li]
+                [li]Family Buffet untuk 10 orang.[/li]
+                [li]Kios makanan 2 jam untuk 75 porsi.[/li]
+                [li]French pastries untuk 2 meja VIP.[/li]
+                [li]Penginapan 1 malam di 2 kamar Deluxe.[/li]
+                [li]Free Parking area[/li]
+            [/ul]
         </template>
     </category>
 
@@ -34,22 +34,22 @@
         <pattern>ROMANTIC</pattern>
         <template>
             Informasi mengenai Event Pernikahan Romantic:
-            @?
-                @-Harga: Rp. 105.000.000,- nett-@   
-                @-12 menu buffet untuk 300 orang.-@
-                @-Food Testing untuk 8 orang.-@
-                @-Family Buffet untuk 20 orang.-@
-                @-Kios makanan 2 jam untuk 100 porsi.-@
-                @-French pastries untuk 3 meja VIP.-@
-                @-Minuman ringan untuk 300 orang di 2 jam pertama.-@
-                @-2 botol sparkling grape juice.-@
-                @-Blessing room untuk akad nikah.-@
-                @-Free Parking area-@
-                @-Penginapan 2 malam di 2 kamar Deluxe dengan keranjang buah dan aransemen bunga untuk pasangan.-@
-                @-Penginapan 1 malam di 2 kamar Deluxe.-@
-                @-Voucher Buffet makan malam untuk pasangan yang menikah.-@
-                @-Penginapan bulan madu 2 malam di hotel di Santika Indonesia Hotel and Resort.-@
-            ?@
+            [ul]
+                [li]Harga: Rp. 105.000.000,- nett[/li]   
+                [li]12 menu buffet untuk 300 orang.[/li]
+                [li]Food Testing untuk 8 orang.[/li]
+                [li]Family Buffet untuk 20 orang.[/li]
+                [li]Kios makanan 2 jam untuk 100 porsi.[/li]
+                [li]French pastries untuk 3 meja VIP.[/li]
+                [li]Minuman ringan untuk 300 orang di 2 jam pertama.[/li]
+                [li]2 botol sparkling grape juice.[/li]
+                [li]Blessing room untuk akad nikah.[/li]
+                [li]Free Parking area[/li]
+                [li]Penginapan 2 malam di 2 kamar Deluxe dengan keranjang buah dan aransemen bunga untuk pasangan.[/li]
+                [li]Penginapan 1 malam di 2 kamar Deluxe.[/li]
+                [li]Voucher Buffet makan malam untuk pasangan yang menikah.[/li]
+                [li]Penginapan bulan madu 2 malam di hotel di Santika Indonesia Hotel and Resort.[/li]
+            [/ul]
         </template>
     </category>
 
@@ -57,23 +57,23 @@
         <pattern>ROYAL</pattern>
         <template>
             Informasi mengenai Event Pernikahan Royal:
-            @?
-                @-Harga: Rp. 135.000.000,- nett-@
-                @-12 menu buffet untuk 400 orang.-@
-                @-Food Testing untuk 8 orang.-@
-                @-Family Buffet untuk 20 orang.-@
-                @-Kios makanan 4 jam untuk 100 porsi.-@
-                @-French pastries untuk 5 meja VIP.-@
-                @-Minuman ringan untuk 400 orang di 2 jam pertama.-@
-                @-2 botol sparkling grape juice.-@
-                @-Blessing room untuk akad nikah.-@
-                @-Free Parking area-@
-                @-Penginapan 1 malam di kamar Executive Suite dengan keranjang buah dan aransemen bunga untuk pasangan.-@
-                @-Penginapan 2 malam di 2 kamar Deluxe dengan keranjang buah dan aransemen bunga untuk pasangan.-@
-                @-Penginapan 1 malam di 2 kamar Deluxe.-@
-                @-Voucher Buffet makan malam untuk pasangan yang menikah.-@
-                @-Penginapan bulan madu 2 malam di hotel di Santika Indonesia Hotel and Resort.-@
-            ?@
+            [ul]
+                [li]Harga: Rp. 135.000.000,- nett[/li]
+                [li]12 menu buffet untuk 400 orang.[/li]
+                [li]Food Testing untuk 8 orang.[/li]
+                [li]Family Buffet untuk 20 orang.[/li]
+                [li]Kios makanan 4 jam untuk 100 porsi.[/li]
+                [li]French pastries untuk 5 meja VIP.[/li]
+                [li]Minuman ringan untuk 400 orang di 2 jam pertama.[/li]
+                [li]2 botol sparkling grape juice.[/li]
+                [li]Blessing room untuk akad nikah.[/li]
+                [li]Free Parking area[/li]
+                [li]Penginapan 1 malam di kamar Executive Suite dengan keranjang buah dan aransemen bunga untuk pasangan.[/li]
+                [li]Penginapan 2 malam di 2 kamar Deluxe dengan keranjang buah dan aransemen bunga untuk pasangan.[/li]
+                [li]Penginapan 1 malam di 2 kamar Deluxe.[/li]
+                [li]Voucher Buffet makan malam untuk pasangan yang menikah.[/li]
+                [li]Penginapan bulan madu 2 malam di hotel di Santika Indonesia Hotel and Resort.[/li]
+            [/ul]
         </template>
     </category>
 
