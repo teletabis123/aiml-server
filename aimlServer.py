@@ -6,6 +6,7 @@ from flask import Flask
 from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 
+
 # Set up AIML Kernel dari library aiml
 kernel = aiml.Kernel()
 kernel.bootstrap(learnFiles = "std-startup.xml", commands = "load aiml b")
@@ -21,7 +22,7 @@ tahun = ""
 # Bernilai True bila mencari availability kamar hotel.
 # Bernilai False bila merupakan chat biasa.
 def cekQuery(response):
-    if response[:2] == "@@":
+    if response.find("[request]",0,len(response)) != -1:
         return True
     else:
         return False
@@ -65,7 +66,7 @@ def cekPenanggalan(sedia):
             tahun = sedia[indexTahunAwal:]
         else:
             tahun = sedia[indexTahunAwal:indexTahunAkhir]
-        if(not(tanggal.isnumeric() and bulan.isnumeric() and tahun.isnumeric()) or not(len(tanggal)==2 and len(bulan)==2 and len(tahun)==4)):
+        if(not(tanggal.isdigit() and bulan.isdigit() and tahun.isdigit()) or not(len(tanggal)==2 and len(bulan)==2 and len(tahun)==4)):
             return False
         maxHari = getMaxHari(bulan)
         if int(tanggal) < 1 or int(tanggal) > maxHari or int(bulan) < 1 or int(bulan) > 12:
@@ -81,7 +82,7 @@ def getRequestContent(date, room_type):
 # menentukan kamar yang diminta dan tanggal dari yang penanggalan yang benar
 # request ke API dan mengembalikan message availability
 def messageAvailability(sedia):
-    message = '{"ul": 0, "il": [ {"0": 1} ], "message": [ {"0": "'
+    message = '{"ul": 0, "li": [ {"0": 1} ], "message": [ {"0": "'
     jenis = 0
     if "deluxe suite" in sedia:
         kamar = "Deluxe Suite"
@@ -131,7 +132,7 @@ def messageAvailability(sedia):
 # UL adalah penunjuk berapa banyak bulleting di message
 # Function untuk mengetahui jumlah UL yang ada di return message
 def jumlahUl(response):
-    return response.count("@?")
+    return response.count("[ul]")
 
 # Function untuk mengembalikan message chat selain availability kamar hotel
 # akan memisah-misahkan bagian-bagian dari response
@@ -141,28 +142,47 @@ def messageChat(response):
     objJson = "{"
     jumlah = jumlahUl(response)
     # Untuk membentuk message yang memberitahukan jumlah ul, dan li dari ul ke-0
-    objJson = objJson + '"ul": '+ str(jumlah) + ', "il": [ {"0": 1}'
+    objJson = objJson + '"ul": '+ str(jumlah) + ', "li": [ {"0": 1}'
     # Untuk menaruh di message jumlah list(li) yang ada di tiap bulleting(ul) yang ada
     jumlahLi = [] # untuk menyimpan list yang ada
+    jumlahFooter = [] # untuk menyimpan list yang ada
     indexLi = [[]for i in range(jumlah)] # untuk menyimpan index awal dari tiap list di response, Array 2D untuk tiap ul
+    indexFooter = []; # untuk menyimpan index awal footer bila ada
     beginUl = 0 # untuk menyimpan index pertama dari ul
     endUl = len(response) # untuk menyimpan index terakhir dari message, index terakhir
-    il = 0
+    li = 0
     # untuk mencari li dan indexnya
-    for i in range(1,jumlah+1): # sejumlah ul yang ada di response
-        beginUl = response.find("@?",beginUl, endUl) # beginUl diawali dari @? untuk tiap ul
-        end = response.find("?@",beginUl, endUl) # end untuk index terakhir di ul yang terkait (1 ul dengan ^)
+    for i in range(1,jumlah+1): # sejumlah ul yang ada di response, untuk li
+        beginUl = response.find("[ul]",beginUl, endUl) # beginUl diawali dari @? untuk tiap ul
+        end = response.find("[/ul]",beginUl, endUl) # end untuk index terakhir di ul yang terkait (1 ul dengan ^)
         begin = beginUl+1 # begin untuk menyimpan index pertama untuk pencarian li, sebagai temp
-        il = 0 # jumlah li yang ada diinisialisasi dengan nilai 0
-        while response.find("@-",begin, endUl) < end-2 and response.find("@-",begin, endUl) != -1: # mencari li sampai dengan li ada di sebelum penutup ul
+        li = 0 # jumlah li yang ada diinisialisasi dengan nilai 0
+        while response.find("[li]",begin, endUl) < end-2 and response.find("[li]",begin, endUl) != -1: # mencari li sampai dengan li ada di sebelum penutup ul
             # untuk tiap li ada di ul bersangkutan
-            indexLi[i-1].append(response.find("@-",begin, endUl)+2) # menambah index awal dari tiap li
-            il = il + 1 # jumlah li ditambah sesuai li yang ada
-            begin = response.find("-@",begin, endUl) + 3 # mengubah index temp untuk mencari li selanjutnya
+            indexLi[i-1].append(response.find("[li]",begin, endUl)+4) # menambah index awal dari tiap li
+            li = li + 1 # jumlah li ditambah sesuai li yang ada
+            begin = response.find("[/li]",begin, endUl) + 3 # mengubah index temp untuk mencari li selanjutnya
         # menyimpan jumlah li yang ada di tiap ul
-        objJson = objJson + ', {"'+str(i)+'": '+str(il) + "}"
-        jumlahLi.append(il)
-        beginUl = end + 2 # mengubah beginUl menjadi index ul selanjutnya bila ada
+        objJson = objJson + ', {"'+str(i)+'": '+str(li) + "}"
+        jumlahLi.append(li)
+        beginUl = end + 4 # mengubah beginUl menjadi index ul selanjutnya bila ada
+    beginUl = 0 # untuk menyimpan index pertama dari ul
+    endUl = len(response) # untuk menyimpan index terakhir dari message, index terakhir
+    objJson = objJson + '], "footer": [{ "0": 0 }'
+    for i in range(1,jumlah+1): # sejumlah ul yang ada di response, untuk footer
+        beginUl = response.find("[ul]",beginUl, endUl) # beginUl diawali dari @? untuk tiap ul
+        end = response.find("[/ul]",beginUl, endUl) # end untuk index terakhir di ul yang terkait (1 ul dengan ^)
+        objJson = objJson + ', {"'+str(i)+'": ' # pembuka footer per ul
+        if response.find("[footer]", beginUl, end) != -1: # ada footer
+            jumlahFooter.append(1)
+            indexFooter.append(response.find("[footer]", beginUl, end) + 8)
+            objJson = objJson + '1'
+        else: # tidak ada footer
+            jumlahFooter.append(0)
+            indexFooter.append(0)
+            objJson = objJson + '0'
+        objJson = objJson + "}" # penutup footer per ul
+        beginUl = end
     # menyimpan message dari response
     end = len(response) # temp untuk menyimpan akhir range dari message yang akan disimpan
     objJson = objJson + ' ], "message": [ {"0": "' # penutup ul li dan pembuka message yang akan disimpan
@@ -170,16 +190,10 @@ def messageChat(response):
     if jumlah == 0: # untuk menyimpan message bila tidak ada bulleting
         objJson = objJson + response # langsung menyimpan semua response yang ada
     elif jumlah != 1: # untuk menyimpan message awal sebelum masuk ke bulleting
-        end = response.find("@^") # untuk menyimpan index terakhir dari message
+        end = response.find("[enter]") # untuk menyimpan index terakhir dari message
         objJson = objJson + response[0:end]
-    #else:
-     #   end = response.find("@-")
-      #  objJson = objJson + response[0:end]
     # untuk menutup message awal
-    if il == 0: # tutup message tidak ada ul, berarti tutup message
-        objJson = objJson + '"}]'
-    else: # message belum ditutup, masih ada message dari li
-        objJson = objJson + '"}'
+    objJson = objJson + '"}'
     begin = end+3 # temp untuk menyimpan awal ul
     #masukkan ke message
     for i in range(1, jumlah+1): # untuk tiap ul yang ada
@@ -188,18 +202,34 @@ def messageChat(response):
         #message '0' judul ul
         if(jumlah == 1):
             begin = 0
-        end = response.find("@?",begin, end)-1 # index pembuka message di start ul
+        end = response.find("[ul]",begin, end)-1 # index pembuka message di start ul
         objJson = objJson + response[begin:end] + '"}' # menyimpan message awal ul
         # menyimpan message di tiap li
         for j in range(1, jumlahLi[i-1] + 1): # sebanyak li yang ada
             begin = indexLi[i-1][j-1] # index awal berdasarkan yang telah disimpan
-            end = response.find("-@",begin,len(response)) # -@ penanda li berhenti
+            end = response.find("[/li]",begin,len(response)) # -@ penanda li berhenti
             objJson = objJson + ', {"'+str(j)+'": "' + response[begin:end] + '"} ' # menyimpan message tiap li
-        begin = response.find("?@",begin, len(response)) + 3 # diperbarui untuk ul selanjutnya bila ada
+        begin = response.find("[/ul]",begin, len(response)) + 6 # diperbarui untuk ul selanjutnya bila ada
         objJson = objJson + ']}' # penutup li di ul
-    
+    # menyimpan message footer dari response
+    end = len(response) # temp untuk menyimpan akhir range dari message yang akan disimpan
+    objJson = objJson + ' ], "m_footer": [ {"0": "' # penutup ul li dan pembuka message yang akan disimpan
+    # untuk menutup message awal
+    if jumlah == 0: # tutup message tidak ada ul, berarti tutup message
+        objJson = objJson + '"}]'
+    else: # message belum ditutup, masih ada message dari li
+        objJson = objJson + '"}'
+    begin = response.find("[ul]",0, len(response)) # temp untuk menyimpan awal ul
+    #masukkan ke message ke m_footer
+    for i in range(1, jumlah+1): # untuk tiap ul yang ada
+        begin = indexFooter[i-1] # penanda pembuka ul
+        end =  response.find("[/footer]",begin, len(response)) # penanda penutup ul
+        objJson = objJson + ', {"'+str(i)+'": "'
+        if jumlahFooter[i-1] != 0:
+            objJson = objJson + response[begin:end]
+        objJson = objJson + '"} '
     # menutup message yang akan dikembalikan
-    if il == 0: # tutup message bila tidak ada bulleting
+    if jumlah == 0: # tutup message bila tidak ada bulleting
         objJson = objJson + '}'
     else: # tutup message bila ada bulleting
         objJson = objJson + ']}'
@@ -212,12 +242,12 @@ def index(query):
     # query = input chat
     stopFactory = StopWordRemoverFactory()
     stopword = stopFactory.create_stop_word_remover()
+    query = str(query)
     query = stopword.remove(query)
     
     stemFactory = StemmerFactory()
     stemmer = stemFactory.create_stemmer()
     query = stemmer.stem(query)
-    
     
     # Meminta hasil response dari query berdasarkan AIML
     response = kernel.respond(query)
