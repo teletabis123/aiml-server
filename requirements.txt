@@ -12,3 +12,4 @@ requests==2.21.0
 urllib3==1.24.2
 Werkzeug==0.15.2
 Sastrawi==1.0.1
+datetime==4.3
