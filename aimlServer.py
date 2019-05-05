@@ -2,6 +2,7 @@ import os
 import aiml
 import json
 import requests
+import datetime
 from flask import Flask
 from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
@@ -47,6 +48,8 @@ def cekPenanggalan(sedia):
     global bulan
     global tahun
     
+    dateNow = datetime.datetime.now()
+    
     if(sedia.count("-") != 2):
         return False
     else:
@@ -68,6 +71,12 @@ def cekPenanggalan(sedia):
             tahun = sedia[indexTahunAwal:indexTahunAkhir]
         if(not(tanggal.isdigit() and bulan.isdigit() and tahun.isdigit()) or not(len(tanggal)==2 and len(bulan)==2 and len(tahun)==4)):
             return False
+        if int(tahun) < dateNow.year:
+            return False
+        elif int(bulan) < dateNow.month:
+            return False
+        elif int(tanggal) < dateNow.day:
+            return False
         maxHari = getMaxHari(bulan)
         if int(tanggal) < 1 or int(tanggal) > maxHari or int(bulan) < 1 or int(bulan) > 12:
             return False
@@ -82,7 +91,7 @@ def getRequestContent(date, room_type):
 # menentukan kamar yang diminta dan tanggal dari yang penanggalan yang benar
 # request ke API dan mengembalikan message availability
 def messageAvailability(sedia):
-    message = '{"ul": 0, "li": [ {"0": 1} ], "message": [ {"0": "'
+    message = '{"ul": 0, "li": [ {"0": 1} ], "footer": [ {"0": 0} ], "message": [ {"0": "'
     jenis = 0
     if "deluxe suite" in sedia:
         kamar = "Deluxe Suite"
@@ -126,7 +135,7 @@ def messageAvailability(sedia):
             message = message + 'Format pengecekkan kamar salah'
         else:
             message = message + 'Format tanggal yang anda masukkan salah'
-    message = message + '" }]}'
+    message = message + '" }], "m_footer": [ {"0": ""} ] }'
     return message
 
 # UL adalah penunjuk berapa banyak bulleting di message
