@@ -1,60 +1,121 @@
-<ul> -> @?
-</ul> -> ?@
-<li> -> @-
-</li> -> -@
-\n -> @^
+<ul> -> @? -> [ul]
+</ul> -> ?@ -> [/ul]
+<li> -> @- -> [li]
+</li> -> -@ -> [/li]
+\n -> @^ -> [enter]
+footer -> [footer]
+/footer -> [/footer]
+@@ -> [request]
 
-- How to return json in flask
-
-obj = {
-    "ul": 2,
-    "il": {
-        "0" : 1,
-        "1" : 3,
-        "2" : 5
-    },
-    "message": {
-        "0": "Message bukan ul",
-        "1": {
-            "0": "Message ul 1",
-            "1": "Message ul 1 li 1",
-            "2": "Message ul 1 li 2",
-            "3": "Message ul 1 li 3"
-        },
-        "2": {
-            "0": "Message ul 2",
-            "1": "Message ul 2 li 1",
-            "2": "Message ul 2 li 2",
-            "3": "Message ul 2 li 3",
-            "4": "Message ul 2 li 4",
-            "5": "Message ul 2 li 5"
-        }
-    }
+{
+	"ul": 3,
+	"il": [{
+		"0": 1
+	}, {
+		"1": 2
+	}, {
+		"2": 2
+	}, {
+		"3": 2
+	}],
+    "footer": [{
+		"0": 0
+	}, {
+		"1": 1
+	}, {
+		"2": 1
+	}, {
+		"3": 1
+	}],
+	"message": [{
+		"0": "Informasi mengenai Check in / Check Out:"
+	}, {
+		"1": [{
+			"0": "ter] Informasi Umum:"
+		}, {
+			"1": "Jam Check In jam 2 siang dan Check Out jam 12 siang. Diberikan toleransi 1/2 jam."
+		}, {
+			"2": "Untuk Check Out akan ditelpon jam 10 untuk diingatkan."
+		}]
+	}, {
+		"2": [{
+			"0": "Early Check In"
+		}, {
+			"1": "Sampai sebelum jam 8 pagi, ditambah 50% dari biaya kamar."
+		}, {
+			"2": "Dari jam 9 pagi sampai dengan jam Check Out Normal, ditambah 25% dari biaya kamar."
+		}]
+	}, {
+		"3": [{
+			"0": "Late Check Out"
+		}, {
+			"1": "Dari jam Check Out Normal sampai jam 6 sore, ditambah 50% dari biaya kamar."
+		}, {
+			"2": "Jam Check Out setelah jam 6 sore, ditambah 100% dari biaya kamar."
+		}]
+	}],
+	"m_footer": [{
+		"0": ""
+	}, {
+		"1": "Message footer 1"
+	}, {
+        "2": "Message footer 2"
+    }]
 }
 
-obj = {
-    "ul": 0,
-    "il": {
-        "0" : 1
-    },
-    "message": {
-        "0": "Message bukan ul"
-    }
+{
+	"ul": 1,
+	"il": [{
+		"0": 1
+	}, {
+		"1": 10
+	}],
+	"message": [{
+		"0": ""
+	}, {
+		"1": [{
+			"0": "Halo, Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang:"
+		}, {
+			"1": "Tentang Santika Premiere Slipi"
+		}, {
+			"2": "Kamar Hotel"
+		}, {
+			"3": "Cek Ketersediaan Kamar"
+		}, {
+			"4": "Mengenai Reservasi"
+		}, {
+			"5": "Mengenai Pembayaran"
+		}, {
+			"6": "Acara Pernikahan"
+		}, {
+			"7": "Ruangan Rapat"
+		}, {
+			"8": "Transportasi"
+		}, {
+			"9": "Restoran"
+		}, {
+			"10": "Fasilitas Lain."
+		}]
+	}],
+	"m_footer": [{
+		"0": ""
+	}, {
+		"1": "Message footer"
+	}]
 }
 
-obj = {
-    "ul": 2,
-    "il": {
-        "0" : 1,
-        "1" : 3
-    },
-    "message": {
-        "0": "<blank>",
-        "1": {
-            "0": "Message ul 1",
-            "1": "Message ul 1 li 1",
-            "2": "Message ul 1 li 2",
-            "3": "Message ul 1 li 3"
-        }
-    }
+{
+	"ul": 0,
+	"il": [{
+		"0": 1
+	}],
+    "footer": [{
+		"0": 0
+	}],
+	"message": [{
+		"0": "Maaf, informasi mengenai asdf belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut."
+	}],
+	"m_footer": [{
+		"0": ""
+	}]
 }
