@@ -3,6 +3,8 @@ import aiml
 import json
 import requests
 from flask import Flask
+from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
+from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 
 # Set up AIML Kernel dari library aiml
 kernel = aiml.Kernel()
@@ -208,6 +210,15 @@ def messageChat(response):
 @app.route("/<query>")
 def index(query):
     # query = input chat
+    stopFactory = StopWordRemoverFactory()
+    stopword = stopFactory.create_stop_word_remover()
+    query = stopword.remove(query)
+    
+    stemFactory = StemmerFactory()
+    stemmer = stemFactory.create_stemmer()
+    query = stemmer.stem(query)
+    
+    
     # Meminta hasil response dari query berdasarkan AIML
     response = kernel.respond(query)
     # Menentukan jenis message yang akan dikembalikan
