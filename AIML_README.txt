@@ -119,3 +119,19 @@ footer -> [footer]
 		"0": ""
 	}]
 }
+
+
+
+Ketersediaan:
+- jenis kamar, tanggal check in, berapa malam, berapa kamar
+<sedia = kamar> Kamar * <srai> *
+<di tiap jenis> <condition sedia=kamar> <think set kamar=> <think set sedia=tanggal> <srai> TANGGAL
+<di TANGGAL> <condition sedia=tanggal> <think set tanggal=> <think set sedia=malam> <srai> MALAM
+<di MALAM> <condition sedia=malam> <think set malam=> <think set sedia=banyak> <srai> KAMAR
+<di BANYAK> <condition sedia=banyak> <think set banyak=> <srai> [request]
+
+<condition name = "sedia" value = "kamar">
+                
+            </condition>
+
+[request]kamardeluxetanggal12desember2019malam3malambanyak3kamar
