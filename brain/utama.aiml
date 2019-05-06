@@ -4,8 +4,28 @@
     <category>
         <pattern>*</pattern>
         <template>
-            Maaf, informasi mengenai <star/> belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
-            <!-- <srai>HALO</srai> -->
+            <condition name="sedia">
+                <li value="kamar">
+                    Maaf, informasi mengenai <star/> belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
+                </li>
+                <li value="tanggal">
+                    <think><set name="tangal"><star index="1"/></set></think>
+                    <think><set name="sedia">malam</set></think>
+                    <srai>MALAM</srai>
+                </li>
+                <li value="malam">
+                    <think><set name="malam"><star index="1"/></set></think>
+                    <think><set name="sedia">banyak</set></think>
+                    <srai>BANYAK</srai>
+                </li>
+                <li value="banyak">
+                    <think><set name="banyak"><star index="1"/></set></think>
+                    [request] kamar <get name="kamar"/> tanggal <get name="tangal"/> malam <get name="malam"/> banyak <get name="banyak"/>
+                </li>
+                <li>
+                    Maaf, informasi mengenai <star/> belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
+                </li>
+            </condition>
         </template>
     </category>
 
@@ -13,7 +33,7 @@
     <category>
         <pattern>HALO</pattern>
         <template>
-            <!-- <think><set name="topic">main</set></think> -->
+            <think><set name="sedia">sedia</set></think>
             <!-- Halo, Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang: -->
             Halo,  Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang: 
             [ul]
@@ -241,14 +261,14 @@
         </template>
     </category>
 
-    <category>
+    <!-- <category>
         <pattern>KAMAR</pattern>
         <template>
             <srai>KAMAR HOTEL</srai>    
         </template>
-    </category>
+    </category> -->
 
-    <category>
+    <!-- <category>
         <pattern>_ KAMAR</pattern>
         <template>
             <srai>KAMAR HOTEL</srai>    
@@ -260,7 +280,7 @@
         <template>
             <srai>KAMAR HOTEL</srai>    
         </template>
-    </category>
+    </category> -->
 
     <category>
         <pattern>KAMAR HOTEL _</pattern>
