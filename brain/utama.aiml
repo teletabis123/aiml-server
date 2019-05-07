@@ -21,6 +21,7 @@
                 </li>
                 <li value="banyak">
                     <think><set name="banyak"><star index="1"/></set></think>
+                    <think><set name="sedia">sedia</set></think>
                     [request] kamar <get name="kamar"/> tanggal <get name="tangal"/> malam <get name="malam"/> banyak <get name="banyak"/>
                 </li>
                 <li>
