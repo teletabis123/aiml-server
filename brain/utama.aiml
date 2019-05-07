@@ -305,6 +305,20 @@
     </category>
 
     <category>
+        <pattern>WEDDING</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>WEDDING _</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>RAPAT</pattern>
         <template>
             <srai>RUANG RAPAT</srai>    
@@ -320,6 +334,34 @@
 
     <category>
         <pattern>RUANG RAPAT _</pattern>
+        <template>
+            <srai>RUANG RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RUANG MEETING</pattern>
+        <template>
+            <srai>RUANG RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RUANG MEETING _</pattern>
+        <template>
+            <srai>RUANG RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RUANG MEETINGNYA</pattern>
+        <template>
+            <srai>RUANG RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RUANG MEETINGNYA _</pattern>
         <template>
             <srai>RUANG RAPAT</srai>    
         </template>
@@ -403,65 +445,135 @@
     </category>
 
     <category>
-        <pattern>MAKAN</pattern>
+        <pattern>HOTEL BANDARA</pattern>
         <template>
-            <srai>MAKAN MINUM</srai>    
+            <srai>KENDARA</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOTEL BANDARA _</pattern>
+        <template>
+            <srai>KENDARA</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BANDARA HOTEL</pattern>
+        <template>
+            <srai>KENDARA</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BANDARA HOTEL _</pattern>
+        <template>
+            <srai>KENDARA</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>MAKAN _</pattern>
+        <template>
+            <srai>MAKAN</srai>    
         </template>
     </category>
 
     <category>
         <pattern>MINUM</pattern>
         <template>
-            <srai>MAKAN MINUM</srai>    
+            <srai>MAKAN</srai>    
         </template>
     </category>
 
     <category>
         <pattern>MINUM _</pattern>
         <template>
-            <srai>MAKAN MINUM</srai>    
+            <srai>MAKAN</srai>    
         </template>
     </category>
 
     <category>
         <pattern>RESTAURAN</pattern>
         <template>
-            <srai>MAKAN MINUM</srai>    
+            <srai>MAKAN</srai>    
         </template>
     </category>
         
     <category>
         <pattern>RESTAURAN _</pattern>
         <template>
-            <srai>MAKAN MINUM</srai>    
+            <srai>MAKAN</srai>    
         </template>
     </category>
 
     <category>
         <pattern>RESTAURANT</pattern>
         <template>
-            <srai>MAKAN MINUM</srai>    
+            <srai>MAKAN</srai>    
         </template>
     </category>
 
     <category>
         <pattern>RESTAURANT _</pattern>
         <template>
-            <srai>MAKAN MINUM</srai>    
+            <srai>MAKAN</srai>    
         </template>
     </category>
 
     <category>
         <pattern>RESTORAN</pattern>
         <template>
-            <srai>MAKAN MINUM</srai>    
+            <srai>MAKAN</srai>    
         </template>
     </category>
 
     <category>
         <pattern>RESTORAN _</pattern>
         <template>
-            <srai>MAKAN MINUM</srai>    
+            <srai>MAKAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFO MAKAN</pattern>
+        <template>
+            <srai>MAKAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFO MAKAN _</pattern>
+        <template>
+            <srai>MAKAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>MENU</pattern>
+        <template>
+            <srai>MAKAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>MENU _</pattern>
+        <template>
+            <srai>MAKAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SARAP</pattern>
+        <template>
+            <srai>MAKAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SARAP _</pattern>
+        <template>
+            <srai>MAKAN</srai>    
         </template>
     </category>
 
@@ -511,6 +623,13 @@
         <pattern>THIS IS AN EMPTY QUERY</pattern>
         <template>
             Maaf, input anda tidak dapat diterima.
+        </template>
+    </category>
+
+    <category>
+        <pattern>THE PHONE NUMBER IS *</pattern>
+        <template>
+            Terima kasih, kontak anda telah tersimpan. Mohon tunggu kabar selanjutnya dari kami.
         </template>
     </category>
     

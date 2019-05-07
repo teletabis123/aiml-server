@@ -4,11 +4,23 @@
     <category>
         <pattern>ACARA NIKAH</pattern>
         <template>
-            Ada 3 jenis Event yang dapat dilakukan
+            Ada 3 jenis paket yang ada:
             [ul]
                 [li]Classic[/li]
                 [li]Romantic[/li]
                 [li]Royal[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFO NIKAH</pattern>
+        <template>
+            Informasi tambahan untuk paket pernikahan:
+            [ul]
+                [li]Acara pernikahan bertempat di ballroom.[/li]
+                [li]Kapasitas maksimal adalah 800 orang[/li]
+                [li]Dapat melakukan request ke vendor luar tanpa biaya tambahan. Diperlukan deposit untuk kerusakan.[/li]
             [/ul]
         </template>
     </category>

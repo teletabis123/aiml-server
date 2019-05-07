@@ -290,6 +290,225 @@
     </category>
 
     <category>
+        <pattern>DELUXE CLUB PREMIERE</pattern>
+        <template>
+            Perbedaan Kamar Deluxe dan Kamar Club Premiere. Di kamar Club Premiere juga terdapat:
+            [ul]
+                [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
+                [li]Minibar di kamar dapat digunakan secara gratis.[/li]
+                [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
+                [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]                
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>DELUXE DELUXE SUITE</pattern>
+        <template>
+            Perbedaan Kamar Deluxe dan Kamar Deluxe Suite. Di kamar Deluxe Suite juga terdapat:
+            [ul]
+                [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
+                [li]Minibar di kamar dapat digunakan secara gratis.[/li]
+                [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
+                [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
+                [li]Disediakan Standing Shower dan bathrobe.[/li]
+                [li]Memiliki Living Room[/li]
+                [li]Disediakan setrika dan papan setrika.[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>DELUXE EXECUTIVE SUITE</pattern>
+        <template>
+            Perbedaan Kamar Deluxe dan Kamar Executive Suite. Di kamar Executive Suite juga terdapat:
+            [ul]
+                [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
+                [li]Minibar di kamar dapat digunakan secara gratis.[/li]
+                [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
+                [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
+                [li]Disediakan Standing Shower dan bathrobe.[/li]
+                [li]Memiliki Living Room[/li]
+                [li]Disediakan setrika dan papan setrika.[/li]
+                [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>DELUXE FAMILY SUITE</pattern>
+        <template>
+            Perbedaan Kamar Deluxe dan Kamar Family Suite. Di kamar Family Suite juga terdapat:
+            [ul]
+                [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
+                [li]Minibar di kamar dapat digunakan secara gratis.[/li]
+                [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
+                [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]            
+                [li]Disediakan Standing Shower dan bathrobe.[/li]
+                [li]Memiliki Living Room[/li]
+                [li]Disediakan setrika dan papan setrika.[/li]
+                [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
+                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
+                [li]Disediakan water equil secara gratis.[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>DELUXE SANTIKA SUITE</pattern>
+        <template>
+            Perbedaan Kamar Deluxe dan Kamar Santika Suite. Di kamar Santika Suite juga terdapat:
+            [ul]
+                [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
+                [li]Minibar di kamar dapat digunakan secara gratis.[/li]
+                [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
+                [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
+                [li]Disediakan Standing Shower dan bathrobe.[/li]
+                [li]Memiliki Living Room[/li]
+                [li]Disediakan setrika dan papan setrika.[/li]
+                [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
+                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
+                [li]Disediakan water equil secara gratis.[/li]
+                [li]Hanya ada 1 kamar di Hotel.[/li]
+                [li]1 Kamar terdiri dari 2 lantai.[/li]
+                [li]Lantai Pertama adalah Ruangan Rapat dan Lantai Kedua adalah lantai dengan tiga kamar.[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLUB PREMIERE DELUXE SUITE</pattern>
+        <template>
+            Perbedaan Kamar Club Premiere dan Kamar Deluxe Suite. Di kamar Deluxe Suite juga terdapat:
+            [ul]
+                [li]Disediakan Standing Shower dan bathrobe.[/li]
+                [li]Memiliki Living Room[/li]
+                [li]Disediakan setrika dan papan setrika.[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLUB PREMIERE EXECUTIVE SUITE</pattern>
+        <template>
+            Perbedaan Kamar Club Premiere dan Kamar Executive Suite. Di kamar Executive Suite juga terdapat:
+            [ul]
+                [li]Disediakan Standing Shower dan bathrobe.[/li]
+                [li]Memiliki Living Room[/li]
+                [li]Disediakan setrika dan papan setrika.[/li]
+                [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLUB PREMIERE FAMILY SUITE</pattern>
+        <template>
+            Perbedaan Kamar Club Premiere dan Kamar Family Suite. Di kamar Family Suite juga terdapat:
+            [ul]
+                [li]Disediakan Standing Shower dan bathrobe.[/li]
+                [li]Memiliki Living Room[/li]
+                [li]Disediakan setrika dan papan setrika.[/li]
+                [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
+                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
+                [li]Disediakan water equil secara gratis.[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLUB PREMIERE SANTIKA SUITE</pattern>
+        <template>
+            Perbedaan Kamar Club Premiere dan Kamar Santika Suite. Di kamar Santika Suite juga terdapat:
+            [ul]
+                [li]Disediakan Standing Shower dan bathrobe.[/li]
+                [li]Memiliki Living Room[/li]
+                [li]Disediakan setrika dan papan setrika.[/li]
+                [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
+                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
+                [li]Disediakan water equil secara gratis.[/li]
+                [li]Hanya ada 1 kamar di Hotel.[/li]
+                [li]1 Kamar terdiri dari 2 lantai.[/li]
+                [li]Lantai Pertama adalah Ruangan Rapat dan Lantai Kedua adalah lantai dengan tiga kamar.[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>DELUXE SUITE EXECUTIVE SUITE</pattern>
+        <template>
+            Perbedaan Kamar Deluxe Suite dan Kamar Executive Suite. Di kamar Executive Suite juga terdapat:
+            [ul]
+                [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>DELUXE SUITE FAMILY SUITE</pattern>
+        <template>
+            Perbedaan Kamar Deluxe Suite dan Kamar Family Suite. Di kamar Family Suite juga terdapat:
+            [ul]
+                [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
+                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
+                [li]Disediakan water equil secara gratis.[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>DELUXE SUITE SANTIKA SUITE</pattern>
+        <template>
+            Perbedaan Kamar Deluxe Suite dan Kamar Santika Suite. Di kamar Santika Suite juga terdapat:
+            [ul]
+                [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
+                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
+                [li]Disediakan water equil secara gratis.[/li]
+                [li]Hanya ada 1 kamar di Hotel.[/li]
+                [li]1 Kamar terdiri dari 2 lantai.[/li]
+                [li]Lantai Pertama adalah Ruangan Rapat dan Lantai Kedua adalah lantai dengan tiga kamar.[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>EXECUTIVE SUITE FAMILY SUITE</pattern>
+        <template>
+            Perbedaan Kamar Executive Suite dan Kamar Family Suite. Di kamar Family Suite juga terdapat:
+            [ul]
+                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
+                [li]Disediakan water equil secara gratis.[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>EXECUTIVE SUITE SANTIKA SUITE</pattern>
+        <template>
+            Perbedaan Kamar Executive Suite dan Kamar Santika Suite. Di kamar Santika Suite juga terdapat:
+            [ul]
+                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
+                [li]Disediakan water equil secara gratis.[/li]
+                [li]Hanya ada 1 kamar di Hotel.[/li]
+                [li]1 Kamar terdiri dari 2 lantai.[/li]
+                [li]Lantai Pertama adalah Ruangan Rapat dan Lantai Kedua adalah lantai dengan tiga kamar.[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>FAMILY SUITE SANTIKA SUITE</pattern>
+        <template>
+            Perbedaan Kamar Family Suite dan Kamar Santika Suite. Di kamar Santika Suite juga terdapat:
+            [ul]
+                [li]Hanya ada 1 kamar di Hotel.[/li]
+                [li]1 Kamar terdiri dari 2 lantai.[/li]
+                [li]Lantai Pertama adalah Ruangan Rapat dan Lantai Kedua adalah lantai dengan tiga kamar.[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
         <pattern>CLUB PREMIERE _</pattern>
         <template>
             <srai>CLUB PREMIERE</srai>    
@@ -328,6 +547,561 @@
         <pattern>SANTIKA SUITE _</pattern>
         <template>
             <srai>SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <!--  -->
+
+    <category>
+        <pattern>KAMAR DELUXE KAMAR CLUB PREMIERE</pattern>
+        <template>
+            <srai>DELUXE CLUB PREMIERE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR DELUXE KAMAR CLUB PREMIERE</pattern>
+        <template>
+            <srai>DELUXE CLUB PREMIERE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLUB PREMIERE DELUXE</pattern>
+        <template>
+            <srai>DELUXE CLUB PREMIERE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR CLUB PREMIERE KAMAR DELUXE</pattern>
+        <template>
+            <srai>DELUXE CLUB PREMIERE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR CLUB PREMIERE KAMAR DELUXE</pattern>
+        <template>
+            <srai>DELUXE CLUB PREMIERE</srai>    
+        </template>
+    </category>
+
+    <!-- 2 -->
+
+    <category>
+        <pattern>KAMAR DELUXE KAMAR DELUXE SUITE</pattern>
+        <template>
+            <srai>DELUXE DELUXE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR DELUXE KAMAR DELUXE SUITE</pattern>
+        <template>
+            <srai>DELUXE DELUXE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>DELUXE SUITE DELUXE</pattern>
+        <template>
+            <srai>DELUXE DELUXE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR DELUXE KAMAR SUITE DELUXE</pattern>
+        <template>
+            <srai>DELUXE DELUXE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR DELUXE KAMAR SUITE DELUXE</pattern>
+        <template>
+            <srai>DELUXE DELUXE SUITE</srai>    
+        </template>
+    </category>
+
+    <!--  -->
+
+    <category>
+        <pattern>KAMAR DELUXE KAMAR EXECUTIVE SUITE</pattern>
+        <template>
+            <srai>DELUXE EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>BEDA KAMAR DELUXE KAMAR EXECUTIVE SUITE</pattern>
+        <template>
+            <srai>DELUXE EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>EXECUTIVE SUITE DELUXE</pattern>
+        <template>
+            <srai>DELUXE EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR EXECUTIVE SUITE KAMAR DELUXE</pattern>
+        <template>
+            <srai>DELUXE EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR EXECUTIVE SUITE KAMAR DELUXE</pattern>
+        <template>
+            <srai>DELUXE EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <!--  -->
+
+    <category>
+        <pattern>KAMAR DELUXE KAMAR FAMILY SUITE</pattern>
+        <template>
+            <srai>DELUXE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR DELUXE KAMAR FAMILY SUITE</pattern>
+        <template>
+            <srai>DELUXE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>FAMILY SUITE DELUXE</pattern>
+        <template>
+            <srai>DELUXE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR FAMILY SUITE KAMAR DELUXE</pattern>
+        <template>
+            <srai>DELUXE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR FAMILY SUITE KAMAR DELUXE</pattern>
+        <template>
+            <srai>DELUXE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <!--  -->
+
+    <category>
+        <pattern>KAMAR DELUXE KAMAR SANTIKA SUITE</pattern>
+        <template>
+            <srai>DELUXE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR DELUXE KAMAR SANTIKA SUITE</pattern>
+        <template>
+            <srai>DELUXE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA SUITE DELUXE</pattern>
+        <template>
+            <srai>DELUXE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR SANTIKA SUITE KAMAR DELUXE</pattern>
+        <template>
+            <srai>DELUXE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR SANTIKA SUITE KAMAR DELUXE</pattern>
+        <template>
+            <srai>DELUXE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <!-- 2 -->
+
+    <category>
+        <pattern>KAMAR CLUB PREMIERE KAMAR DELUXE SUITE</pattern>
+        <template>
+            <srai>CLUB PREMIERE DELUXE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR CLUB PREMIERE KAMAR DELUXE SUITE</pattern>
+        <template>
+            <srai>CLUB PREMIERE DELUXE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>DELUXE SUITE CLUB PREMIERE</pattern>
+        <template>
+            <srai>CLUB PREMIERE DELUXE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR DELUXE SUITE KAMAR CLUB PREMIERE</pattern>
+        <template>
+            <srai>CLUB PREMIERE DELUXE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR DELUXE SUITE KAMAR CLUB PREMIERE</pattern>
+        <template>
+            <srai>CLUB PREMIERE DELUXE SUITE</srai>    
+        </template>
+    </category>
+
+    <!-- 3 -->
+
+    <category>
+        <pattern>KAMAR CLUB PREMIERE KAMAR EXECUTIVE SUITE</pattern>
+        <template>
+            <srai>CLUB PREMIERE EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>BEDA KAMAR CLUB PREMIERE KAMAR EXECUTIVE SUITE</pattern>
+        <template>
+            <srai>CLUB PREMIERE EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>EXECUTIVE SUITE CLUB PREMIERE</pattern>
+        <template>
+            <srai>CLUB PREMIERE EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR EXECUTIVE SUITE KAMAR CLUB PREMIERE</pattern>
+        <template>
+            <srai>CLUB PREMIERE EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR EXECUTIVE SUITE KAMAR CLUB PREMIERE</pattern>
+        <template>
+            <srai>CLUB PREMIERE EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <!--  -->
+
+    <category>
+        <pattern>KAMAR CLUB PREMIERE KAMAR FAMILY SUITE</pattern>
+        <template>
+            <srai>CLUB PREMIERE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR CLUB PREMIERE KAMAR FAMILY SUITE</pattern>
+        <template>
+            <srai>CLUB PREMIERE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>FAMILY SUITE CLUB PREMIERE</pattern>
+        <template>
+            <srai>CLUB PREMIERE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR FAMILY SUITE KAMAR CLUB PREMIERE</pattern>
+        <template>
+            <srai>CLUB PREMIERE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR FAMILY SUITE KAMAR CLUB PREMIERE</pattern>
+        <template>
+            <srai>CLUB PREMIERE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <!--  -->
+
+    <category>
+        <pattern>KAMAR CLUB PREMIERE KAMAR SANTIKA SUITE</pattern>
+        <template>
+            <srai>CLUB PREMIERE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR CLUB PREMIERE KAMAR SANTIKA SUITE</pattern>
+        <template>
+            <srai>CLUB PREMIERE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA SUITE CLUB PREMIERE</pattern>
+        <template>
+            <srai>CLUB PREMIERE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR SANTIKA SUITE KAMAR CLUB PREMIERE</pattern>
+        <template>
+            <srai>CLUB PREMIERE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR SANTIKA SUITE KAMAR CLUB PREMIERE</pattern>
+        <template>
+            <srai>CLUB PREMIERE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <!-- 3 -->
+
+    <category>
+        <pattern>KAMAR DELUXE SUITE KAMAR EXECUTIVE SUITE</pattern>
+        <template>
+            <srai>DELUXE SUITE EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>BEDA KAMAR DELUXE SUITE KAMAR EXECUTIVE SUITE</pattern>
+        <template>
+            <srai>DELUXE SUITE EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>EXECUTIVE SUITE DELUXE SUITE</pattern>
+        <template>
+            <srai>DELUXE SUITE EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR EXECUTIVE SUITE KAMAR DELUXE SUITE</pattern>
+        <template>
+            <srai>DELUXE SUITE EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR EXECUTIVE SUITE KAMAR DELUXE SUITE</pattern>
+        <template>
+            <srai>DELUXE SUITE EXECUTIVE SUITE</srai>    
+        </template>
+    </category>
+
+    <!-- 4 -->
+
+    <category>
+        <pattern>KAMAR DELUXE SUITE KAMAR FAMILY SUITE</pattern>
+        <template>
+            <srai>DELUXE SUITE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR DELUXE SUITE KAMAR FAMILY SUITE</pattern>
+        <template>
+            <srai>DELUXE SUITE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>FAMILY SUITE DELUXE SUITE</pattern>
+        <template>
+            <srai>DELUXE SUITE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR FAMILY SUITE KAMAR DELUXE SUITE</pattern>
+        <template>
+            <srai>DELUXE SUITE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR FAMILY SUITE KAMAR DELUXE SUITE</pattern>
+        <template>
+            <srai>DELUXE SUITE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <!--  -->
+
+    <category>
+        <pattern>KAMAR DELUXE SUITE KAMAR SANTIKA SUITE</pattern>
+        <template>
+            <srai>DELUXE SUITE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR DELUXE SUITE KAMAR SANTIKA SUITE</pattern>
+        <template>
+            <srai>DELUXE SUITE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA SUITE DELUXE SUITE</pattern>
+        <template>
+            <srai>DELUXE SUITE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR SANTIKA SUITE KAMAR DELUXE SUITE</pattern>
+        <template>
+            <srai>DELUXE SUITE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR SANTIKA SUITE KAMAR DELUXE SUITE</pattern>
+        <template>
+            <srai>DELUXE SUITE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <!-- 4 -->
+
+    <category>
+        <pattern>KAMAR EXECUTIVE SUITE KAMAR FAMILY SUITE</pattern>
+        <template>
+            <srai>EXECUTIVE SUITE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR EXECUTIVE SUITE KAMAR FAMILY SUITE</pattern>
+        <template>
+            <srai>EXECUTIVE SUITE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>FAMILY SUITE EXECUTIVE SUITE</pattern>
+        <template>
+            <srai>EXECUTIVE SUITE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR FAMILY SUITE KAMAR EXECUTIVE SUITE</pattern>
+        <template>
+            <srai>EXECUTIVE SUITE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR FAMILY SUITE KAMAR EXECUTIVE SUITE</pattern>
+        <template>
+            <srai>EXECUTIVE SUITE FAMILY SUITE</srai>    
+        </template>
+    </category>
+
+    <!-- 5 -->
+
+    <category>
+        <pattern>KAMAR EXECUTIVE SUITE KAMAR SANTIKA SUITE</pattern>
+        <template>
+            <srai>EXECUTIVE SUITE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR EXECUTIVE SUITE KAMAR SANTIKA SUITE</pattern>
+        <template>
+            <srai>EXECUTIVE SUITE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA SUITE EXECUTIVE SUITE</pattern>
+        <template>
+            <srai>EXECUTIVE SUITE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR SANTIKA SUITE KAMAR EXECUTIVE SUITE</pattern>
+        <template>
+            <srai>EXECUTIVE SUITE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR SANTIKA SUITE KAMAR EXECUTIVE SUITE</pattern>
+        <template>
+            <srai>EXECUTIVE SUITE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <!-- 5 -->
+
+    <category>
+        <pattern>KAMAR FAMILY SUITE KAMAR SANTIKA SUITE</pattern>
+        <template>
+            <srai>FAMILY SUITE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR FAMILY SUITE KAMAR SANTIKA SUITE</pattern>
+        <template>
+            <srai>FAMILY SUITE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA SUITE FAMILY SUITE</pattern>
+        <template>
+            <srai>FAMILY SUITE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KAMAR SANTIKA SUITE KAMAR FAMILY SUITE</pattern>
+        <template>
+            <srai>FAMILY SUITE SANTIKA SUITE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEDA KAMAR SANTIKA SUITE KAMAR FAMILY SUITE</pattern>
+        <template>
+            <srai>FAMILY SUITE SANTIKA SUITE</srai>    
         </template>
     </category>
 

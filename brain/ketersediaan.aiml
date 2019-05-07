@@ -84,6 +84,20 @@
     </category>
 
     <category>
+        <pattern>ECEK</pattern>
+        <template>
+            <srai>CEK SEDIA KAMAR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KECE</pattern>
+        <template>
+            <srai>CEK SEDIA KAMAR</srai>
+        </template>
+    </category>
+
+    <category>
         <pattern>SEDIA</pattern>
         <template>
             <srai>CEK SEDIA KAMAR</srai>
@@ -92,6 +106,20 @@
 
     <category>
         <pattern>CEK KAMAR</pattern>
+        <template>
+            <srai>CEK SEDIA KAMAR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ECEK KAMAR</pattern>
+        <template>
+            <srai>CEK SEDIA KAMAR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KECE KAMAR</pattern>
         <template>
             <srai>CEK SEDIA KAMAR</srai>
         </template>
@@ -112,6 +140,20 @@
     </category>
 
     <category>
+        <pattern>ECEK SEDIA</pattern>
+        <template>
+            <srai>CEK SEDIA KAMAR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KECE SEDIA</pattern>
+        <template>
+            <srai>CEK SEDIA KAMAR</srai>
+        </template>
+    </category>
+
+    <category>
         <pattern>SEDIA KAMAR _</pattern>
         <template>
             <srai>CEK SEDIA KAMAR</srai>
@@ -120,6 +162,20 @@
 
     <category>
         <pattern>CEK SEDIA KAMAR _</pattern>
+        <template>
+            <srai>CEK SEDIA KAMAR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ECEK SEDIA KAMAR _</pattern>
+        <template>
+            <srai>CEK SEDIA KAMAR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KECE SEDIA KAMAR _</pattern>
         <template>
             <srai>CEK SEDIA KAMAR</srai>
         </template>

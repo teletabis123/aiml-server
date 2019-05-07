@@ -26,7 +26,7 @@
     <category>
         <pattern>PAKET MEETING</pattern>
         <template>
-            Paket rapat:[enter]
+            Untuk pemesanan, dapat langsung ke sales. Paket rapat yang tersedia:[enter]
             <!-- <srai>PAKET MEETING 2</srai> -->
             Half Day Meeting
             [ul]
@@ -196,36 +196,142 @@
                 [li]Pembayaran harus lunas 2 minggu sebelum acara[/li]
                 [li]Untuk special request, early checkin bisa langsung ke sales[/li]
                 [li]Pembatalan akan menyebabkan DP hangus[/li]
+                [footer]Untuk reservasi dan info lebih lanjut mengenai ruangan rapat, silahkan tinggalkan nomor telepon atau email.[/footer]
             [/ul]
         </template>
     </category>
 
-        <category>
-            <pattern>PAKET MEETING _</pattern>
-            <template>
-                <srai>PAKET MEETING</srai>    
-            </template>
-        </category>
+    <category>
+        <pattern>PAKET MEETING _</pattern>
+        <template>
+            <srai>PAKET MEETING</srai>    
+        </template>
+    </category>
 
-        <category>
-            <pattern>PAKET KAMAR MEETING _</pattern>
-            <template>
-                <srai>PAKET KAMAR MEETING</srai>    
-            </template>
-        </category>
+    <category>
+        <pattern>HARGA PAKET MEETING _</pattern>
+        <template>
+            <srai>PAKET MEETING</srai>    
+        </template>
+    </category>
 
-        <category>
-            <pattern>JENIS RUANG RAPAT _</pattern>
-            <template>
-                <srai>JENIS RUANG RAPAT</srai>    
-            </template>
-        </category>
+    <category>
+        <pattern>HARGA PAKET MEETINGNYA _</pattern>
+        <template>
+            <srai>PAKET MEETING</srai>    
+        </template>
+    </category>
 
-        <category>
-            <pattern>PROSES PESAN _</pattern>
-            <template>
-                <srai>PROSES PESAN</srai>    
-            </template>
-        </category>
+    <category>
+        <pattern>HARGA RUANG RAPAT _</pattern>
+        <template>
+            <srai>PAKET MEETING</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA RUANG MEETING _</pattern>
+        <template>
+            <srai>PAKET MEETING</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA RUANG MEETINGNYA _</pattern>
+        <template>
+            <srai>PAKET MEETING</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEWA PAKET MEETING _</pattern>
+        <template>
+            <srai>PAKET MEETING</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEWA PAKET MEETINGNYA _</pattern>
+        <template>
+            <srai>PAKET MEETING</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEWA RUANG RAPAT _</pattern>
+        <template>
+            <srai>PAKET MEETING</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEWA RUANG MEETING _</pattern>
+        <template>
+            <srai>PAKET MEETING</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEWA RUANG MEETINGNYA _</pattern>
+        <template>
+            <srai>PAKET MEETING</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PAKET KAMAR MEETING _</pattern>
+        <template>
+            <srai>PAKET KAMAR MEETING</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PAKET KAMAR MEETINGNYA _</pattern>
+        <template>
+            <srai>PAKET KAMAR MEETING</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA PAKET KAMAR MEETING _</pattern>
+        <template>
+            <srai>PAKET KAMAR MEETING</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA PAKET KAMAR MEETINGNYA _</pattern>
+        <template>
+            <srai>PAKET KAMAR MEETING</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEWA PAKET KAMAR MEETING _</pattern>
+        <template>
+            <srai>PAKET KAMAR MEETING</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEWA PAKET KAMAR MEETINGNYA _</pattern>
+        <template>
+            <srai>PAKET KAMAR MEETING</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>JENIS RUANG RAPAT _</pattern>
+        <template>
+            <srai>JENIS RUANG RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PROSES PESAN _</pattern>
+        <template>
+            <srai>PROSES PESAN</srai>    
+        </template>
+    </category>
 
 </aiml>

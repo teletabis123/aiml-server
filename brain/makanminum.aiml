@@ -2,7 +2,7 @@
 <aiml>
 
     <category>
-        <pattern>MAKAN MINUM</pattern>
+        <pattern>MAKAN</pattern>
         <template>
             Hotel Santika Premiere menyediakan 2 Restaurant
             [ul]
@@ -50,14 +50,14 @@
     <category>
         <pattern>BUFFET</pattern>
         <template>
-            <srai>MAKAN MINUM</srai>    
+            <srai>MAKAN</srai>    
         </template>
     </category>
 
     <category>
         <pattern>BUFFET _</pattern>
         <template>
-            <srai>MAKAN MINUM</srai>    
+            <srai>MAKAN</srai>    
         </template>
     </category>
 
