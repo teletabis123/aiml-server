@@ -208,6 +208,8 @@ def messageAvailability(sedia):
             message = message + 'Format pengecekkan kamar salah'
         else:
             message = message + 'Format tanggal yang anda masukkan salah'
+    if jumlah_kamar > 10 :
+        message = message + ". Untuk pemesanan kamar diatas 10, mohon hubungi Sales dengan perihal Group Checkin"
     message = message + '" }], "m_footer": [ {"0": ""} ] }'
     return message
 
