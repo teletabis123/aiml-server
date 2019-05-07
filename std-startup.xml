@@ -12,7 +12,7 @@
 <learn>brain/kendaraan.aiml</learn>
 <learn>brain/ketersediaan.aiml</learn>
 <learn>brain/reservasi.aiml</learn>
-<learn>brain/makananminuman.aiml</learn>
+<learn>brain/makanminum.aiml</learn>
 <learn>brain/pernikahan.aiml</learn>
 <learn>brain/rapat.aiml</learn>
 </template>
