@@ -90,7 +90,7 @@ def cekPenanggalan(sedia, tgl, bln, thn):
     if(len(tanggal) == 1):
         tanggal = "0"+tanggal
 
-    print(tanggal,bulan,tahun)
+    #print(tanggal,bulan,tahun)
 
     if(not(tanggal.isdigit() and bulan.isdigit() and tahun.isdigit()) or not(len(tanggal)==2 and len(bulan)==2 and len(tahun)==4)):
         print(tanggal)
