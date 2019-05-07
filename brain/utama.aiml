@@ -233,6 +233,20 @@
             <srai>HALO</srai>    
         </template>
     </category>
+    
+    <category>
+        <pattern>TIPE KAMAR</pattern>
+        <template>
+            <srai>KAMAR HOTEL</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>JENIS KAMAR</pattern>
+        <template>
+            <srai>KAMAR HOTEL</srai>    
+        </template>
+    </category>
 
     <category>
         <pattern>KAMAR</pattern>
