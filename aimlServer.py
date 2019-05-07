@@ -341,8 +341,10 @@ def index(query):
     if query.isdigit() :
         query = "THE PHONE NUMBER IS " + query
     
-    if lst = re.findall('\S+@\S+',query) :
-        query =  "THE EMAIL ADDRESS IS ".join(lst)
+    if  query.count('@') > 0:
+        lst = re.findall('\S+@\S+',query)
+        query =  "".join(lst)
+        query = "THE EMAIL ADDRESS IS " + query
         
     
     
