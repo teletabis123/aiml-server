@@ -30,6 +30,7 @@
     <category>
         <pattern>CEK SEDIA KAMAR</pattern>
         <template>
+            <get name="sedia"/>
             <think><set name="sedia">kamar</set></think>
             <!-- Cek ketersediaan kamar dengan kata kunci 'cek kamar' dan 'pada tanggal'. Struktur penulisan tanggal: DD-MM-YYYY -->
             Kamar yang tersedia untuk dipesan:
@@ -52,6 +53,7 @@
     <category>
         <pattern>TANGGAL</pattern>
         <template>
+            <get name="sedia"/>
             <condition name = "sedia">
                 <li value = "tanggal">
                     Tanggal Check in anda (Contoh: 06 Mei 2019):
@@ -66,6 +68,7 @@
     <category>
         <pattern>MALAM</pattern>
         <template>
+            <get name="sedia"/>
             <condition name = "sedia">
                 <li value = "malam">
                     Berapa malam anda ingin menginap di kamar <get name="kamar"/>?
@@ -80,6 +83,7 @@
     <category>
         <pattern>BANYAK</pattern>
         <template>
+            <get name="sedia"/>
             <condition name = "sedia" value = "sedia">
                 <li value = "banyak">
                     Berapa banyak kamar <get name="kamar"/> yang ingin anda cek?
