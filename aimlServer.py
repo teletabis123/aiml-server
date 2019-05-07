@@ -275,7 +275,7 @@ def messageChat(response):
         objJson = objJson + response[0:end]
     # untuk menutup message awal
     objJson = objJson + '"}'
-    begin = end+3 # temp untuk menyimpan awal ul
+    begin = end+7 # temp untuk menyimpan awal ul
     #masukkan ke message
     for i in range(1, jumlah+1): # untuk tiap ul yang ada
         end = len(response) # penanda penutup ul
