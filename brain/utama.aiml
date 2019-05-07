@@ -34,7 +34,7 @@
     <category>
         <pattern>HALO</pattern>
         <template>
-            <think><set name="sedia">sedia</set></think>
+            <think><set name="sedia">awal</set></think>
             <!-- Halo, Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang: -->
             Halo,  Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang: 
             [ul]
