@@ -1,4 +1,5 @@
 import os
+import re
 import aiml
 import json
 import requests
@@ -339,6 +340,11 @@ def index(query):
         
     if query.isdigit() :
         query = "THE PHONE NUMBER IS " + query
+    
+    if query.count("@") > 0 :
+        lst = re.findall('\S@\S+',query)
+        query = "THE EMAIL IS ". join(lst)
+    
     
     # Meminta hasil response dari query berdasarkan AIML
     response = kernel.respond(query)
