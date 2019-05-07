@@ -5,6 +5,7 @@ import requests
 import datetime
 from flask import Flask
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+from itertools import groupby
 
 
 # Set up AIML Kernel dari library aiml
@@ -17,6 +18,7 @@ app = Flask(__name__)
 tanggal = ""
 bulan = ""
 tahun = ""
+strBulan = ""
 
 # Function untuk mengecek response dari query yang didapatkan.
 # Bernilai True bila mencari availability kamar hotel.
@@ -26,6 +28,34 @@ def cekQuery(response):
         return True
     else:
         return False
+    
+def getBulan(bln):
+    if bln == "januari" or bln == "january":
+        return "01"
+    elif bln == "februari" or bln == "february":
+        return "02"
+    elif bln == "maret" or bln == "march":
+        return "03"
+    elif bln == "april":
+        return "04"
+    elif bln == "mei" or bln == "may":
+        return "05"
+    elif bln == "juni" or bln == "june":
+        return "06"
+    elif bln == "juli" or bln == "july":
+        return "07"
+    elif bln == "agustus" or bln == "august":
+        return "08"
+    elif bln == "september":
+        return "09"
+    elif bln == "oktober" or bln == "october":
+        return "10"
+    elif bln == "november":
+        return "11"
+    elif bln == "desember":
+        return "12"
+    else:
+        return bln
 
 # Function untuk mengetahui maximal hari dari suatu bulan tertentu
 def getMaxHari(bulan):
@@ -42,49 +72,73 @@ def getMaxHari(bulan):
 
 # Function untuk melakukan pengecekkan input penanggalan dari user bila mencari availability kamar hotel
 # Input Penanggalan yang benar: DD-MM-YYYY
-def cekPenanggalan(sedia):
+def cekPenanggalan(sedia, tgl, bln, thn):
     global tanggal
     global bulan
     global tahun
+    global strBulan
     
+    strBulan = bln.capitalize()
     dateNow = datetime.datetime.now()
     
-    if(sedia.count("-") != 2):
+    # Menentukan tanggal, bulan, dan tahun dari response
+    # akan mengecek syntax penanggalan
+    tanggal = str(tgl)
+    bulan = getBulan(bln)     
+    tahun = str(thn)
+
+    if(not(tanggal.isdigit() and bulan.isdigit() and tahun.isdigit()) or not(len(tanggal)==2 and len(bulan)==2 and len(tahun)==4)):
         return False
-    else:
-        # Menentukan tanggal, bulan, dan tahun dari response
-        # akan mengecek syntax penanggalan
-        indexTanggalAkhir = sedia.find("-",0,len(sedia))
-        indexTanggalAwal = indexTanggalAkhir - 2
-        indexBulanAwal = indexTanggalAkhir + 1
-        indexBulanAkhir = sedia.find("-",indexBulanAwal,len(sedia))
-        indexTahunAwal = indexBulanAkhir + 1
-        indexTahunAkhir = sedia.find(" ",indexTahunAwal,len(sedia))
-        if indexTahunAkhir == -1:
-            indexTahunAkhir = len(sedia)
-        tanggal = sedia[indexTanggalAwal:indexTanggalAkhir]
-        bulan = sedia[indexBulanAwal:indexBulanAkhir]
-        if indexTahunAkhir == -1:
-            tahun = sedia[indexTahunAwal:]
-        else:
-            tahun = sedia[indexTahunAwal:indexTahunAkhir]
-        if(not(tanggal.isdigit() and bulan.isdigit() and tahun.isdigit()) or not(len(tanggal)==2 and len(bulan)==2 and len(tahun)==4)):
-            return False
-        if int(tahun) < dateNow.year:
-            return False
-        elif int(bulan) < dateNow.month:
-            return False
-        elif int(tanggal) < dateNow.day:
-            return False
-        maxHari = getMaxHari(bulan)
-        if int(tanggal) < 1 or int(tanggal) > maxHari or int(bulan) < 1 or int(bulan) > 12:
-            return False
+    if int(tahun) < dateNow.year:
+        return False
+    elif int(bulan) < dateNow.month:
+        return False
+    elif int(tanggal) < dateNow.day:
+        return False
+    maxHari = getMaxHari(bulan)
+    if int(tanggal) < 1 or int(tanggal) > maxHari or int(bulan) < 1 or int(bulan) > 12:
+        return False
     return True
 
 # Function untuk melakukan request ke API santika untuk mengecek availability kamar hotel
-def getRequestContent(date, room_type):
+def getRequestContent(room_type, date, jumlah_malam, jumlah_kamar):
     r = requests.get('https://staging-santika.oval.id/fastbooking-availabilty/?hotel=98&date='+ date +'&room_type='+ room_type +'&format=json')
-    return json.loads(r.content)
+    room = json.loads(r.content)
+    room = room["count"]
+    
+    r = requests.get('https://staging-santika.oval.id/hotels/availability/?id=98&checkin_date='+ date +'&duration='+ str(jumlah_malam) +'&format=json')
+    room = json.loads(r.content)
+    room = room["results"][0]["available_flag"]
+    if room:
+        r = requests.get('https://staging-santika.oval.id/room-types/availability/?hotel=98&checkin_date='+ date +'&duration='+ str(jumlah_malam) +'&format=json')
+        room = json.loads(r.content)
+        kamar = 0
+        if room_type == "36": #deluxe suite
+            temp = room["results"][4]["rate_plan"]
+            for i in range(0,len(temp)):
+                if temp[i]["available_quota"] is not None and temp[i]["available_quota"] != 0:
+                    kamar += temp[i]["available_quota"]
+        elif room_type == "34": #club premiere
+            temp = room["results"][3]["rate_plan"]
+            for i in range(0,len(temp)):
+                if temp[i]["available_quota"] is not None and temp[i]["available_quota"] != 0:
+                    kamar += temp[i]["available_quota"]
+            temp = room["results"][2]["rate_plan"]
+            for i in range(0,len(temp)):
+                if temp[i]["available_quota"] is not None and temp[i]["available_quota"] != 0:
+                    kamar += temp[i]["available_quota"]
+        elif room_type == "32": #deluxe
+            temp = room["results"][1]["rate_plan"]
+            for i in range(0,len(temp)):
+                if temp[i]["available_quota"] is not None and temp[i]["available_quota"] != 0:
+                    kamar += temp[i]["available_quota"]
+            temp = room["results"][0]["rate_plan"]
+            for i in range(0,len(temp)):
+                if temp[i]["available_quota"] is not None and temp[i]["available_quota"] != 0:
+                    kamar += temp[i]["available_quota"]
+        return kamar
+    else:
+        return 0
 
 # Function untuk mengembalikan message untuk availability kamar hotel
 # menentukan kamar yang diminta dan tanggal dari yang penanggalan yang benar
@@ -92,45 +146,53 @@ def getRequestContent(date, room_type):
 def messageAvailability(sedia):
     message = '{"ul": 0, "li": [ {"0": 1} ], "footer": [ {"0": 0} ], "message": [ {"0": "'
     jenis = 0
-    if "deluxe suite" in sedia:
+    tanggalBenar = True
+    messageBenar = True
+    jumlah_malam = 0
+    jumlah_kamar = 0
+    total_kamar = 0
+    
+    list_int = [int(''.join(i)) for is_digit, i in groupby(sedia, str.isdigit) if is_digit]
+    
+    # cek kamar
+    if "deluxesuite" in sedia:
         kamar = "Deluxe Suite"
         jenis = 3
-    elif "club premiere" in sedia:
+    elif "clubpremiere" in sedia:
         kamar = "Club Premiere"
         jenis = 2
     elif "deluxe" in sedia:
         kamar = "Deluxe"
         jenis = 1
-    tanggalBenar = True
-    tanggalBenar = cekPenanggalan(sedia)
+    
+    # cek tanggal
+    if(len(list_int)) != 4:
+        tanggalBenar = False
+        messageBenar = False
+    else:
+        bln = sedia[sedia.find(str(list_int[0]),0,len(sedia))+len(str(list_int[0])) : sedia.find(str(list_int[1]),0,len(sedia))]
+        jumlah_malam = list_int[2]
+        jumlah_kamar = list_int[3]
+        tanggalBenar = cekPenanggalan(sedia, list_int[0], bln, list_int[1])
+    
+    # cek ketersediaan
     if tanggalBenar and jenis!=0 :
         date = tahun+'-'+bulan+'-'+tanggal
-        king = 0
-        twin = -1
         if jenis == 1:
             room_type = str(32)
-            hasil = getRequestContent(date,room_type)
-            king = hasil["count"]
-            room_type = str(33)
-            hasil = getRequestContent(date,room_type)
-            twin = hasil["count"]
         elif jenis == 2:
             room_type = str(34)
-            hasil = getRequestContent(date,room_type)
-            king = hasil["count"]
-            room_type = str(35)
-            hasil = getRequestContent(date,room_type)
-            twin = hasil["count"]
         else:
             room_type = str(36)
-            hasil = getRequestContent(date,room_type)
-            king = hasil["count"]
-        message = message + 'Kamar ' + kamar + ' yang tersedia pada tanggal ' + tanggal + '-' + bulan + '-' + tahun
-        message = message + ' adalah ' + str(king) + ' kamar King Size'
-        if twin != -1:
-            message = message + ' dan ' + str(twin) + ' kamar Twin Size'
+        total_kamar = getRequestContent(room_type, date, jumlah_malam, jumlah_kamar)
+        if(total_kamar < jumlah_kamar): # kamar tidak cukup
+            message = message + 'Kamar ' + kamar + ' pada tanggal ' + tanggal + ' ' + strBulan + ' ' + tahun + ' untuk ' + str(jumlah_kamar) + ' kamar untuk ' + str(jumlah_malam) + ' malam tidak tersedia'
+        else:
+            message = message + 'Kamar ' + kamar + ' pada tanggal ' + tanggal + ' ' + strBulan + ' ' + tahun + ' untuk ' + str(jumlah_kamar) + ' kamar untuk ' + str(jumlah_malam) + ' malam tersedia'
     else: # bila input salah
-        if jenis == 0:
+        if not messageBenar:
+            message = message + 'Input kamar, tanggal, jumlah malam, atau jumlah kamar salah'
+        elif jenis == 0:
             message = message + 'Format pengecekkan kamar salah'
         else:
             message = message + 'Format tanggal yang anda masukkan salah'
@@ -267,7 +329,9 @@ def index(query):
     response = kernel.respond(query)
     # Menentukan jenis message yang akan dikembalikan
     if cekQuery(response):
-        sedia = query.lower()
+        sedia = response.lower()
+        sedia = sedia.replace(" ","")
+        # print(sedia)
         return messageAvailability(sedia)
     else:
         return messageChat(response)
