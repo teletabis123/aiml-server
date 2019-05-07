@@ -219,7 +219,7 @@
     <category>
         <pattern>CHECK IN</pattern>
         <template>
-            <srai>CHECK IN DAN CHECK OUT</srai>    
+            <srai>CHECK IN CHECK OUT</srai>    
         </template>
     </category>
 
@@ -239,6 +239,41 @@
 
     <category>
         <pattern>CHECK IN CHECK OUT _</pattern>
+        <template>
+            <srai>CHECK IN CHECK OUT</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CEK IN</pattern>
+        <template>
+            <srai>CHECK IN CHECK OUT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>CEK OUT</pattern>
+        <template>
+            <srai>CHECK IN CHECK OUT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>CEK OUT _</pattern>
+        <template>
+            <srai>CHECK IN CHECK OUT</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CEK IN CEK OUT</pattern>
+        <template>
+            <srai>CHECK IN CHECK OUT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>CEK IN CEK OUT _</pattern>
         <template>
             <srai>CHECK IN CHECK OUT</srai>    
         </template>
