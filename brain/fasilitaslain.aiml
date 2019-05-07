@@ -62,7 +62,7 @@
     </category>
 
     <category>
-        <pattern>CHECK IN DAN CHECK OUT</pattern>
+        <pattern>CHECK IN CHECK OUT</pattern>
         <template>
             Informasi mengenai Check in / Check Out:[enter]
             Informasi Umum:
@@ -91,49 +91,7 @@
     </category>
 
     <category>
-        <pattern>_ RENANG</pattern>
-        <template>
-            <srai>KOLAM RENANG</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>RENANG _</pattern>
-        <template>
-            <srai>KOLAM RENANG</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ RENANG _</pattern>
-        <template>
-            <srai>KOLAM RENANG</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>BERENANG</pattern>
-        <template>
-            <srai>KOLAM RENANG</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ BERENANG</pattern>
-        <template>
-            <srai>KOLAM RENANG</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>BERENANG _</pattern>
-        <template>
-            <srai>KOLAM RENANG</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ BERENANG _</pattern>
         <template>
             <srai>KOLAM RENANG</srai>    
         </template>
@@ -147,21 +105,7 @@
     </category>
 
     <category>
-        <pattern>_ POOL</pattern>
-        <template>
-            <srai>KOLAM RENANG</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>POOL _</pattern>
-        <template>
-            <srai>KOLAM RENANG</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ POOL _</pattern>
         <template>
             <srai>KOLAM RENANG</srai>    
         </template>
@@ -175,42 +119,14 @@
     </category>
 
     <category>
-        <pattern>_ KIDS ZONE</pattern>
+        <pattern>MAIN</pattern>
         <template>
             <srai>KIDS ZONE</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>_ KIDS ZONE _</pattern>
-        <template>
-            <srai>KIDS ZONE</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>BERMAIN</pattern>
-        <template>
-            <srai>KIDS ZONE</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ BERMAIN</pattern>
-        <template>
-            <srai>KIDS ZONE</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>BERMAIN _</pattern>
-        <template>
-            <srai>KIDS ZONE</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ BERMAIN _</pattern>
+        <pattern>MAIN _</pattern>
         <template>
             <srai>KIDS ZONE</srai>    
         </template>
@@ -224,21 +140,7 @@
     </category>
 
     <category>
-        <pattern>_ ANAK</pattern>
-        <template>
-            <srai>KIDS ZONE</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>ANAK _</pattern>
-        <template>
-            <srai>KIDS ZONE</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ ANAK _</pattern>
         <template>
             <srai>KIDS ZONE</srai>    
         </template>
@@ -259,20 +161,6 @@
     </category>
 
     <category>
-        <pattern>_ HEALTH CLUB</pattern>
-        <template>
-            <srai>HEALTH CLUB</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ CLUB _</pattern>
-        <template>
-            <srai>HEALTH CLUB</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>GYM</pattern>
         <template>
             <srai>HEALTH CLUB</srai>    
@@ -280,21 +168,7 @@
     </category>
 
     <category>
-        <pattern>_ GYM</pattern>
-        <template>
-            <srai>HEALTH CLUB</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>GYM _</pattern>
-        <template>
-            <srai>HEALTH CLUB</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ GYM _</pattern>
         <template>
             <srai>HEALTH CLUB</srai>    
         </template>
@@ -315,20 +189,6 @@
     </category>
 
     <category>
-        <pattern>_ FITNESS</pattern>
-        <template>
-            <srai>HEALTH CLUB</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ FITNESS _</pattern>
-        <template>
-            <srai>HEALTH CLUB</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>MASSAGE</pattern>
         <template>
             <srai>HEALTH CLUB</srai>    
@@ -343,28 +203,7 @@
     </category>
 
     <category>
-        <pattern>_ MASSAGE</pattern>
-        <template>
-            <srai>HEALTH CLUB</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ MASSAGE _</pattern>
-        <template>
-            <srai>HEALTH CLUB</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>PIJAT</pattern>
-        <template>
-            <srai>HEALTH CLUB</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ PIJAT</pattern>
         <template>
             <srai>HEALTH CLUB</srai>    
         </template>
@@ -378,21 +217,7 @@
     </category>
 
     <category>
-        <pattern>_ PIJAT _</pattern>
-        <template>
-            <srai>HEALTH CLUB</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>TEMPAT PARKIR _</pattern>
-        <template>
-            <srai>TEMPAT PARKIR</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ TEMPAT PARKIR _</pattern>
         <template>
             <srai>TEMPAT PARKIR</srai>    
         </template>
@@ -405,17 +230,8 @@
         </template>
     </category>
 
-    
-
     <category>
         <pattern>CHECK IN</pattern>
-        <template>
-            <srai>CHECK IN DAN CHECK OUT</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ CHECK IN</pattern>
         <template>
             <srai>CHECK IN DAN CHECK OUT</srai>    
         </template>
@@ -435,11 +251,4 @@
         </template>
     </category>
 
-    <category>
-        <pattern>_ CHECK IN _ CHECK OUT _</pattern>
-        <template>
-            <srai>CHECK IN DAN CHECK OUT</srai>    
-        </template>
-    </category>
-    
 </aiml>

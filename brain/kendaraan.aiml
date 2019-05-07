@@ -2,7 +2,7 @@
 <aiml>
 
     <category>
-        <pattern>KENDARAAN</pattern>
+        <pattern>KENDARA</pattern>
         <template>
             Kendaraan disediakan untuk transportasi antar bandara dan hotel. Untuk reservasi dapat dilakukan sehari sebelum, dan dapat dilakukan melalui telefon dan front office hotel. Berikut daftar kendaraan yang tersedia
             [ul]

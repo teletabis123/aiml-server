@@ -2,7 +2,7 @@
 <aiml>
 
     <category>
-        <pattern>RUANGAN RAPAT</pattern>
+        <pattern>RUANG RAPAT</pattern>
         <template>
             Informasi mengenai ruangan Rapat yang ada.[enter]
             <think><set name="topic">rapat</set></think>
@@ -201,13 +201,6 @@
     </category>
 
         <category>
-            <pattern>PAKET MEETING</pattern>
-            <template>
-                <srai>PAKET MEETING</srai>    
-            </template>
-        </category>
-
-        <category>
             <pattern>PAKET MEETING _</pattern>
             <template>
                 <srai>PAKET MEETING</srai>    
@@ -215,42 +208,7 @@
         </category>
 
         <category>
-            <pattern>_ PAKET MEETING</pattern>
-            <template>
-                <srai>PAKET MEETING</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ PAKET MEETING _</pattern>
-            <template>
-                <srai>PAKET MEETING</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>PAKET KAMAR MEETING</pattern>
-            <template>
-                <srai>PAKET KAMAR MEETING</srai>    
-            </template>
-        </category>
-
-        <category>
             <pattern>PAKET KAMAR MEETING _</pattern>
-            <template>
-                <srai>PAKET KAMAR MEETING</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ PAKET KAMAR MEETING</pattern>
-            <template>
-                <srai>PAKET KAMAR MEETING</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ PAKET KAMAR MEETING _</pattern>
             <template>
                 <srai>PAKET KAMAR MEETING</srai>    
             </template>
@@ -271,79 +229,9 @@
         </category>
 
         <category>
-            <pattern>_ RUANG RAPAT</pattern>
-            <template>
-                <srai>JENIS RUANG RAPAT</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ RUANG RAPAT _</pattern>
-            <template>
-                <srai>JENIS RUANG RAPAT</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>JENIS RUANG RAPAT</pattern>
-            <template>
-                <srai>JENIS RUANG RAPAT</srai>    
-            </template>
-        </category>
-
-        <category>
             <pattern>JENIS RUANG RAPAT _</pattern>
             <template>
                 <srai>JENIS RUANG RAPAT</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ JENIS RUANG RAPAT</pattern>
-            <template>
-                <srai>JENIS RUANG RAPAT</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ JENIS RUANG RAPAT _</pattern>
-            <template>
-                <srai>JENIS RUANG RAPAT</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>PROSES PEMESANAN</pattern>
-            <template>
-                <srai>PROSES PESAN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>PROSES PEMESANAN _</pattern>
-            <template>
-                <srai>PROSES PESAN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ PROSES PEMESANAN</pattern>
-            <template>
-                <srai>PROSES PESAN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ PROSES PEMESANAN _</pattern>
-            <template>
-                <srai>PROSES PESAN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>PROSES PESAN</pattern>
-            <template>
-                <srai>PROSES PESAN</srai>    
             </template>
         </category>
 
@@ -354,19 +242,4 @@
             </template>
         </category>
 
-        <category>
-            <pattern>_ PROSES PESAN</pattern>
-            <template>
-                <srai>PROSES PESAN</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>_ PROSES PESAN _</pattern>
-            <template>
-                <srai>PROSES PESAN</srai>    
-            </template>
-        </category>
-
-    <!-- Paket ruangan + kamar -->
 </aiml>

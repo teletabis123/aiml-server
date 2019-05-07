@@ -262,50 +262,15 @@
         </template>
     </category>
 
-    <!-- <category>
+    <category>
         <pattern>KAMAR</pattern>
         <template>
             <srai>KAMAR HOTEL</srai>    
         </template>
-    </category> -->
-
-    <!-- <category>
-        <pattern>_ KAMAR</pattern>
-        <template>
-            <srai>KAMAR HOTEL</srai>    
-        </template>
     </category>
-
-    <category>
-        <pattern>_ KAMAR _</pattern>
-        <template>
-            <srai>KAMAR HOTEL</srai>    
-        </template>
-    </category> -->
 
     <category>
         <pattern>KAMAR HOTEL _</pattern>
-        <template>
-            <srai>KAMAR HOTEL</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ KAMAR HOTEL</pattern>
-        <template>
-            <srai>KAMAR HOTEL</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ KAMAR HOTEL _</pattern>
-        <template>
-            <srai>KAMAR HOTEL</srai>    
-        </template>
-    </category>
-    
-    <category>
-        <pattern>KAMAR HOTELNYA _</pattern>
         <template>
             <srai>KAMAR HOTEL</srai>    
         </template>
@@ -319,35 +284,7 @@
     </category>
 
     <category>
-        <pattern>_ RESERVASI</pattern>
-        <template>
-            <srai>RESERVASI</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ RESERVASI _</pattern>
-        <template>
-            <srai>RESERVASI</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>PEMESANAN _</pattern>
-        <template>
-            <srai>RESERVASI</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ PEMESANAN</pattern>
-        <template>
-            <srai>RESERVASI</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ PEMESANAN _</pattern>
+        <pattern>PESAN</pattern>
         <template>
             <srai>RESERVASI</srai>    
         </template>
@@ -361,77 +298,7 @@
     </category>
 
     <category>
-        <pattern>_ PESAN</pattern>
-        <template>
-            <srai>RESERVASI</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ PESAN _</pattern>
-        <template>
-            <srai>RESERVASI</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>PESANAN _</pattern>
-        <template>
-            <srai>RESERVASI</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ PESANAN</pattern>
-        <template>
-            <srai>RESERVASI</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ PESANAN _</pattern>
-        <template>
-            <srai>RESERVASI</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>PEMBAYARAN _</pattern>
-        <template>
-            <srai>PEMBAYARAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ PEMBAYARAN</pattern>
-        <template>
-            <srai>PEMBAYARAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ PEMBAYARAN _</pattern>
-        <template>
-            <srai>PEMBAYARAN</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>BAYAR _</pattern>
-        <template>
-            <srai>PEMBAYARAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ BAYAR</pattern>
-        <template>
-            <srai>PEMBAYARAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ BAYAR _</pattern>
         <template>
             <srai>PEMBAYARAN</srai>    
         </template>
@@ -440,386 +307,180 @@
     <category>
         <pattern>NIKAH</pattern>
         <template>
-            <srai>ACARA PERNIKAHAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ NIKAH</pattern>
-        <template>
-            <srai>ACARA PERNIKAHAN</srai>    
+            <srai>ACARA NIKAH</srai>    
         </template>
     </category>
 
     <category>
         <pattern>NIKAH _</pattern>
         <template>
-            <srai>ACARA PERNIKAHAN</srai>    
+            <srai>ACARA NIKAH</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>_ NIKAH _</pattern>
+        <pattern>RUANG RAPAT _</pattern>
         <template>
-            <srai>ACARA PERNIKAHAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>NIKAHAN</pattern>
-        <template>
-            <srai>ACARA PERNIKAHAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ NIKAHAN</pattern>
-        <template>
-            <srai>ACARA PERNIKAHAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>NIKAHAN _</pattern>
-        <template>
-            <srai>ACARA PERNIKAHAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ NIKAHAN _</pattern>
-        <template>
-            <srai>ACARA PERNIKAHAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>PERNIKAHAN</pattern>
-        <template>
-            <srai>ACARA PERNIKAHAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>PERNIKAHAN _</pattern>
-        <template>
-            <srai>ACARA PERNIKAHAN</srai>    
-        </template>
-    </category>
-    
-    <category>
-        <pattern>_ PERNIKAHAN _</pattern>
-        <template>
-            <srai>ACARA PERNIKAHAN</srai>    
-        </template>
-    </category>
-    
-    <category>
-        <pattern>RUANGAN RAPAT _</pattern>
-        <template>
-            <srai>RUANGAN RAPAT</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ RUANGAN RAPAT</pattern>
-        <template>
-            <srai>RUANGAN RAPAT</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ RUANGAN RAPAT _</pattern>
-        <template>
-            <srai>RUANGAN RAPAT</srai>    
+            <srai>RUANG RAPAT</srai>    
         </template>
     </category>
 
     <category>
         <pattern>MEETING ROOM</pattern>
         <template>
-            <srai>RUANGAN RAPAT</srai>    
+            <srai>RUANG RAPAT</srai>    
         </template>
     </category>
 
     <category>
         <pattern>MEETING ROOM _</pattern>
         <template>
-            <srai>RUANGAN RAPAT</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ MEETING ROOM</pattern>
-        <template>
-            <srai>RUANGAN RAPAT</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ MEETING ROOM _</pattern>
-        <template>
-            <srai>RUANGAN RAPAT</srai>    
+            <srai>RUANG RAPAT</srai>    
         </template>
     </category>
 
     <category>
         <pattern>INFORMASI MEETING ROOM</pattern>
         <template>
-            <srai>RUANGAN RAPAT</srai>    
+            <srai>RUANG RAPAT</srai>    
         </template>
     </category>
 
     <category>
         <pattern>INFORMASI RUANGAN RAPAT</pattern>
         <template>
-            <srai>RUANGAN RAPAT</srai>    
+            <srai>RUANG RAPAT</srai>    
         </template>
     </category>
 
     <category>
         <pattern>TRANSPORT</pattern>
         <template>
-            <srai>KENDARAAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ TRANSPORT</pattern>
-        <template>
-            <srai>KENDARAAN</srai>    
+            <srai>KENDARA</srai>    
         </template>
     </category>
 
     <category>
         <pattern>TRANSPORT _</pattern>
         <template>
-            <srai>KENDARAAN</srai>    
+            <srai>KENDARA</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>_ TRANSPORT _</pattern>
-        <template>
-            <srai>KENDARAAN</srai>    
-        </template>
-    </category>
-    
-    <category>
         <pattern>TRANSPORTASI</pattern>
         <template>
-            <srai>KENDARAAN</srai>    
+            <srai>KENDARA</srai>    
         </template>
     </category>
     
     <category>
         <pattern>TRANSPORTASI _</pattern>
         <template>
-            <srai>KENDARAAN</srai>    
+            <srai>KENDARA</srai>    
         </template>
     </category>
 
-    <category>
-        <pattern>_ TRANSPORTASI</pattern>
-        <template>
-            <srai>KENDARAAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ TRANSPORTASI _</pattern>
-        <template>
-            <srai>KENDARAAN</srai>    
-        </template>
-    </category>
-    
     <category>
         <pattern>MOBIL</pattern>
         <template>
-            <srai>KENDARAAN</srai>    
+            <srai>KENDARA</srai>    
         </template>
     </category>
     
     <category>
         <pattern>MOBIL _</pattern>
         <template>
-            <srai>KENDARAAN</srai>    
+            <srai>KENDARA</srai>    
         </template>
     </category>
 
     <category>
         <pattern>_ MOBIL</pattern>
         <template>
-            <srai>KENDARAAN</srai>    
+            <srai>KENDARA</srai>    
         </template>
     </category>
 
     <category>
         <pattern>_ MOBIL _</pattern>
         <template>
-            <srai>KENDARAAN</srai>    
+            <srai>KENDARA</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>KENDARAAN _</pattern>
+        <pattern>KENDARA _</pattern>
         <template>
-            <srai>KENDARAAN</srai>    
+            <srai>KENDARA</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>_ KENDARAAN</pattern>
+        <pattern>MAKAN</pattern>
         <template>
-            <srai>KENDARAAN</srai>    
+            <srai>MAKAN MINUM</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>_ KENDARAAN _</pattern>
+        <pattern>MINUM</pattern>
         <template>
-            <srai>KENDARAAN</srai>    
-        </template>
-    </category>
-
-
-    <category>
-        <pattern>MAKANAN</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
+            <srai>MAKAN MINUM</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>_ MAKANAN</pattern>
+        <pattern>MINUM _</pattern>
         <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ MAKANAN _ MINUMAN _</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>MINUMAN</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>MINUMAN _</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
+            <srai>MAKAN MINUM</srai>    
         </template>
     </category>
 
     <category>
         <pattern>RESTAURAN</pattern>
         <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-        
-    <category>
-        <pattern>_ RESTAURAN</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
+            <srai>MAKAN MINUM</srai>    
         </template>
     </category>
         
     <category>
         <pattern>RESTAURAN _</pattern>
         <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-
-        
-    <category>
-        <pattern>_ RESTAURAN _</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
+            <srai>MAKAN MINUM</srai>    
         </template>
     </category>
 
     <category>
         <pattern>RESTAURANT</pattern>
         <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ RESTAURANT</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
+            <srai>MAKAN MINUM</srai>    
         </template>
     </category>
 
     <category>
         <pattern>RESTAURANT _</pattern>
         <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ RESTAURANT _</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
+            <srai>MAKAN MINUM</srai>    
         </template>
     </category>
 
     <category>
         <pattern>RESTORAN</pattern>
         <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
+            <srai>MAKAN MINUM</srai>    
         </template>
     </category>
 
     <category>
         <pattern>RESTORAN _</pattern>
         <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
+            <srai>MAKAN MINUM</srai>    
         </template>
     </category>
-
-    <category>
-        <pattern>_ RESTORAN</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ RESTORAN _</pattern>
-        <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
-        </template>
-    </category>
-
 
     <category>
         <pattern>FASILITAS</pattern>
-        <template>
-            <srai>FASILITAS LAIN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ FASILITAS</pattern>
-        <template>
-            <srai>FASILITAS LAIN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ FASILITAS _</pattern>
         <template>
             <srai>FASILITAS LAIN</srai>    
         </template>
@@ -833,7 +494,7 @@
     </category>
 
     <category>
-        <pattern>_ FASILITAS LAIN</pattern>
+        <pattern>FASILITAS HOTEL</pattern>
         <template>
             <srai>FASILITAS LAIN</srai>    
         </template>
@@ -847,21 +508,7 @@
     </category>
 
     <category>
-        <pattern>FASILITAS HOTELNYA _</pattern>
-        <template>
-            <srai>FASILITAS LAIN</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>SANTIKA PREMIERE</pattern>
-        <template>
-            <srai>SANTIKA PREMIERE SLIPI</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ SANTIKA PREMIERE</pattern>
         <template>
             <srai>SANTIKA PREMIERE SLIPI</srai>
         </template>
@@ -874,13 +521,6 @@
         </template>
     </category>
     
-    <category>
-        <pattern>_ SANTIKA PREMIERE SLIPI _</pattern>
-        <template>
-            <srai>SANTIKA PREMIERE SLIPI</srai>
-        </template>
-    </category>
-
     <category>
         <pattern>HOTEL</pattern>
         <template>

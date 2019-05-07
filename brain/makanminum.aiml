@@ -2,7 +2,7 @@
 <aiml>
 
     <category>
-        <pattern>MAKANAN DAN MINUMAN</pattern>
+        <pattern>MAKAN MINUM</pattern>
         <template>
             Hotel Santika Premiere menyediakan 2 Restaurant
             [ul]
@@ -41,21 +41,7 @@
     </category>
 
     <category>
-        <pattern>_ HARMONI</pattern>
-        <template>
-            <srai>HARMONI BUFFET</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>HARMONI BUFFET _</pattern>
-        <template>
-            <srai>HARMONI BUFFET</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ HARMONI BUFFET _</pattern>
         <template>
             <srai>HARMONI BUFFET</srai>    
         </template>
@@ -64,7 +50,7 @@
     <category>
         <pattern>BUFFET</pattern>
         <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
+            <srai>MAKAN MINUM</srai>    
         </template>
     </category>
 
@@ -82,18 +68,4 @@
         </template>
     </category>
 
-    <category>
-        <pattern>_ YAN PALACE</pattern>
-        <template>
-            <srai>YAN PALACE</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ YAN PALACE _</pattern>
-        <template>
-            <srai>YAN PALACE</srai>    
-        </template>
-    </category>
-    
 </aiml>

@@ -2,7 +2,7 @@
 <aiml>
     
     <category>
-        <pattern>ACARA PERNIKAHAN</pattern>
+        <pattern>ACARA NIKAH</pattern>
         <template>
             Ada 3 jenis Event yang dapat dilakukan
             [ul]
@@ -99,42 +99,21 @@
     </category>
 
     <category>
-        <pattern>_ CLASSIC</pattern>
+        <pattern>PAKET CLASSIC _</pattern>
         <template>
             <srai>CLASSIC</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>_ ROMANTIC</pattern>
+        <pattern>PAKET ROMANTIC _</pattern>
         <template>
             <srai>ROMANTIC</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>_ ROYAL</pattern>
-        <template>
-            <srai>ROYAL</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ CLASSIC _</pattern>
-        <template>
-            <srai>CLASSIC</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ ROMANTIC _</pattern>
-        <template>
-            <srai>ROMANTIC</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ ROYAL _</pattern>
+        <pattern>PAKET ROYAL _</pattern>
         <template>
             <srai>ROYAL</srai>    
         </template>

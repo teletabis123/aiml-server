@@ -26,7 +26,7 @@
     </category>
 
     <category>
-        <pattern>PEMBAYARAN</pattern>
+        <pattern>BAYAR</pattern>
         <template>
             Informasi Mengenai Pembayaran[enter]
             Jika Customer memiliki myValue ID (SIP Santika Important Person):
