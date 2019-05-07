@@ -21,6 +21,7 @@
     <category>
         <pattern>DELUXE</pattern>
         <template>
+            <get name="sedia/>
             <condition name = "sedia" value = "sedia">
                 Spesifikasi Kamar Hotel Deluxe adalah:
                 [ul]
