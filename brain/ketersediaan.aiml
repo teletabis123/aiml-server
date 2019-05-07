@@ -23,6 +23,7 @@
     <category>
         <pattern>CEK SEDIA KAMAR</pattern>
         <template>
+            <get name="sedia"/>
             <think><set name="sedia">kamar</set></think>
             <get name="sedia"/>
             <!-- Cek ketersediaan kamar dengan kata kunci 'cek kamar' dan 'pada tanggal'. Struktur penulisan tanggal: DD-MM-YYYY -->
