@@ -215,20 +215,6 @@
         </category>
 
         <category>
-            <pattern>RUANG RAPAT</pattern>
-            <template>
-                <srai>JENIS RUANG RAPAT</srai>    
-            </template>
-        </category>
-
-        <category>
-            <pattern>RUANG RAPAT _</pattern>
-            <template>
-                <srai>JENIS RUANG RAPAT</srai>    
-            </template>
-        </category>
-
-        <category>
             <pattern>JENIS RUANG RAPAT _</pattern>
             <template>
                 <srai>JENIS RUANG RAPAT</srai>    

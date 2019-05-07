@@ -99,6 +99,27 @@
     </category>
 
     <category>
+        <pattern>PAKET CLASSIC</pattern>
+        <template>
+            <srai>CLASSIC</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PAKET ROMANTIC</pattern>
+        <template>
+            <srai>ROMANTIC</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PAKET ROYAL</pattern>
+        <template>
+            <srai>ROYAL</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>PAKET CLASSIC _</pattern>
         <template>
             <srai>CLASSIC</srai>    

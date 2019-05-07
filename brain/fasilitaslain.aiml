@@ -51,7 +51,7 @@
     </category>
 
     <category>
-        <pattern>TEMPAT PARKIR</pattern>
+        <pattern>PARKIR</pattern>
         <template>
             Informasi mengenai Tempat Parkir:
             [ul]
@@ -154,13 +154,6 @@
     </category>
 
     <category>
-        <pattern>CLUB _</pattern>
-        <template>
-            <srai>HEALTH CLUB</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>GYM</pattern>
         <template>
             <srai>HEALTH CLUB</srai>    
@@ -217,16 +210,9 @@
     </category>
 
     <category>
-        <pattern>TEMPAT PARKIR _</pattern>
-        <template>
-            <srai>TEMPAT PARKIR</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>PARKIR _</pattern>
         <template>
-            <srai>TEMPAT PARKIR</srai>    
+            <srai>PARKIR</srai>    
         </template>
     </category>
 
@@ -240,14 +226,21 @@
     <category>
         <pattern>CHECK OUT</pattern>
         <template>
-            <srai>CHECK IN DAN CHECK OUT</srai>    
+            <srai>CHECK IN CHECK OUT</srai>    
         </template>
     </category>
 
     <category>
         <pattern>CHECK OUT _</pattern>
         <template>
-            <srai>CHECK IN DAN CHECK OUT</srai>    
+            <srai>CHECK IN CHECK OUT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>CHECK IN CHECK OUT _</pattern>
+        <template>
+            <srai>CHECK IN CHECK OUT</srai>    
         </template>
     </category>
 

@@ -4,7 +4,7 @@
     <category>
         <pattern>*</pattern>
         <template>
-            <get name="sedia"/>
+            <!-- <get name="sedia"/> -->
             <condition name="sedia">
                 <li value="kamar">
                     Maaf, informasi mengenai <star/> belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
@@ -39,11 +39,11 @@
             <!-- Halo, Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang: -->
             Halo,  Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang: 
             [ul]
-                [li]Tentang Santika Premiere Slipi[/li]
+                [li]Tentang Santika Premiere SLIPI[/li]
                 [li]Kamar Hotel[/li]
                 [li]Cek Ketersediaan Kamar[/li]
                 [li]Mengenai Reservasi[/li]
-                [li]Mengenai Pembayaran[/li]
+                [li]Mengenai BAYAR[/li]
                 [li]Acara Pernikahan[/li]
                 [li]Ruangan Rapat[/li]
                 [li]Transportasi[/li]
@@ -54,18 +54,11 @@
     </category>
 
     <category>
-        <pattern>SANTIKA PREMIERE SLIPI</pattern>
+        <pattern>SANTIKA PREMIERE SLIP</pattern>
         <template>
             Santika Hotel dan Resorts adalah salah satu grup hotel terbesar di Indonesia. Dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981.
         </template>
     </category>
-
-    <category>
-        <pattern>_ SANTIKA PREMIERE SLIPI</pattern>
-        <template>
-            <srai>SANTIKA PREMIERE SLIPI</srai>
-        </template>
-    </category>    
     
     <category>
             <pattern>HALO _</pattern>
@@ -208,42 +201,7 @@
     </category>
 
     <category>
-        <pattern>APA KABAR</pattern>
-        <template>
-            <srai>HALO</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>APA KABAR _</pattern>
-        <template>
-            <srai>HALO</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>MAU NANYA DONG</pattern>
-        <template>
-            <srai>HALO</srai>    
-        </template>
-    </category>
-    
-    <category>
-        <pattern>MIN</pattern>
-        <template>
-            <srai>HALO</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>MIN _</pattern>
-        <template>
-            <srai>HALO</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>MIN, _</pattern>
+        <pattern>KABAR</pattern>
         <template>
             <srai>HALO</srai>    
         </template>
@@ -301,7 +259,7 @@
     <category>
         <pattern>BAYAR _</pattern>
         <template>
-            <srai>PEMBAYARAN</srai>    
+            <srai>BAYAR</srai>    
         </template>
     </category>
 
@@ -316,6 +274,20 @@
         <pattern>NIKAH _</pattern>
         <template>
             <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RAPAT</pattern>
+        <template>
+            <srai>RUANG RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RAPAT _</pattern>
+        <template>
+            <srai>RUANG RAPAT</srai>    
         </template>
     </category>
 
@@ -348,7 +320,7 @@
     </category>
 
     <category>
-        <pattern>INFORMASI RUANGAN RAPAT</pattern>
+        <pattern>INFORMASI RUANG RAPAT</pattern>
         <template>
             <srai>RUANG RAPAT</srai>    
         </template>
@@ -391,20 +363,6 @@
     
     <category>
         <pattern>MOBIL _</pattern>
-        <template>
-            <srai>KENDARA</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ MOBIL</pattern>
-        <template>
-            <srai>KENDARA</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ MOBIL _</pattern>
         <template>
             <srai>KENDARA</srai>    
         </template>
@@ -511,21 +469,28 @@
     <category>
         <pattern>SANTIKA PREMIERE</pattern>
         <template>
-            <srai>SANTIKA PREMIERE SLIPI</srai>
+            <srai>SANTIKA PREMIERE SLIP</srai>
         </template>
     </category>
 
     <category>
-        <pattern>SANTIKA PREMIERE SLIPI _</pattern>
+        <pattern>SANTIKA PREMIERE SLIP _</pattern>
         <template>
-            <srai>SANTIKA PREMIERE SLIPI</srai>
+            <srai>SANTIKA PREMIERE SLIP</srai>
         </template>
     </category>
     
     <category>
         <pattern>HOTEL</pattern>
         <template>
-            <srai>SANTIKA PREMIERE SLIPI</srai>
+            <srai>SANTIKA PREMIERE SLIP</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>THIS IS AN EMPTY QUERY</pattern>
+        <template>
+            Maaf, input anda tidak dapat diterima.
         </template>
     </category>
     

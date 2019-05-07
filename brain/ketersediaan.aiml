@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 
-    <category>
+    <!-- <category>
         <pattern>ASDF</pattern>
         <template>
             <condition name = "sedia" value = "sedia">
@@ -11,21 +11,14 @@
                 asdf;
             </condition>
         </template>
-    </category>
-
-    <category>
-        <pattern>CEK KAMAR</pattern>
-        <template>
-            <srai>CEK SEDIA KAMAR</srai>
-        </template>
-    </category>
+    </category> -->
 
     <category>
         <pattern>CEK SEDIA KAMAR</pattern>
         <template>
-            <get name="sedia"/>
+            <!-- <get name="sedia"/> -->
             <think><set name="sedia">kamar</set></think>
-            <get name="sedia"/>
+            <!-- <get name="sedia"/> -->
             <!-- Cek ketersediaan kamar dengan kata kunci 'cek kamar' dan 'pada tanggal'. Struktur penulisan tanggal: DD-MM-YYYY -->
             Kamar yang tersedia untuk dipesan:
             [ul]
@@ -47,7 +40,7 @@
     <category>
         <pattern>TANGGAL</pattern>
         <template>
-            <get name="sedia"/>
+            <!-- <get name="sedia"/> -->
             <condition name = "sedia" value = "sedia">
                 Maaf, informasi mengenai tanggal belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
             </condition>
@@ -60,7 +53,7 @@
     <category>
         <pattern>MALAM</pattern>
         <template>
-            <get name="sedia"/>
+            <!-- <get name="sedia"/> -->
             <condition name = "sedia" value = "sedia">
                 Maaf, informasi mengenai malam belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
             </condition>
@@ -73,7 +66,7 @@
     <category>
         <pattern>BANYAK</pattern>
         <template>
-            <get name="sedia"/>
+            <!-- <get name="sedia"/> -->
             <condition name = "sedia" value = "sedia">
                 Maaf, informasi mengenai banyak belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
             </condition>
@@ -82,7 +75,7 @@
             </condition>
         </template>
     </category>
-    
+
     <category>
         <pattern>CEK</pattern>
         <template>
@@ -91,35 +84,42 @@
     </category>
 
     <category>
-        <pattern>KETERSEDIAAN</pattern>
+        <pattern>SEDIA</pattern>
         <template>
             <srai>CEK SEDIA KAMAR</srai>
         </template>
     </category>
 
     <category>
-        <pattern>KETERSEDIAAN KAMAR</pattern>
+        <pattern>CEK KAMAR</pattern>
+        <template>
+            <srai>CEK SEDIA KAMAR</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SEDIA KAMAR</pattern>
         <template>
             <srai>CEK SEDIA KAMAR</srai>
         </template>
     </category>
 
     <category>
-        <pattern>KETERSEDIAAN KAMAR _</pattern>
+        <pattern>CEK SEDIA</pattern>
         <template>
             <srai>CEK SEDIA KAMAR</srai>
         </template>
     </category>
 
     <category>
-        <pattern>CEK KETERSEDIAAN</pattern>
+        <pattern>SEDIA KAMAR _</pattern>
         <template>
             <srai>CEK SEDIA KAMAR</srai>
         </template>
     </category>
 
     <category>
-        <pattern>CEK KETERSEDIAAN KAMAR _</pattern>
+        <pattern>CEK SEDIA KAMAR _</pattern>
         <template>
             <srai>CEK SEDIA KAMAR</srai>
         </template>

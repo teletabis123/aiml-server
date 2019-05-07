@@ -5,7 +5,7 @@
         <pattern>KAMAR HOTEL</pattern>
         <template>
             <think><set name="sedia">sedia</set></think>
-            Hotel Santika Premiere menyediakan berbagai jenis kamar
+            Hotel Santika Premiere Slipi menyediakan berbagai jenis kamar
             [ul]
                 [li]Deluxe[/li]
                 [li]Club Premiere[/li]
@@ -21,7 +21,7 @@
     <category>
         <pattern>DELUXE</pattern>
         <template>
-            <get name="sedia"/>
+            <!-- <get name="sedia"/> -->
             <condition name = "sedia" value = "sedia">
                 Spesifikasi Kamar Hotel Deluxe adalah:
                 [ul]
@@ -32,8 +32,38 @@
                     [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
                 [/ul]
             </condition>
+            <condition name = "sedia" value = "tanggal">
+                Spesifikasi Kamar Hotel Deluxe adalah:
+                [ul]
+                    [li]1 Kamar untuk 2 Orang.[/li]
+                    [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).[/li]
+                    [li]Disediakan Standing Shower.[/li]
+                    [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
+                    [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                [/ul]
+            </condition>
+            <condition name = "sedia" value = "malam">
+                Spesifikasi Kamar Hotel Deluxe adalah:
+                [ul]
+                    [li]1 Kamar untuk 2 Orang.[/li]
+                    [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).[/li]
+                    [li]Disediakan Standing Shower.[/li]
+                    [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
+                    [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                [/ul]
+            </condition>
+            <condition name = "sedia" value = "banyak">
+                Spesifikasi Kamar Hotel Deluxe adalah:
+                [ul]
+                    [li]1 Kamar untuk 2 Orang.[/li]
+                    [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).[/li]
+                    [li]Disediakan Standing Shower.[/li]
+                    [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
+                    [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                [/ul]
+            </condition>
             <condition name = "sedia" value = "kamar">
-                <think><set name="kamar">deluxe</set></think>
+                <think><set name="kamar">Deluxe</set></think>
                 <think><set name="sedia">tanggal</set></think>
                 <!-- <get name="kamar"/> -->
                 <srai>TANGGAL</srai>
@@ -44,29 +74,75 @@
     <category>
         <pattern>DELUXE SUITE</pattern>
         <template>
-            <condition name = "sedia">
-                <li value = "kamar">
-                    <think><set name="kamar">deluxesuite</set></think>
-                    <think><set name="sedia">tanggal</set></think> -->
-                    <!-- <get name="kamar"/> -->
-                    <srai>TANGGAL</srai>
-                </li>
-                <li>
-                    Spesifikasi Kamar Hotel Deluxe Suite adalah:
-                    [ul]
-                        [li]1 Kamar untuk 2 Orang.[/li]
-                        [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).[/li]
-                        [li]Disediakan Standing Shower dan bathrobe.[/li]
-                        [li]Memiliki Living Room[/li]
-                        [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
-                        [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
-                        [li]Minibar di kamar dapat digunakan secara gratis.[/li]
-                        [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
-                        [li]Disediakan setrika dan papan setrika.[/li]
-                        [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
-                        [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
-                    [/ul]
-                </li>
+            <condition name = "sedia" value = "sedia">
+                Spesifikasi Kamar Hotel Deluxe Suite adalah:
+                [ul]
+                    [li]1 Kamar untuk 2 Orang.[/li]
+                    [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).[/li]
+                    [li]Disediakan Standing Shower dan bathrobe.[/li]
+                    [li]Memiliki Living Room[/li]
+                    [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
+                    [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
+                    [li]Minibar di kamar dapat digunakan secara gratis.[/li]
+                    [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
+                    [li]Disediakan setrika dan papan setrika.[/li]
+                    [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
+                    [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                [/ul]
+            </condition>
+            <condition name = "sedia" value = "tanggal">
+                Spesifikasi Kamar Hotel Deluxe Suite adalah:
+                [ul]
+                    [li]1 Kamar untuk 2 Orang.[/li]
+                    [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).[/li]
+                    [li]Disediakan Standing Shower dan bathrobe.[/li]
+                    [li]Memiliki Living Room[/li]
+                    [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
+                    [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
+                    [li]Minibar di kamar dapat digunakan secara gratis.[/li]
+                    [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
+                    [li]Disediakan setrika dan papan setrika.[/li]
+                    [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
+                    [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                [/ul]
+            </condition>
+            <condition name = "sedia" value = "malam">
+                Spesifikasi Kamar Hotel Deluxe Suite adalah:
+                [ul]
+                    [li]1 Kamar untuk 2 Orang.[/li]
+                    [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).[/li]
+                    [li]Disediakan Standing Shower dan bathrobe.[/li]
+                    [li]Memiliki Living Room[/li]
+                    [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
+                    [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
+                    [li]Minibar di kamar dapat digunakan secara gratis.[/li]
+                    [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
+                    [li]Disediakan setrika dan papan setrika.[/li]
+                    [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
+                    [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                [/ul]
+            </condition>
+            <condition name = "sedia" value = "banyak">
+                Spesifikasi Kamar Hotel Deluxe Suite adalah:
+                [ul]
+                    [li]1 Kamar untuk 2 Orang.[/li]
+                    [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).[/li]
+                    [li]Disediakan Standing Shower dan bathrobe.[/li]
+                    [li]Memiliki Living Room[/li]
+                    [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
+                    [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
+                    [li]Minibar di kamar dapat digunakan secara gratis.[/li]
+                    [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
+                    [li]Disediakan setrika dan papan setrika.[/li]
+                    [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
+                    [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                [/ul]
+            </condition>
+            <condition name = "sedia" value = "kamar">
+                <think><set name="kamar">Deluxe Suite</set></think>
+                <think><set name="sedia">tanggal</set></think>
+                <!-- <get name="kamar"/> -->
+                <srai>TANGGAL</srai>
             </condition>
         </template>
     </category>
@@ -88,8 +164,50 @@
                     [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
                 [/ul]
             </condition>
+            <condition name = "sedia" value = "tanggal">
+                Spesifikasi Kamar Hotel Club Premiere adalah:
+                [ul]
+                    [li]1 Kamar untuk 2 Orang.[/li]
+                    [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).[/li]
+                    [li]Disediakan Standing Shower.[/li]
+                    [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
+                    [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
+                    [li]Minibar di kamar dapat digunakan secara gratis.[/li]
+                    [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
+                    [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
+                    [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                [/ul]
+            </condition>
+            <condition name = "sedia" value = "malam">
+                Spesifikasi Kamar Hotel Club Premiere adalah:
+                [ul]
+                    [li]1 Kamar untuk 2 Orang.[/li]
+                    [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).[/li]
+                    [li]Disediakan Standing Shower.[/li]
+                    [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
+                    [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
+                    [li]Minibar di kamar dapat digunakan secara gratis.[/li]
+                    [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
+                    [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
+                    [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                [/ul]
+            </condition>
+            <condition name = "sedia" value = "banyak">
+                Spesifikasi Kamar Hotel Club Premiere adalah:
+                [ul]
+                    [li]1 Kamar untuk 2 Orang.[/li]
+                    [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).[/li]
+                    [li]Disediakan Standing Shower.[/li]
+                    [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
+                    [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
+                    [li]Minibar di kamar dapat digunakan secara gratis.[/li]
+                    [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
+                    [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
+                    [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                [/ul]
+            </condition>
             <condition name = "sedia" value = "kamar">
-                <think><set name="kamar">club premiere</set></think>
+                <think><set name="kamar">Club Premiere</set></think>
                 <think><set name="sedia">tanggal</set></think>
                 <!-- <get name="kamar"/> -->
                 <srai>TANGGAL</srai>
@@ -157,7 +275,7 @@
     </category>
 
     <category>
-        <pattern>INFO LAIN</pattern>
+        <pattern>INFO</pattern>
         <template>
             Informasi lain mengenai kamar yang dapat dipesan.
             [ul]
@@ -166,15 +284,8 @@
                 [li]3. Menghadap Matahari[/li]
                 [li]4. Pool View / Resident View / Sudirman View[/li]
                 [li]5. Connecting Room[/li]
-                [li]Permintaan kamar sesuai dengan ketersediaan kamar saat kamar akan ditempati.[/li]
+                [footer]Permintaan kamar sesuai dengan ketersediaan kamar saat kamar akan ditempati.[/footer]
             [/ul]
-        </template>
-    </category>
-
-    <category>
-        <pattern>DELUXE _</pattern>
-        <template>
-            <srai>DELUXE</srai>    
         </template>
     </category>
 
@@ -189,13 +300,6 @@
         <pattern>EXECUTIVE SUITE _</pattern>
         <template>
             <srai>EXECUTIVE SUITE</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>KELUARGA _</pattern>
-        <template>
-            <srai>FAMILY SUITE</srai>    
         </template>
     </category>
 
@@ -224,13 +328,6 @@
         <pattern>SANTIKA SUITE _</pattern>
         <template>
             <srai>SANTIKA SUITE</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>LAIN _</pattern>
-        <template>
-            <srai>INFO LAIN</srai>    
         </template>
     </category>
 

@@ -15,7 +15,7 @@
     <category>
         <pattern>HARMONI BUFFET</pattern>
         <template>
-            Spesifikasi Restauran Harmoni BUffet adalah:
+            Spesifikasi Restauran Harmoni Buffet adalah:
             [ul]
                 [li]Di Harmony disediakan buffet untuk makanan tradisional, western, dan eastern.[/li]
             [/ul]
@@ -57,7 +57,21 @@
     <category>
         <pattern>BUFFET _</pattern>
         <template>
-            <srai>MAKANAN DAN MINUMAN</srai>    
+            <srai>MAKAN MINUM</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>YAN</pattern>
+        <template>
+            <srai>YAN PALACE</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PALACE</pattern>
+        <template>
+            <srai>YAN PALACE</srai>    
         </template>
     </category>
 
