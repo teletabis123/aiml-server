@@ -21,17 +21,10 @@
     </category>
 
     <category>
-        <pattern>CEK KAMAR * TANGGAL *</pattern>
-        <template>
-            [request]<star index="1"/> <star index="2"/>
-        </template>
-    </category>
-
-    <category>
         <pattern>CEK SEDIA KAMAR</pattern>
         <template>
-            <get name="sedia"/>
             <think><set name="sedia">kamar</set></think>
+            <get name="sedia"/>
             <!-- Cek ketersediaan kamar dengan kata kunci 'cek kamar' dan 'pada tanggal'. Struktur penulisan tanggal: DD-MM-YYYY -->
             Kamar yang tersedia untuk dipesan:
             [ul]
@@ -54,13 +47,11 @@
         <pattern>TANGGAL</pattern>
         <template>
             <get name="sedia"/>
-            <condition name = "sedia">
-                <li value = "tanggal">
-                    Tanggal Check in anda (Contoh: 06 Mei 2019):
-                </li>
-                <li>
-                    Maaf, informasi mengenai tanggal belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
-                </li>
+            <condition name = "sedia" value = "sedia">
+                Maaf, informasi mengenai tanggal belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
+            </condition>
+            <condition name = "sedia" value = "tanggal">
+                Tanggal Check in anda (Contoh: 06 Mei 2019):
             </condition>
         </template>
     </category>
@@ -69,13 +60,11 @@
         <pattern>MALAM</pattern>
         <template>
             <get name="sedia"/>
-            <condition name = "sedia">
-                <li value = "malam">
-                    Berapa malam anda ingin menginap di kamar <get name="kamar"/>?
-                </li>
-                <li>
-                    Maaf, informasi mengenai malam belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
-                </li>
+            <condition name = "sedia" value = "sedia">
+                Maaf, informasi mengenai malam belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
+            </condition>
+            <condition name = "sedia" value = "malam">
+                Berapa malam anda ingin menginap di kamar <get name="kamar"/>?
             </condition>
         </template>
     </category>
@@ -85,12 +74,10 @@
         <template>
             <get name="sedia"/>
             <condition name = "sedia" value = "sedia">
-                <li value = "banyak">
-                    Berapa banyak kamar <get name="kamar"/> yang ingin anda cek?
-                </li>
-                <li>
-                    Maaf, informasi mengenai banyak belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
-                </li>
+                Maaf, informasi mengenai banyak belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
+            </condition>
+            <condition name = "sedia" value = "banyak">
+                Berapa banyak kamar <get name="kamar"/> yang ingin anda cek?
             </condition>
         </template>
     </category>
