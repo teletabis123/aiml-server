@@ -4,6 +4,7 @@
     <category>
         <pattern>*</pattern>
         <template>
+            <get name="sedia"/>
             <condition name="sedia">
                 <li value="kamar">
                     Maaf, informasi mengenai <star/> belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
