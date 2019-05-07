@@ -24,7 +24,7 @@
                     [request] kamar <get name="kamar"/> tanggal <get name="tangal"/> malam <get name="malam"/> banyak <get name="banyak"/>
                 </li>
                 <li>
-                    <get name="sedia"/> Maaf, informasi mengenai <star/> belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
+                    Nooo <get name="sedia"/> Maaf, informasi mengenai <star/> belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
                 </li>
             </condition>
         </template>
