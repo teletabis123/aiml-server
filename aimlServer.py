@@ -341,9 +341,9 @@ def index(query):
     if query.isdigit() :
         query = "THE PHONE NUMBER IS " + query
     
-    if query.count("@") > 0 :
-        lst = re.findall('\S@\S+',query)
-        query = "THE EMAIL IS ". join(lst)
+    if lst = re.findall('\S+@\S+',query) :
+        query =  "THE EMAIL ADDRESS IS ".join(lst)
+        
     
     
     # Meminta hasil response dari query berdasarkan AIML
