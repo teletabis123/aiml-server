@@ -632,6 +632,13 @@
             Terima kasih, kontak anda telah tersimpan. Mohon tunggu kabar selanjutnya dari kami.
         </template>
     </category>
+
+    <category>
+        <pattern>THE EMAIL ADDRESS IS *</pattern>
+        <template>
+            Terima kasih, kontak anda telah tersimpan. Mohon tunggu kabar selanjutnya dari kami.
+        </template>
+    </category>
     
     <category>
         <pattern>TELETUBBIES</pattern>
