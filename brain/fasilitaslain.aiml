@@ -209,6 +209,13 @@
             <srai>HEALTH CLUB</srai>    
         </template>
     </category>
+    
+    <category>
+        <pattern>AREA PARKIR</pattern>
+        <template>
+            <srai>PARKIR</srai>    
+        </template>
+    </category>
 
     <category>
         <pattern>PARKIR _</pattern>
