@@ -408,6 +408,13 @@
             <srai>RUANG RAPAT</srai>    
         </template>
     </category>
+    
+    <category>
+        <pattern>ACARA RAPAT</pattern>
+        <template>
+            <srai>RUANG RAPAT</srai>    
+        </template>
+    </category>
 
     <category>
         <pattern>RAPAT _</pattern>
