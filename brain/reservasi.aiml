@@ -28,7 +28,7 @@
     <category>
         <pattern>BAYAR</pattern>
         <template>
-            Informasi Mengenai BAYAR[enter]
+            Informasi Mengenai Pembayaran[enter]
             Jika Customer memiliki myValue ID (SIP Santika Important Person):
             [ul]
                 [li]1. Payment dapat dilakukan menggunakan poin myValue[/li]

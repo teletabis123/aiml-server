@@ -43,7 +43,7 @@
                 [li]Kamar Hotel[/li]
                 [li]Cek Ketersediaan Kamar[/li]
                 [li]Mengenai Reservasi[/li]
-                [li]Mengenai BAYAR[/li]
+                [li]Mengenai pembayaran[/li]
                 [li]Acara Pernikahan[/li]
                 [li]Ruangan Rapat[/li]
                 [li]Transportasi[/li]
@@ -277,7 +277,35 @@
     </category>
 
     <category>
+        <pattern>MANA PESAN</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>PESAN _</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>MANA PESAN _</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>MANA SALES</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>SALES</pattern>
         <template>
             <srai>RESERVASI</srai>    
         </template>
@@ -305,6 +333,34 @@
     </category>
 
     <category>
+        <pattern>HARGA NIKAH</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA NIKAH _</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA PAKET NIKAH</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA PAKET NIKAH _</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>WEDDING</pattern>
         <template>
             <srai>ACARA NIKAH</srai>    
@@ -313,6 +369,34 @@
 
     <category>
         <pattern>WEDDING _</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA WEDDING</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA WEDDING _</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA PAKET WEDDING</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA PAKET WEDDING _</pattern>
         <template>
             <srai>ACARA NIKAH</srai>    
         </template>
@@ -459,6 +543,34 @@
     </category>
 
     <category>
+        <pattern>HARGA HOTEL BANDARA</pattern>
+        <template>
+            <srai>KENDARA</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA HOTEL BANDARA _</pattern>
+        <template>
+            <srai>KENDARA</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PERGI HOTEL BANDARA</pattern>
+        <template>
+            <srai>KENDARA</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PERGI HOTEL BANDARA _</pattern>
+        <template>
+            <srai>KENDARA</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>BANDARA HOTEL</pattern>
         <template>
             <srai>KENDARA</srai>    
@@ -467,6 +579,34 @@
 
     <category>
         <pattern>BANDARA HOTEL _</pattern>
+        <template>
+            <srai>KENDARA</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA BANDARA HOTEL</pattern>
+        <template>
+            <srai>KENDARA</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA BANDARA HOTEL _</pattern>
+        <template>
+            <srai>KENDARA</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PERGI BANDARA HOTEL</pattern>
+        <template>
+            <srai>KENDARA</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PERGI BANDARA HOTEL _</pattern>
         <template>
             <srai>KENDARA</srai>    
         </template>
