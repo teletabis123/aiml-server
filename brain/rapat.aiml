@@ -221,6 +221,13 @@
             <srai>PAKET MEETING</srai>    
         </template>
     </category>
+    
+    <category>
+        <pattern>HARGA RUANG RAPAT</pattern>
+        <template>
+            <srai>PAKET MEETING</srai>    
+        </template>
+    </category>
 
     <category>
         <pattern>HARGA RUANG RAPAT _</pattern>
