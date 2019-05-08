@@ -242,7 +242,21 @@
     </category>
     
     <category>
+        <pattern>TIPE KAMAR _</pattern>
+        <template>
+            <srai>KAMAR HOTEL</srai>    
+        </template>
+    </category>
+    
+    <category>
         <pattern>JENIS KAMAR</pattern>
+        <template>
+            <srai>KAMAR HOTEL</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>JENIS KAMAR _</pattern>
         <template>
             <srai>KAMAR HOTEL</srai>    
         </template>
