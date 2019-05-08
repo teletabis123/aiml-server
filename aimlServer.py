@@ -330,7 +330,7 @@ def index(query):
     # query = input user
     query = query.lower()
 
-    if  query.count('@') > 0:
+    if  query.count('@') > 0 :
         lst = re.findall('\S+@\S+',query)
         email =  "".join(lst)
         isemail = True
@@ -350,7 +350,7 @@ def index(query):
     if not query:
         query = "THIS IS AN EMPTY QUERY"
         
-    if query.isdigit() :
+    if query.isdigit() and len(query) > 5 :
         query = "THE PHONE NUMBER IS " + query
     
     
