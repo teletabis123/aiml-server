@@ -357,8 +357,6 @@ def index(query):
 
     if isemail :
         query = "THE EMAIL ADDRESS IS " + email
-
-    print(query)
         
     
     
