@@ -116,9 +116,9 @@ def cekPenanggalan(sedia, tgl, bln, thn):
 
 # Function untuk melakukan request ke API santika untuk mengecek availability kamar hotel
 def getRequestContent(room_type, date, jumlah_malam, jumlah_kamar):
-    r = requests.get('https://staging-santika.oval.id/fastbooking-availabilty/?hotel=98&date='+ date +'&room_type='+ room_type +'&format=json')
-    room = json.loads(r.content)
-    room = room["count"]
+    # r = requests.get('https://staging-santika.oval.id/fastbooking-availabilty/?hotel=98&date='+ date +'&room_type='+ room_type +'&format=json')
+    # room = json.loads(r.content)
+    # room = room["count"]
     
     r = requests.get('https://staging-santika.oval.id/hotels/availability/?id=98&checkin_date='+ date +'&duration='+ str(jumlah_malam) +'&format=json')
     room = json.loads(r.content)
