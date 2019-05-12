@@ -4,6 +4,7 @@
     <category>
         <pattern>ACARA NIKAH</pattern>
         <template>
+            <think><set name="topic">nikah</set></think>
             Ada 3 jenis paket yang ada:
             [ul]
                 [li]Classic[/li]
@@ -16,6 +17,7 @@
     <category>
         <pattern>INFO NIKAH</pattern>
         <template>
+            <think><set name="topic">nikah</set></think>
             Informasi tambahan untuk paket pernikahan:
             [ul]
                 [li]Acara pernikahan bertempat di ballroom.[/li]
@@ -28,6 +30,7 @@
     <category>
         <pattern>CLASSIC</pattern>
         <template>
+            <think><set name="topic">nikah</set></think>
             Informasi mengenai Event Pernikahan Classic:
             [ul]
                 [li]Harga: Rp. 85.000.000,- nett[/li]
@@ -45,6 +48,7 @@
     <category>
         <pattern>ROMANTIC</pattern>
         <template>
+            <think><set name="topic">nikah</set></think>
             Informasi mengenai Event Pernikahan Romantic:
             [ul]
                 [li]Harga: Rp. 105.000.000,- nett[/li]   
@@ -68,6 +72,7 @@
     <category>
         <pattern>ROYAL</pattern>
         <template>
+            <think><set name="topic">nikah</set></think>
             Informasi mengenai Event Pernikahan Royal:
             [ul]
                 [li]Harga: Rp. 135.000.000,- nett[/li]

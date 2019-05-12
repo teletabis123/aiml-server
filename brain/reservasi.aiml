@@ -3,7 +3,7 @@
     <category>
         <pattern>RESERVASI</pattern>
         <template>
-            <condition name="reservasi">
+            <condition name="topic">
                 <li value="rapat"><srai>PROSES PESAN</srai></li>
                 <li><srai>RESERVASI HOTEL</srai></li>
             </condition>

@@ -4,6 +4,7 @@
     <category>
         <pattern>MAKAN</pattern>
         <template>
+            <think><set name="topic">makan</set></think>
             Hotel Santika Premiere menyediakan 2 Restaurant
             [ul]
                 [li]Harmoni Buffet[/li]
@@ -15,6 +16,7 @@
     <category>
         <pattern>HARMONI BUFFET</pattern>
         <template>
+        <think><set name="topic">makan</set></think>
             Spesifikasi Restauran Harmoni Buffet adalah:
             [ul]
                 [li]Di Harmony disediakan buffet untuk makanan tradisional, western, dan eastern.[/li]
@@ -25,6 +27,7 @@
     <category>
         <pattern>YAN PALACE</pattern>
         <template>
+        <think><set name="topic">makan</set></think>
             Spesifikasi Restauran Yan Palace adalah:
             [ul]
                 [li]Untuk Yan Palace dikhususkan untuk reservasi yang dapat langsung dilakukan saat datang ke restoran.[/li]

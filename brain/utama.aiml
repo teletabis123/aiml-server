@@ -31,6 +31,21 @@
         </template>
     </category>
 
+    <category>
+        <pattern>INFO</pattern>
+        <template>
+            <condition name="topic">
+                <li value="hotel"><srai>INFO KAMAR</srai></li>
+                <li value="rapat"><srai>RUANG RAPAT</srai></li>
+                <li value="santika"><srai>SANTIKA</srai></li>
+                <li value="makan"><srai>MAKAN</srai></li>
+                <li value="nikah"><srai>INFO NIKAH</srai></li>
+                <li value="kendara"><srai>KENDARA</srai></li>
+                <li><srai>FASILITAS</srai></li>
+            </condition>
+        </template>
+    </category>
+
    <!-- Introduction -->
     <category>
         <pattern>HALO</pattern>
@@ -54,8 +69,25 @@
     </category>
 
     <category>
+        <pattern>SANTIKA</pattern>
+        <template>
+            <think><set name="topic">santika</set></think>
+            Santika Hotel dan Resorts adalah salah satu grup hotel terbesar di Indonesia. Dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA PREMIERE</pattern>
+        <template>
+            <think><set name="topic">santika</set></think>
+            Nikmati kenyamanan lengkap di Hotel Santika Premiere. Kami memberikan yang terbaik dengan sentuhan pribadi dalam layanan kami. Pelancong bisnis dan liburan yang mencari banyak kenyamanan pasar atas dari hotel berkualitas tinggi akan menemukan semua ini dan lebih banyak lagi di Hotel Santika Premiere, sebagai hotel bintang empat kami di mana standar layanan kelas dunia dengan mulus dipadukan dengan sentuhan khas Indonesia. Temukan kualitas terbaik dan melampaui harapan di Hotel Santika Premiere.
+        </template>
+    </category>
+
+    <category>
         <pattern>SANTIKA PREMIERE SLIP</pattern>
         <template>
+            <think><set name="topic">santika</set></think>
             Santika Premiere Slipi:
             [ul]
                 [li]Santika Premiere Slipi adalah salah satu hotel Santika Group di Indonesia.[/li]
@@ -63,52 +95,60 @@
                 [li]Phone: +62-21-5361777[/li]
                 [li]Email: reservation@jakartapremiere.santika.com[/li]
             [/ul]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>BATAL</pattern>
+        <template>
+            Informasi mengenai Pembatalan yang dapat dilakukan:
+            [ul]
+                [li]Pembatalan dapat dilakukan dengan menghubungi agen sales masing-masing.[/li]
+                [li]Pembatalan akan menyebabkan DP atau pembayaran yang dilakukan tidak dapat dikembalikan.[/li]
+                [li]Perubahan tanggal penyewaan ruang rapat atau tanggal penginapan kamar hotel dapat dilakukan dengan menghubungi agen sales masing-masing. Dapat dikenakan biaya tambahan.[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>BATAL _</pattern>
+        <template>
+            <srai>BATAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CANCEL</pattern>
+        <template>
+            <srai>BATAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CANCELLATION</pattern>
+        <template>
+            <srai>BATAL</srai>
         </template>
     </category>
 
     <category>
         <pattern>SANTIKA PREMIERE SLIP _</pattern>
         <template>
-            Santika Premiere Slipi:
-            [ul]
-                [li]Santika Premiere Slipi adalah salah satu hotel Santika Group di Indonesia.[/li]
-                [li]Lokasi Hotel: https://goo.gl/maps/ZetbFZYG9AFwEooY8[/li]
-                [li]Phone: +62-21-5361777[/li]
-                [li]Email: reservation@jakartapremiere.santika.com[/li]
-            [/ul]
+            <srai>SANTIKA PREMIERE SLIP</srai>
         </template>
     </category>
 
     <category>
         <pattern>INFO SANTIKA PREMIERE SLIP</pattern>
         <template>
-            Santika Premiere Slipi:
-            [ul]
-                [li]Santika Premiere Slipi adalah salah satu hotel Santika Group di Indonesia.[/li]
-                [li]Lokasi Hotel: https://goo.gl/maps/ZetbFZYG9AFwEooY8[/li]
-                [li]Phone: +62-21-5361777[/li]
-                [li]Email: reservation@jakartapremiere.santika.com[/li]
-            [/ul]
+            <srai>SANTIKA PREMIERE SLIP</srai>
         </template>
     </category>
 
     <category>
         <pattern>INFO SANTIKA PREMIERE SLIP _</pattern>
         <template>
-            Santika Premiere Slipi:
-            [ul]
-                [li]Santika Premiere Slipi adalah salah satu hotel Santika Group di Indonesia.[/li]
-                [li]Lokasi Hotel: https://goo.gl/maps/ZetbFZYG9AFwEooY8[/li]
-                [li]Phone: +62-21-5361777[/li]
-                [li]Email: reservation@jakartapremiere.santika.com[/li]
-            [/ul]
-        </template>
-    </category>
-
-    <category>
-        <pattern>SANTIKA</pattern>
-        <template>
-            Santika Hotel dan Resorts adalah salah satu grup hotel terbesar di Indonesia. Dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981.
+            <srai>SANTIKA PREMIERE SLIP</srai>
         </template>
     </category>
 
@@ -143,84 +183,77 @@
     <category>
         <pattern>SANTIKA INDONESIA</pattern>
         <template>
-            Santika Indonesia Hotels dan Resorts adalah salah satu grup hotel di Indonesia dan dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981
+            <srai>SANTIKA</srai>
         </template>
     </category>
 
     <category>
         <pattern>SANTIKA INDONESIA _</pattern>
         <template>
-            Santika Indonesia Hotels dan Resorts adalah salah satu grup hotel di Indonesia dan dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981
+            <srai>SANTIKA</srai>
         </template>
     </category>
 
     <category>
         <pattern>INFO SANTIKA INDONESIA</pattern>
         <template>
-            Santika Indonesia Hotels dan Resorts adalah salah satu grup hotel di Indonesia dan dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981
+            <srai>SANTIKA</srai>
         </template>
     </category>
 
     <category>
         <pattern>INFO SANTIKA INDONESIA _</pattern>
         <template>
-            Santika Indonesia Hotels dan Resorts adalah salah satu grup hotel di Indonesia dan dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981
+            <srai>SANTIKA</srai>
         </template>
     </category>
 
     <category>
         <pattern>SANTIKA INDONESIA HOTELS RESORTS</pattern>
         <template>
-            Santika Indonesia Hotels dan Resorts adalah salah satu grup hotel di Indonesia dan dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981
+            <srai>SANTIKA</srai>
         </template>
     </category>
 
     <category>
         <pattern>SANTIKA INDONESIA HOTLES RESORTS _</pattern>
         <template>
-            Santika Indonesia Hotels dan Resorts adalah salah satu grup hotel di Indonesia dan dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981
+            <srai>SANTIKA</srai>
         </template>
     </category>
 
     <category>
         <pattern>INFO SANTIKA INDONESIA HOTLES RESORTS</pattern>
         <template>
-            Santika Indonesia Hotels dan Resorts adalah salah satu grup hotel di Indonesia dan dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981
+            <srai>SANTIKA</srai>
         </template>
     </category>
 
     <category>
         <pattern>INFO SANTIKA INDONESIA HOTLES RESORTS _</pattern>
         <template>
-            Santika Indonesia Hotels dan Resorts adalah salah satu grup hotel di Indonesia dan dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981
-        </template>
-    </category>
-
-    <category>
-        <pattern>SANTIKA PREMIERE</pattern>
-        <template>
-            Nikmati kenyamanan lengkap di Hotel Santika Premiere. Kami memberikan yang terbaik dengan sentuhan pribadi dalam layanan kami. Pelancong bisnis dan liburan yang mencari banyak kenyamanan pasar atas dari hotel berkualitas tinggi akan menemukan semua ini dan lebih banyak lagi di Hotel Santika Premiere, sebagai hotel bintang empat kami di mana standar layanan kelas dunia dengan mulus dipadukan dengan sentuhan khas Indonesia. Temukan kualitas terbaik dan melampaui harapan di Hotel Santika Premiere.
+            <srai>SANTIKA</srai>
         </template>
     </category>
 
     <category>
         <pattern>SANTIKA PREMIERE _</pattern>
         <template>
-            Nikmati kenyamanan lengkap di Hotel Santika Premiere. Kami memberikan yang terbaik dengan sentuhan pribadi dalam layanan kami. Pelancong bisnis dan liburan yang mencari banyak kenyamanan pasar atas dari hotel berkualitas tinggi akan menemukan semua ini dan lebih banyak lagi di Hotel Santika Premiere, sebagai hotel bintang empat kami di mana standar layanan kelas dunia dengan mulus dipadukan dengan sentuhan khas Indonesia. Temukan kualitas terbaik dan melampaui harapan di Hotel Santika Premiere.
+            <srai>SANTIKA PREMIERE</srai>
         </template>
     </category>
 
     <category>
         <pattern>INFO SANTIKA PREMIERE</pattern>
         <template>
-            Nikmati kenyamanan lengkap di Hotel Santika Premiere. Kami memberikan yang terbaik dengan sentuhan pribadi dalam layanan kami. Pelancong bisnis dan liburan yang mencari banyak kenyamanan pasar atas dari hotel berkualitas tinggi akan menemukan semua ini dan lebih banyak lagi di Hotel Santika Premiere, sebagai hotel bintang empat kami di mana standar layanan kelas dunia dengan mulus dipadukan dengan sentuhan khas Indonesia. Temukan kualitas terbaik dan melampaui harapan di Hotel Santika Premiere.
+            <srai>SANTIKA PREMIERE</srai>
         </template>
     </category>
 
     <category>
         <pattern>INFO SANTIKA PREMIERE _</pattern>
         <template>
-            Nikmati kenyamanan lengkap di Hotel Santika Premiere. Kami memberikan yang terbaik dengan sentuhan pribadi dalam layanan kami. Pelancong bisnis dan liburan yang mencari banyak kenyamanan pasar atas dari hotel berkualitas tinggi akan menemukan semua ini dan lebih banyak lagi di Hotel Santika Premiere, sebagai hotel bintang empat kami di mana standar layanan kelas dunia dengan mulus dipadukan dengan sentuhan khas Indonesia. Temukan kualitas terbaik dan melampaui harapan di Hotel Santika Premiere.
+            <srai>SANTIKA PREMIERE</srai>
         </template>
     </category>
     
@@ -1030,30 +1063,16 @@
     </category>
 
     <category>
-        <pattern>FASILITAS</pattern>
-        <template>
-            <srai>FASILITAS LAIN</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>FASILITAS LAIN _</pattern>
-        <template>
-            <srai>FASILITAS LAIN</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>FASILITAS HOTEL</pattern>
         <template>
-            <srai>FASILITAS LAIN</srai>    
+            <srai>FASILITAS</srai>    
         </template>
     </category>
 
     <category>
         <pattern>FASILITAS HOTEL _</pattern>
         <template>
-            <srai>FASILITAS LAIN</srai>    
+            <srai>FASILITAS</srai>    
         </template>
     </category>
 

@@ -5,7 +5,7 @@
         <pattern>RUANG RAPAT</pattern>
         <template>
             Informasi mengenai ruangan Rapat yang ada.[enter]
-            <think><set name="reservasi">rapat</set></think>
+            <think><set name="topic">rapat</set></think>
             Fasilitas yang tersedia:
             [ul]
                 [li]Sound System, Microphone, LCD Projectior dan Screen[/li]
@@ -26,6 +26,7 @@
     <category>
         <pattern>PAKET MEETING</pattern>
         <template>
+            <think><set name="topic">rapat</set></think>
             Untuk pemesanan, dapat langsung ke sales. Paket rapat yang tersedia:[enter]
             <!-- <srai>PAKET MEETING 2</srai> -->
             Half Day Meeting
@@ -67,6 +68,7 @@
     <category>
         <pattern>PAKET KAMAR MEETING</pattern>
         <template>
+            <think><set name="topic">rapat</set></think>
             Harga kamar dengan pemesanan ruangan rapat
             [ul]
                 [li]Kamar Deluxe          : Rp.   900.000,nett/night[/li]
@@ -81,6 +83,7 @@
     <category>
         <pattern>JENIS RUANG RAPAT</pattern>
         <template>
+            <think><set name="topic">rapat</set></think>
             Ruangan Rapat Yang Tersedia:[enter]
             <!-- <srai>RUANGAN 2</srai> -->
             Balai Agung Betawi
@@ -185,6 +188,7 @@
     <category>
         <pattern>PROSES PESAN</pattern>
         <template>
+            <think><set name="topic">rapat</set></think>
             Proses untuk memesan Ruangan Rapat
             [ul]
                 [li]Contact Sales.[/li]

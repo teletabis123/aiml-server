@@ -2,7 +2,7 @@
 <aiml>
 
     <category>
-        <pattern>FASILITAS LAIN</pattern>
+        <pattern>FASILITAS</pattern>
         <template>
             Fasilitas lain yang ada:
             [ul]
