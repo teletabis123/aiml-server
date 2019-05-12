@@ -3,6 +3,16 @@
     <category>
         <pattern>RESERVASI</pattern>
         <template>
+            <condition name="reservasi">
+                <li value="rapat"><srai>PROSES PESAN</srai></li>
+                <li><srai>RESERVASI HOTEL</srai></li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESERVASI HOTEL</pattern>
+        <template>
             Informasi Mengenai Reservasi[enter]
             Reservasi dapat dilakukan melalui:
             [ul]
@@ -29,6 +39,11 @@
         <pattern>BAYAR</pattern>
         <template>
             Informasi Mengenai Pembayaran[enter]
+            Cara Pembayaran:
+            [ul]
+                [li]Dapat dilakukan dengan kartu kredit[/li]
+                [li]Dapat dilakukan dengan kartu debit[/li]
+            [/ul]
             Jika Customer memiliki myValue ID (SIP Santika Important Person):
             [ul]
                 [li]Payment dapat dilakukan menggunakan poin myValue[/li]

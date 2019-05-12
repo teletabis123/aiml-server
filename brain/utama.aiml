@@ -65,11 +65,162 @@
             [/ul]
         </template>
     </category>
-    
+
+    <category>
+        <pattern>SANTIKA PREMIERE SLIP _</pattern>
+        <template>
+            Santika Premiere Slipi:
+            [ul]
+                [li]Santika Premiere Slipi adalah salah satu hotel Santika Group di Indonesia.[/li]
+                [li]Lokasi Hotel: https://goo.gl/maps/ZetbFZYG9AFwEooY8[/li]
+                [li]Phone: +62-21-5361777[/li]
+                [li]Email: reservation@jakartapremiere.santika.com[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFO SANTIKA PREMIERE SLIP</pattern>
+        <template>
+            Santika Premiere Slipi:
+            [ul]
+                [li]Santika Premiere Slipi adalah salah satu hotel Santika Group di Indonesia.[/li]
+                [li]Lokasi Hotel: https://goo.gl/maps/ZetbFZYG9AFwEooY8[/li]
+                [li]Phone: +62-21-5361777[/li]
+                [li]Email: reservation@jakartapremiere.santika.com[/li]
+            [/ul]
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFO SANTIKA PREMIERE SLIP _</pattern>
+        <template>
+            Santika Premiere Slipi:
+            [ul]
+                [li]Santika Premiere Slipi adalah salah satu hotel Santika Group di Indonesia.[/li]
+                [li]Lokasi Hotel: https://goo.gl/maps/ZetbFZYG9AFwEooY8[/li]
+                [li]Phone: +62-21-5361777[/li]
+                [li]Email: reservation@jakartapremiere.santika.com[/li]
+            [/ul]
+        </template>
+    </category>
+
     <category>
         <pattern>SANTIKA</pattern>
         <template>
             Santika Hotel dan Resorts adalah salah satu grup hotel terbesar di Indonesia. Dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA HOTEL</pattern>
+        <template>
+            <srai>SANTIKA</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SANTIKA HOTEL _</pattern>
+        <template>
+            <srai>SANTIKA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFO SANTIKA HOTEL</pattern>
+        <template>
+            <srai>SANTIKA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFO SANTIKA HOTEL _</pattern>
+        <template>
+            <srai>SANTIKA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA INDONESIA</pattern>
+        <template>
+            Santika Indonesia Hotels dan Resorts adalah salah satu grup hotel di Indonesia dan dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA INDONESIA _</pattern>
+        <template>
+            Santika Indonesia Hotels dan Resorts adalah salah satu grup hotel di Indonesia dan dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFO SANTIKA INDONESIA</pattern>
+        <template>
+            Santika Indonesia Hotels dan Resorts adalah salah satu grup hotel di Indonesia dan dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFO SANTIKA INDONESIA _</pattern>
+        <template>
+            Santika Indonesia Hotels dan Resorts adalah salah satu grup hotel di Indonesia dan dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA INDONESIA HOTELS RESORTS</pattern>
+        <template>
+            Santika Indonesia Hotels dan Resorts adalah salah satu grup hotel di Indonesia dan dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA INDONESIA HOTLES RESORTS _</pattern>
+        <template>
+            Santika Indonesia Hotels dan Resorts adalah salah satu grup hotel di Indonesia dan dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFO SANTIKA INDONESIA HOTLES RESORTS</pattern>
+        <template>
+            Santika Indonesia Hotels dan Resorts adalah salah satu grup hotel di Indonesia dan dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFO SANTIKA INDONESIA HOTLES RESORTS _</pattern>
+        <template>
+            Santika Indonesia Hotels dan Resorts adalah salah satu grup hotel di Indonesia dan dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA PREMIERE</pattern>
+        <template>
+            Nikmati kenyamanan lengkap di Hotel Santika Premiere. Kami memberikan yang terbaik dengan sentuhan pribadi dalam layanan kami. Pelancong bisnis dan liburan yang mencari banyak kenyamanan pasar atas dari hotel berkualitas tinggi akan menemukan semua ini dan lebih banyak lagi di Hotel Santika Premiere, sebagai hotel bintang empat kami di mana standar layanan kelas dunia dengan mulus dipadukan dengan sentuhan khas Indonesia. Temukan kualitas terbaik dan melampaui harapan di Hotel Santika Premiere.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA PREMIERE _</pattern>
+        <template>
+            Nikmati kenyamanan lengkap di Hotel Santika Premiere. Kami memberikan yang terbaik dengan sentuhan pribadi dalam layanan kami. Pelancong bisnis dan liburan yang mencari banyak kenyamanan pasar atas dari hotel berkualitas tinggi akan menemukan semua ini dan lebih banyak lagi di Hotel Santika Premiere, sebagai hotel bintang empat kami di mana standar layanan kelas dunia dengan mulus dipadukan dengan sentuhan khas Indonesia. Temukan kualitas terbaik dan melampaui harapan di Hotel Santika Premiere.
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFO SANTIKA PREMIERE</pattern>
+        <template>
+            Nikmati kenyamanan lengkap di Hotel Santika Premiere. Kami memberikan yang terbaik dengan sentuhan pribadi dalam layanan kami. Pelancong bisnis dan liburan yang mencari banyak kenyamanan pasar atas dari hotel berkualitas tinggi akan menemukan semua ini dan lebih banyak lagi di Hotel Santika Premiere, sebagai hotel bintang empat kami di mana standar layanan kelas dunia dengan mulus dipadukan dengan sentuhan khas Indonesia. Temukan kualitas terbaik dan melampaui harapan di Hotel Santika Premiere.
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFO SANTIKA PREMIERE _</pattern>
+        <template>
+            Nikmati kenyamanan lengkap di Hotel Santika Premiere. Kami memberikan yang terbaik dengan sentuhan pribadi dalam layanan kami. Pelancong bisnis dan liburan yang mencari banyak kenyamanan pasar atas dari hotel berkualitas tinggi akan menemukan semua ini dan lebih banyak lagi di Hotel Santika Premiere, sebagai hotel bintang empat kami di mana standar layanan kelas dunia dengan mulus dipadukan dengan sentuhan khas Indonesia. Temukan kualitas terbaik dan melampaui harapan di Hotel Santika Premiere.
         </template>
     </category>
     
@@ -263,6 +414,20 @@
     </category>
 
     <category>
+        <pattern>JENIS TIPE KAMAR</pattern>
+        <template>
+            <srai>KAMAR HOTEL</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>JENIS TIPE KAMAR _</pattern>
+        <template>
+            <srai>KAMAR HOTEL</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>KAMAR</pattern>
         <template>
             <srai>KAMAR HOTEL</srai>    
@@ -273,13 +438,6 @@
         <pattern>KAMAR HOTEL _</pattern>
         <template>
             <srai>KAMAR HOTEL</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>RESERVASI _</pattern>
-        <template>
-            <srai>RESERVASI</srai>    
         </template>
     </category>
 
@@ -319,6 +477,13 @@
     </category>
 
     <category>
+        <pattern>MANA SALES _</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>SALES</pattern>
         <template>
             <srai>RESERVASI</srai>    
@@ -326,7 +491,105 @@
     </category>
 
     <category>
+        <pattern>SALES _</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOOK</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOOK _</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOOKING</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOOKING _</pattern>
+        <template>
+            <srai>RESERVASI</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>BAYAR _</pattern>
+        <template>
+            <srai>BAYAR</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KREDIT</pattern>
+        <template>
+            <srai>BAYAR</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KREDIT _</pattern>
+        <template>
+            <srai>BAYAR</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KARTU KREDIT</pattern>
+        <template>
+            <srai>BAYAR</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KARTU KREDIT _</pattern>
+        <template>
+            <srai>BAYAR</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEBIT</pattern>
+        <template>
+            <srai>BAYAR</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEBIT _</pattern>
+        <template>
+            <srai>BAYAR</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KARTU DEBIT</pattern>
+        <template>
+            <srai>BAYAR</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>KARTU DEBIT _</pattern>
+        <template>
+            <srai>BAYAR</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>MYVALUE</pattern>
         <template>
             <srai>BAYAR</srai>    
         </template>
@@ -425,6 +688,20 @@
     
     <category>
         <pattern>ACARA RAPAT</pattern>
+        <template>
+            <srai>RUANG RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>FASILITAS RUANG RAPAT</pattern>
+        <template>
+            <srai>RUANG RAPAT</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>FASILITAS RUANG RAPAT _</pattern>
         <template>
             <srai>RUANG RAPAT</srai>    
         </template>
@@ -739,6 +1016,20 @@
     </category>
 
     <category>
+        <pattern>HARGA SARAP</pattern>
+        <template>
+            <srai>MAKAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA SARAP _</pattern>
+        <template>
+            <srai>MAKAN</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>FASILITAS</pattern>
         <template>
             <srai>FASILITAS LAIN</srai>    
@@ -775,6 +1066,13 @@
     
     <category>
         <pattern>HOTEL</pattern>
+        <template>
+            <srai>SANTIKA PREMIERE SLIP</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SANTIKA SLIP</pattern>
         <template>
             <srai>SANTIKA PREMIERE SLIP</srai>
         </template>

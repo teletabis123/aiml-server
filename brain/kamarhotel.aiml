@@ -5,6 +5,7 @@
         <pattern>KAMAR HOTEL</pattern>
         <template>
             <think><set name="sedia">sedia</set></think>
+            <think><set name="reservasi">hotel</set></think>
             Hotel Santika Premiere Slipi menyediakan berbagai jenis kamar
             [ul]
                 [li]Deluxe[/li]
