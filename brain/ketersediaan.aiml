@@ -10,7 +10,7 @@
                 [li]Kamar Deluxe Room : Deluxe[/li]
                 [li]Kamar Club Premiere : Club Premiere[/li]
                 [li]Kamar Deluxe Suite : Deluxe Suite[/li]
-                [footer]Kamar yang ingin anda pesan: (kirim "hai" tanpa tanda petik untuk batal)[/footer]
+                [footer]Kamar yang ingin anda pesan: (kirim \"hai\" tanpa tanda petik untuk batal)[/footer]
             [/ul]
         </template>
     </category>
@@ -27,7 +27,7 @@
         <template>
             <condition name = "sedia">
                 <li value = "tanggal">
-                    Tanggal Check in anda (Contoh: 06 Mei 2019): (kirim "hai" tanpa tanda petik untuk batal)
+                    Tanggal Check in anda (Contoh: 06 Mei 2019): (kirim \"hai\" tanpa tanda petik untuk batal)
                 </li>
                 <li>
                     Maaf, informasi mengenai tanggal belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
@@ -41,7 +41,7 @@
         <template>
             <condition name = "sedia">
                 <li value = "malam">
-                    Berapa malam anda ingin menginap di kamar <get name="kamar"/>? (kirim "hai" tanpa tanda petik untuk batal)
+                    Berapa malam anda ingin menginap di kamar <get name="kamar"/>? (kirim \"hai\" tanpa tanda petik untuk batal)
                 </li>
                 <li>
                     Maaf, informasi mengenai malam belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
@@ -55,7 +55,7 @@
         <template>
             <condition name = "sedia">
                 <li value = "banyak">
-                    Berapa banyak kamar <get name="kamar"/> yang ingin anda cek? (kirim "hai" tanpa tanda petik untuk batal)
+                    Berapa banyak kamar <get name="kamar"/> yang ingin anda cek? (kirim \"hai\" tanpa tanda petik untuk batal)
                 </li>
                 <li>
                     Maaf, informasi mengenai banyak belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
