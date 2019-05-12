@@ -21,7 +21,24 @@
     <category>
         <pattern>DELUXE</pattern>
         <template>
-            <!-- <get name="sedia"/> -->
+            <condition name = "sedia">
+                <li value = "kamar">
+                    <think><set name="kamar">Deluxe</set></think>
+                    <think><set name="sedia">tanggal</set></think>
+                    <srai>TANGGAL</srai>
+                </li>
+                <li>
+                    Spesifikasi Kamar Hotel Deluxe adalah:
+                    [ul]
+                        [li]1 Kamar untuk 2 Orang.[/li]
+                        [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).[/li]
+                        [li]Disediakan Standing Shower.[/li]
+                        [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
+                        [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                    [/ul]
+                </li>
+            </condition>
+            <!-- <get name="sedia"/>
             <condition name = "sedia" value = "sedia">
                 Spesifikasi Kamar Hotel Deluxe adalah:
                 [ul]
@@ -65,9 +82,9 @@
             <condition name = "sedia" value = "kamar">
                 <think><set name="kamar">Deluxe</set></think>
                 <think><set name="sedia">tanggal</set></think>
-                <!-- <get name="kamar"/> -->
+                <get name="kamar"/>
                 <srai>TANGGAL</srai>
-            </condition>
+            </condition> -->
         </template>
     </category>
 
