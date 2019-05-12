@@ -235,14 +235,7 @@
             <srai>SANTIKA</srai>
         </template>
     </category>
-
-    <category>
-        <pattern>SANTIKA PREMIERE _</pattern>
-        <template>
-            <srai>SANTIKA PREMIERE</srai>
-        </template>
-    </category>
-
+    
     <category>
         <pattern>INFO SANTIKA PREMIERE</pattern>
         <template>
