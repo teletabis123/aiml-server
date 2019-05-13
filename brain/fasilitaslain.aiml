@@ -53,12 +53,7 @@
     <category>
         <pattern>PARKIR</pattern>
         <template>
-            Informasi mengenai Tempat Parkir:
-            [ul]
-                [li]Dua lantai basement[/li]
-                [li]Parkir Gratis[/li]
-                [li]Muat 400 mobil dan 50 motor[/li]
-            [/ul]
+            Dua lantai parkir di basement yang dapat memuat 400 mobil dan 50 motor. Tidak ada biaya parkir.
         </template>
     </category>
 

@@ -734,6 +734,104 @@
     </category>
 
     <category>
+        <pattern>BALLROOM</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BALLROOM _</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>ADA NIKAH</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>ADA NIKAH _</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BALLROOM NIKAH</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>BALLROOM NIKAH _</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESERVASI BALLROOM NIKAH</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESERVASI BALLROOM NIKAH _</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESERVASI KAMAR</pattern>
+        <template>
+            <srai>RESERVASI HOTEL</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESERVASI KAMAR HOTEL</pattern>
+        <template>
+            <srai>RESERVASI HOTEL</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESERVASI KAMAR HOTEL _</pattern>
+        <template>
+            <srai>RESERVASI HOTEL</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RUANG NIKAH</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>RUANG NIKAH _</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESTA NIKAH _</pattern>
+        <template>
+            <srai>ACARA NIKAH</srai>    
+        </template>
+    </category>
+
+    <category>
         <pattern>RAPAT</pattern>
         <template>
             <srai>RUANG RAPAT</srai>    
