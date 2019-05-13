@@ -235,7 +235,14 @@
             <srai>SANTIKA</srai>
         </template>
     </category>
-    
+
+    <category>
+        <pattern>SANTIKA PREMIERE _</pattern>
+        <template>
+            <srai>SANTIKA PREMIERE</srai>
+        </template>
+    </category>
+
     <category>
         <pattern>INFO SANTIKA PREMIERE</pattern>
         <template>
@@ -482,9 +489,30 @@
     </category>
 
     <category>
-        <pattern>PESAN _</pattern>
+        <pattern>PESAN RUANG RAPAT</pattern>
         <template>
-            <srai>RESERVASI</srai>    
+            <srai>PROSES PESAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN RUANG RAPAT</pattern>
+        <template>
+            <srai>PROSES PESAN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN KAMAR</pattern>
+        <template>
+            <srai>RESERVASI HOTEL</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESAN KAMAR</pattern>
+        <template>
+            <srai>RESERVASI HOTEL</srai>    
         </template>
     </category>
 
