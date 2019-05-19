@@ -52,7 +52,7 @@
         <template>
             <think><set name="sedia">sedia</set></think>
             <!-- Halo, Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang: -->
-            Halo,  Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang: 
+            Halo, ada yang dapat saya bantu? 
             [ul]
                 [li]Tentang Santika Premiere SLIPI[/li]
                 [li]Kamar Hotel[/li]
