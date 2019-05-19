@@ -13,7 +13,7 @@
     <category>
         <pattern>RESERVASI HOTEL</pattern>
         <template>
-            Informasi Mengenai Reservasi[enter]
+            <!-- Informasi Mengenai Reservasi[enter]
             Reservasi dapat dilakukan melalui:
             [ul]
                 [li]Email[/li]
@@ -31,31 +31,162 @@
                 [li]Tiket.com[/li]
                 [li]Pegipegi[/li]
                 [footer]Syarat dan ketentuan dapat dilihat pada booking details masing-masing agen.[/footer]
-            [/ul]
+            [/ul] -->
+            Untuk saat ini kami belum dapat melayani pemesanan kamar melalui Chatbot. Anda dapat melakukan reservasi melalui aplikasi mySantika dan website santika.com. Ada informasi lain yang ingin Anda tanyakan?
         </template>
     </category>
 
     <category>
         <pattern>BAYAR</pattern>
         <template>
-            Informasi Mengenai Pembayaran[enter]
-            Cara Pembayaran:
-            [ul]
-                [li]Dapat dilakukan dengan kartu kredit[/li]
-                [li]Dapat dilakukan dengan kartu debit[/li]
-            [/ul]
+            Anda dapat menggunakan kartu kredit, kartu debit, tunai, dan poin myValue.[enter]
             Jika Customer memiliki myValue ID (SIP Santika Important Person):
             [ul]
                 [li]Payment dapat dilakukan menggunakan poin myValue[/li]
                 [li]Bisa mendapatkan potongan biaya sebesar Rp 50.000,-[/li]
-            [/ul]
-            Upsale dan Upgrade:
-            [ul]
-                [li]Pada Upsale terdapat penambahan biaya kamar.[/li]
-                [li]Upgrade dapat dilakukan bila kondisi kamar tidak memungkinkan, seperti banjir atau kamar bocor.[/li]
-                [li]Pada upgrade, kamar dan harga akan tetap sama[/li]
-                [li]Saat melakukan upsale dan upgrade tetap harus melihat availability kamar hotel.[/li]
+                [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
             [/ul]
         </template>
     </category>
+
+    <category>
+        <pattern>UPSALE</pattern>
+        <template>
+            Upsale akan dikenakan biaya tambahan sesuai ketentuan yang berlaku. Ada informasi lain yang ingin Anda tanyakan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UPGRADE</pattern>
+        <template>
+            Upgrade dapat dilakukan bila kondisi kamar tidak memungkinkan, seperti banjir atau kamar bocor dan tidak ada penambahan biaya. Ada informasi lain yang ingin Anda tanyakan?
+        </template>
+    </category>
+
+    <category>
+        <pattern>PROMO</pattern>
+        <template>
+            Untuk mengetahui informasi promosi atau diskon silahkan menghubungi kami di +62-21-5361777.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UPGRADE _</pattern>
+        <template>
+            <srai>UPGRADE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ UPGRADE</pattern>
+        <template>
+            <srai>UPGRADE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ UPGRADE _</pattern>
+        <template>
+            <srai>UPGRADE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UPSALE _</pattern>
+        <template>
+            <srai>UPSALE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ UPSALE</pattern>
+        <template>
+            <srai>UPSALE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ UPSALE _</pattern>
+        <template>
+            <srai>UPSALE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PROMO _</pattern>
+        <template>
+            <srai>PROMO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PROMO</pattern>
+        <template>
+            <srai>PROMO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PROMO _</pattern>
+        <template>
+            <srai>PROMO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PROMOSI</pattern>
+        <template>
+            <srai>PROMO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PROMOSI _</pattern>
+        <template>
+            <srai>PROMO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PROMOSI</pattern>
+        <template>
+            <srai>PROMO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ PROMOSI _</pattern>
+        <template>
+            <srai>PROMO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DISKON</pattern>
+        <template>
+            <srai>PROMO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DISKON _</pattern>
+        <template>
+            <srai>PROMO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ DISKON</pattern>
+        <template>
+            <srai>PROMO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ DISKON _</pattern>
+        <template>
+            <srai>PROMO</srai>
+        </template>
+    </category>
+
 </aiml>

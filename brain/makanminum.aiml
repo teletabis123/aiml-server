@@ -5,10 +5,11 @@
         <pattern>MAKAN</pattern>
         <template>
             <think><set name="topic">makan</set></think>
-            Hotel Santika Premiere menyediakan 2 Restaurant
+            Terdapat 2 restaurant di Hotel Santika Premiere Slipi, yaitu
             [ul]
                 [li]Harmoni Buffet[/li]
                 [li]Yan Palace[/li]
+                [footer]Restauran apa yang ingin Anda ketahui lebih lanjut?[/footer]
             [/ul]
         </template>
     </category>
@@ -20,6 +21,7 @@
             Spesifikasi Restauran Harmoni Buffet adalah:
             [ul]
                 [li]Di Harmony disediakan buffet untuk makanan tradisional, western, dan eastern.[/li]
+                [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
             [/ul]
         </template>
     </category>
@@ -32,6 +34,7 @@
             [ul]
                 [li]Untuk Yan Palace dikhususkan untuk reservasi yang dapat langsung dilakukan saat datang ke restoran.[/li]
                 [li]Dibuka jam 12-2 siang untuk makan siang, dan jam 6 sore - 9 malam untuk makan malam.[/li]
+                [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
             [/ul]
         </template>
     </category>

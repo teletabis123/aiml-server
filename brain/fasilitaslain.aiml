@@ -4,14 +4,8 @@
     <category>
         <pattern>FASILITAS</pattern>
         <template>
-            Fasilitas lain yang ada:
-            [ul]
-                [li]Kolam Renang[/li]
-                [li]Kids Zone[/li]
-                [li]Health Club[/li]
-                [li]Tempat Parkir[/li]
-                [li]Check in / Check Out[/li]
-            [/ul]
+            Santika Premiere Slipi memiliki kolam renang, Kids Zone, Health Club, dan tempat parkir. 
+            Fasilitas apa yang ingin Anda ketahui lebih lanjut?
         </template>
    </category>
 
@@ -21,6 +15,8 @@
             Informasi mengenai Kolam Renang:
             [ul]
                 [li]Buka jam 6 pagi sampai dengan 8 malam.[/li]
+                [li]Ukuran Kolam Renang: 15 X 40 m[/li]
+                [li]Kedalaman Kolam Renang: 1,5 m[/li]
                 [li]Ada area untuk anak-anak dan dewasa yang dipartisi.[/li]
             [/ul]
         </template>
@@ -53,14 +49,14 @@
     <category>
         <pattern>PARKIR</pattern>
         <template>
-            Dua lantai parkir di basement yang dapat memuat 400 mobil dan 50 motor. Tidak ada biaya parkir.
+            Tempat parkir kami terdiri dari 2 lantai basement yang dapat memuat 400 mobil dan 50 motor, serta tidak ada biaya parkir.
         </template>
     </category>
 
     <category>
         <pattern>CHECK IN CHECK OUT</pattern>
         <template>
-            Informasi mengenai Check in / Check Out:[enter]
+            Untuk early check-in atau late check-out dikenakan biaya tambahan sesuai ketentuan yang berlaku.[enter]
             Informasi Umum:
             [ul]
                 [li]Jam Check In jam 2 siang dan Check Out jam 12 siang. Diberikan toleransi 1/2 jam.[/li]
@@ -75,6 +71,7 @@
             [ul]
                 [li]Dari jam Check Out Normal sampai jam 6 sore, ditambah 50% dari biaya kamar.[/li]
                 [li]Jam Check Out setelah jam 6 sore, ditambah 100% dari biaya kamar.[/li]
+                [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
             [/ul]
         </template>
     </category>

@@ -202,7 +202,7 @@ def messageAvailability(sedia):
         if(total_kamar < jumlah_kamar): # kamar tidak cukup
             message = message + 'Kamar ' + kamar + ' pada tanggal ' + tanggal + ' ' + strBulan + ' ' + tahun + ' untuk ' + str(jumlah_kamar) + ' kamar untuk ' + str(jumlah_malam) + ' malam tidak tersedia'
         else:
-            message = message + 'Kamar ' + kamar + ' pada tanggal ' + tanggal + ' ' + strBulan + ' ' + tahun + ' untuk ' + str(jumlah_kamar) + ' kamar untuk ' + str(jumlah_malam) + ' malam tersedia'
+            message = message + 'Kamar ' + kamar + ' pada tanggal ' + tanggal + ' ' + strBulan + ' ' + tahun + ' untuk ' + str(jumlah_kamar) + ' kamar untuk ' + str(jumlah_malam) + ' malam tersedia. Ada informasi lain yang ingin Anda tanyakan?'
     else: # bila input salah
         if not messageBenar:
             message = message + 'Input kamar, tanggal, jumlah malam, atau jumlah kamar salah'

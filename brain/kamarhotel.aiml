@@ -14,7 +14,8 @@
                 [li]Executive Suite[/li]
                 [li]Family Suite[/li]
                 [li]Santika Suite[/li]
-                [footer]Info lain[/footer]    
+                [li]Info lain[/li]    
+                [footer]Tipe kamar apa yang ingin Anda ketahui?[/footer]
             [/ul]
         </template>
     </category>
@@ -37,6 +38,7 @@
                         [li]Disediakan Standing Shower.[/li]
                         [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
                         [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                        [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
                     [/ul]
                 </li>
             </condition>
@@ -67,6 +69,7 @@
                         [li]Disediakan setrika dan papan setrika.[/li]
                         [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
                         [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                        [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
                     [/ul]
                 </li>
             </condition>
@@ -95,6 +98,7 @@
                         [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
                         [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
                         [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                        [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
                     [/ul]
                 </li>
             </condition>
@@ -118,6 +122,7 @@
                 [li]Disediakan setrika dan papan setrika.[/li]
                 [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
                 [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
             [/ul]
         </template>
     </category>
@@ -138,6 +143,7 @@
                 [li]Disediakan setrika dan papan setrika.[/li]
                 [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
                 [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
             [/ul]
         </template>
     </category>
@@ -159,6 +165,7 @@
                 [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
                 [li]Disediakan setrika dan papan setrika.[/li]
                 [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
+                [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
             [/ul]
         </template>
     </category>
