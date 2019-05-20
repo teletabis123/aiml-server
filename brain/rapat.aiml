@@ -19,7 +19,9 @@
                 [li]Jenis Ruang Rapat, Jenis kamar hotel yang tersedia[/li]
                 [li]Proses Pemesanan Ruang Rapat[/li]
             [/ul]
-            Adakah yang ingin Anda tanyakan lagi?
+            [ul]
+                [li]Adakah yang ingin Anda tanyakan lagi?[/li]
+            [/ul]
         </template>
     </category>
 
