@@ -4,7 +4,7 @@
     <category>
         <pattern>RUANG RAPAT</pattern>
         <template>
-            Informasi mengenai ruangan Rapat yang ada.[enter]
+            Informasi mengenai ruangan rapat yang ada.[enter]
             <think><set name="topic">rapat</set></think>
             Fasilitas yang tersedia:
             [ul]
