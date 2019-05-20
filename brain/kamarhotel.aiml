@@ -19,7 +19,25 @@
             [/ul]
         </template>
     </category>
-
+    
+     <category>
+        <pattern>SARAPAN</pattern>
+        <template>
+            <think><set name="sedia">sedia</set></think>
+            <think><set name="topic">hotel</set></think>
+            Sarapan disediakan mulai dari pukul 6 sampai 10 pagi
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SMOKING ROOM</pattern>
+        <template>
+            <think><set name="sedia">sedia</set></think>
+            <think><set name="topic">hotel</set></think>
+            Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar
+        </template>
+    </category>
+    
     <category>
         <pattern>DELUXE</pattern>
         <template>
@@ -31,13 +49,10 @@
                 </li>
                 <li>
                     <think><set name="topic">hotel</set></think>
-                    Spesifikasi Kamar Hotel Deluxe adalah:
+                    Spesifikasi Kamar Hotel Deluxe:
                     [ul]
                         [li]1 Kamar untuk 2 Orang.[/li]
                         [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).[/li]
-                        [li]Disediakan Standing Shower.[/li]
-                        [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
-                        [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
                         [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
                     [/ul]
                 </li>
@@ -56,19 +71,17 @@
                 </li>
                 <li>
                     <think><set name="topic">hotel</set></think>
-                    Spesifikasi Kamar Hotel Deluxe Suite adalah:
+                    Spesifikasi Kamar Hotel Deluxe Suite:
                     [ul]
                         [li]1 Kamar untuk 2 Orang.[/li]
-                        [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).[/li]
-                        [li]Disediakan Standing Shower dan bathrobe.[/li]
-                        [li]Memiliki Living Room[/li]
-                        [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
-                        [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
-                        [li]Minibar di kamar dapat digunakan secara gratis.[/li]
-                        [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
-                        [li]Disediakan setrika dan papan setrika.[/li]
-                        [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
-                        [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                        [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur)[/li]
+                        [li]Disediakan bathrobe[/li]
+                        [li]Memiliki ruang tamu[/li]
+                        [li]Disediakan afternoon tea/coffee break pukul 17.00 - 21.00 untuk dua orang[/li]
+                        [li]Free minibar[/li]
+                        [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar[/li]
+                        [li]Disediakan setrika dan papan setrika[/li]
+                        [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar[/li]
                         [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
                     [/ul]
                 </li>
@@ -87,17 +100,14 @@
                 </li>
                 <li>
                     <think><set name="topic">hotel</set></think>
-                    Spesifikasi Kamar Hotel Club Premiere adalah:
+                    Spesifikasi Kamar Hotel Club Premiere:
                     [ul]
                         [li]1 Kamar untuk 2 Orang.[/li]
-                        [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).[/li]
-                        [li]Disediakan Standing Shower.[/li]
-                        [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
-                        [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
-                        [li]Minibar di kamar dapat digunakan secara gratis.[/li]
-                        [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
-                        [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
-                        [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                        [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur)[/li]
+                        [li]Disediakan afternoon tea/coffee break pukul 17.00 - 21.00 untuk dua orang[/li]
+                        [li]Free minibar[/li]
+                        [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar[/li]
+                        [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar[/li]
                         [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
                     [/ul]
                 </li>
@@ -109,19 +119,17 @@
         <pattern>EXECUTIVE SUITE</pattern>
         <template>
             <think><set name="topic">hotel</set></think>
-            Spesifikasi Kamar Hotel Executive Suite adalah:
+            Spesifikasi Kamar Hotel Executive Suite:
             [ul]
                 [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
-                [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur).[/li]
-                [li]Disediakan Standing Shower dan bathrobe.[/li]
-                [li]Memiliki Living Room[/li]
-                [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
-                [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
-                [li]Minibar di kamar dapat digunakan secara gratis.[/li]
-                [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
-                [li]Disediakan setrika dan papan setrika.[/li]
-                [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
-                [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                [li]Terdapat dua jenis kamar, yaitu King Size (1 tempat tidur) dan Twin Size (2 tempat tidur)[/li]
+                [li]Disediakan bathrobe[/li]
+                [li]Memiliki ruang tamu[/li]
+                [li]Disediakan afternoon tea/coffee break pukul 17.00 - 21.00 untuk dua orang[/li]
+                [li]Free minibar[/li]
+                [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar[/li]
+                [li]Disediakan setrika dan papan setrika[/li]
+                [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar[/li]
                 [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
             [/ul]
         </template>
@@ -131,18 +139,16 @@
         <pattern>FAMILY SUITE</pattern>
         <template>
             <think><set name="topic">hotel</set></think>
-            Spesifikasi Kamar Hotel Family Suite adalah:
+            Spesifikasi Kamar Hotel Family Suite:
             [ul]
-                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
-                [li]Memiliki Living Room[/li]
-                [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
-                [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
-                [li]Minibar di kamar dapat digunakan secara gratis.[/li]
-                [li]Disediakan water equil secara gratis.[/li]
-                [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
-                [li]Disediakan setrika dan papan setrika.[/li]
-                [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
-                [li]Untuk informasi Smoking Room dapat langsung bertanya ke resepsionis saat menentukan kamar.[/li]
+                [li]Disediakan bathtub shower dan bathrobe.[/li]
+                [li]Memiliki ruang tamu[/li]
+                [li]Disediakan afternoon tea/coffee break pukul 17.00 - 21.00 untuk dua orang[/li]
+                [li]Free minibar[/li]
+                [li]Disediakan water equil secara gratis[/li]
+                [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar[/li]
+                [li]Disediakan setrika dan papan setrika[/li]
+                [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar[/li]
                 [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
             [/ul]
         </template>
@@ -152,19 +158,18 @@
         <pattern>SANTIKA SUITE</pattern>
         <template>
             <think><set name="topic">hotel</set></think>
-            Spesifikasi Kamar Hotel Santika Suite adalah:
+            Spesifikasi Kamar Hotel Santika Suite:
             [ul]
-                [li]Hanya ada 1 kamar di Hotel.[/li]
-                [li]1 Kamar terdiri dari 2 lantai.[/li]
-                [li]Lantai Pertama adalah Ruangan Rapat dan Lantai Kedua adalah lantai dengan tiga kamar.[/li]
-                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
-                [li]Disediakan sarapan jam 6-10 pagi untuk dua orang per kamar.[/li]
-                [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
-                [li]Minibar di kamar dapat digunakan secara gratis.[/li]
-                [li]Disediakan water equil secara gratis.[/li]
-                [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
-                [li]Disediakan setrika dan papan setrika.[/li]
-                [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
+                [li]Hanya tersedia 1 kamar[/li]
+                [li]1 Kamar terdiri dari 2 lantai[/li]
+                [li]Lantai pertama adalah ruangan rapat dan lantai kedua adalah lantai dengan tiga kamar[/li]
+                [li]Disediakan bathtub shower dan bathrobe[/li]
+                [li]Disediakan afternoon tea/coffee break pukul 17.00 - 21.00 untuk dua orang[/li]
+                [li]Free minibar[/li]
+                [li]Disediakan water equil secara gratis[/li]
+                [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar[/li]
+                [li]Disediakan setrika dan papan setrika[/li]
+                [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar[/li]
                 [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
             [/ul]
         </template>
@@ -190,8 +195,8 @@
         <template>
             Perbedaan Kamar Deluxe dan Kamar Club Premiere. Di kamar Club Premiere juga terdapat:
             [ul]
-                [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
-                [li]Minibar di kamar dapat digunakan secara gratis.[/li]
+                [li]Disediakan afternoon tea/coffee break pukul 17.00 - 21.00 untuk dua orang per kamar.[/li]
+                [li]Minibar dapat digunakan secara gratis.[/li]
                 [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
                 [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]                
             [/ul]
@@ -203,12 +208,12 @@
         <template>
             Perbedaan Kamar Deluxe dan Kamar Deluxe Suite. Di kamar Deluxe Suite juga terdapat:
             [ul]
-                [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
-                [li]Minibar di kamar dapat digunakan secara gratis.[/li]
+                [li]Disediakan afternoon tea/coffee break pukul 17.00 - 21.00 untuk dua orang per kamar.[/li]
+                [li]Minibar dapat digunakan secara gratis.[/li]
                 [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
                 [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
-                [li]Disediakan Standing Shower dan bathrobe.[/li]
-                [li]Memiliki Living Room[/li]
+                [li]Disediakan bathrobe.[/li]
+                [li]Memiliki ruang tamu[/li]
                 [li]Disediakan setrika dan papan setrika.[/li]
             [/ul]
         </template>
@@ -219,11 +224,11 @@
         <template>
             Perbedaan Kamar Deluxe dan Kamar Executive Suite. Di kamar Executive Suite juga terdapat:
             [ul]
-                [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
-                [li]Minibar di kamar dapat digunakan secara gratis.[/li]
+                [li]Disediakan afternoon tea/coffee break pukul 17.00 - 21.00 untuk dua orang per kamar.[/li]
+                [li]Minibar dapat digunakan secara gratis.[/li]
                 [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
                 [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
-                [li]Disediakan Standing Shower dan bathrobe.[/li]
+                [li]Disediakan bathrobe.[/li]
                 [li]Memiliki Living Room[/li]
                 [li]Disediakan setrika dan papan setrika.[/li]
                 [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
@@ -240,11 +245,11 @@
                 [li]Minibar di kamar dapat digunakan secara gratis.[/li]
                 [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
                 [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]            
-                [li]Disediakan Standing Shower dan bathrobe.[/li]
-                [li]Memiliki Living Room[/li]
+                [li]Disediakan bathrobe.[/li]
+                [li]Memiliki ruang tamu[/li]
                 [li]Disediakan setrika dan papan setrika.[/li]
                 [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
-                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
+                [li]Disediakan bathtub shower dan bathrobe.[/li]
                 [li]Disediakan water equil secara gratis.[/li]
             [/ul]
         </template>
@@ -255,15 +260,15 @@
         <template>
             Perbedaan Kamar Deluxe dan Kamar Santika Suite. Di kamar Santika Suite juga terdapat:
             [ul]
-                [li]Disediakan afternoon tea / coffee break jam 5 sore - 9 malam untuk dua orang per kamar.[/li]
-                [li]Minibar di kamar dapat digunakan secara gratis.[/li]
+                [li]Disediakan afternoon tea/coffee break pukul 17.00 - 21.00 untuk dua orang per kamar.[/li]
+                [li]Minibar dapat digunakan secara gratis.[/li]
                 [li]Disediakan jasa laundry untuk 4 potong pakaian per hari per kamar.[/li]
                 [li]Dapat menggunakan bussiness center untuk 2 jam perhari per kamar.[/li]
-                [li]Disediakan Standing Shower dan bathrobe.[/li]
-                [li]Memiliki Living Room[/li]
+                [li]Disediakan bathrobe.[/li]
+                [li]Memiliki ruang tamu.[/li]
                 [li]Disediakan setrika dan papan setrika.[/li]
                 [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
-                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
+                [li]Disediakan bathtub shower dan bathrobe.[/li]
                 [li]Disediakan water equil secara gratis.[/li]
                 [li]Hanya ada 1 kamar di Hotel.[/li]
                 [li]1 Kamar terdiri dari 2 lantai.[/li]
@@ -277,8 +282,8 @@
         <template>
             Perbedaan Kamar Club Premiere dan Kamar Deluxe Suite. Di kamar Deluxe Suite juga terdapat:
             [ul]
-                [li]Disediakan Standing Shower dan bathrobe.[/li]
-                [li]Memiliki Living Room[/li]
+                [li]Disediakan bathrobe.[/li]
+                [li]Memiliki ruang tamu.[/li]
                 [li]Disediakan setrika dan papan setrika.[/li]
             [/ul]
         </template>
@@ -289,9 +294,9 @@
         <template>
             Perbedaan Kamar Club Premiere dan Kamar Executive Suite. Di kamar Executive Suite juga terdapat:
             [ul]
-                [li]Disediakan Standing Shower dan bathrobe.[/li]
-                [li]Memiliki Living Room[/li]
-                [li]Disediakan setrika dan papan setrika.[/li]
+                [li]Disediakan bathrobe[/li]
+                [li]Memiliki ruang tamu[/li]
+                [li]Disediakan setrika dan papan setrika[/li]
                 [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
             [/ul]
         </template>
@@ -302,12 +307,12 @@
         <template>
             Perbedaan Kamar Club Premiere dan Kamar Family Suite. Di kamar Family Suite juga terdapat:
             [ul]
-                [li]Disediakan Standing Shower dan bathrobe.[/li]
-                [li]Memiliki Living Room[/li]
+                [li]Disediakan bathrobe.[/li]
+                [li]Memiliki ruang tamu[/li]
                 [li]Disediakan setrika dan papan setrika.[/li]
                 [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
-                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
-                [li]Disediakan water equil secara gratis.[/li]
+                [li]Disediakan Bathtub Shower dan bathrobe[/li]
+                [li]Disediakan water equil secara gratis[/li]
             [/ul]
         </template>
     </category>
@@ -317,11 +322,11 @@
         <template>
             Perbedaan Kamar Club Premiere dan Kamar Santika Suite. Di kamar Santika Suite juga terdapat:
             [ul]
-                [li]Disediakan Standing Shower dan bathrobe.[/li]
-                [li]Memiliki Living Room[/li]
+                [li]Disediakan bathrobe.[/li]
+                [li]Memiliki ruang tamu.[/li]
                 [li]Disediakan setrika dan papan setrika.[/li]
                 [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
-                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
+                [li]Disediakan bathtub shower dan bathrobe.[/li]
                 [li]Disediakan water equil secara gratis.[/li]
                 [li]Hanya ada 1 kamar di Hotel.[/li]
                 [li]1 Kamar terdiri dari 2 lantai.[/li]
@@ -346,7 +351,7 @@
             Perbedaan Kamar Deluxe Suite dan Kamar Family Suite. Di kamar Family Suite juga terdapat:
             [ul]
                 [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
-                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
+                [li]Disediakan bathtub shower dan bathrobe.[/li]
                 [li]Disediakan water equil secara gratis.[/li]
             [/ul]
         </template>
@@ -358,9 +363,9 @@
             Perbedaan Kamar Deluxe Suite dan Kamar Santika Suite. Di kamar Santika Suite juga terdapat:
             [ul]
                 [li]1 Kamar untuk 2 Orang. Ukuran lebih besar dari pada Deluxe Suite.[/li]
-                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
+                [li]Disediakan bathtub shower dan bathrobe.[/li]
                 [li]Disediakan water equil secara gratis.[/li]
-                [li]Hanya ada 1 kamar di Hotel.[/li]
+                [li]Hanya tersedia 1 kamar.[/li]
                 [li]1 Kamar terdiri dari 2 lantai.[/li]
                 [li]Lantai Pertama adalah Ruangan Rapat dan Lantai Kedua adalah lantai dengan tiga kamar.[/li]
             [/ul]
@@ -372,7 +377,7 @@
         <template>
             Perbedaan Kamar Executive Suite dan Kamar Family Suite. Di kamar Family Suite juga terdapat:
             [ul]
-                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
+                [li]Disediakan bathtub shower dan bathrobe.[/li]
                 [li]Disediakan water equil secara gratis.[/li]
             [/ul]
         </template>
@@ -383,7 +388,7 @@
         <template>
             Perbedaan Kamar Executive Suite dan Kamar Santika Suite. Di kamar Santika Suite juga terdapat:
             [ul]
-                [li]Disediakan Bathtub Shower dan bathrobe.[/li]
+                [li]Disediakan bathtub shower dan bathrobe.[/li]
                 [li]Disediakan water equil secara gratis.[/li]
                 [li]Hanya ada 1 kamar di Hotel.[/li]
                 [li]1 Kamar terdiri dari 2 lantai.[/li]
@@ -1001,4 +1006,25 @@
         </template>
     </category>
 
+     <category>
+        <pattern>BREAKFAST</pattern>
+        <template>
+            <srai>SARAPAN</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ROKOK</pattern>
+        <template>
+            <srai>SMOKING ROOM</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>KAMAR ROKOK</pattern>
+        <template>
+            <srai>SMOKING ROOM</srai>    
+        </template>
+    </category>
+    
 </aiml>
