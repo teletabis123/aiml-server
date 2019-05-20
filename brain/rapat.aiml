@@ -356,21 +356,21 @@
     <category>
         <pattern>PROSES PESAN _</pattern>
         <template>
-            <srai>RESERVASI</srai>
+            <srai>PROSES PESAN</srai>
         </template>
     </category>
     
     <category>
         <pattern>MESAN _</pattern>
         <template>
-            <srai>RESERVASI</srai>
+            <srai>PROSES PESAN</srai>
         </template>
     </category>
     
     <category>
-        <pattern>PESAN _</pattern>
+        <pattern>MAU PESAN _</pattern>
         <template>
-            <srai>RESERVASI</srai>
+            <srai>PROSES PESAN</srai>
         </template>
     </category>
 
