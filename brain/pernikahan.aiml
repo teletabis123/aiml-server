@@ -2,7 +2,7 @@
 <aiml>
     
     <category>
-        <pattern>ACARA NIKAH</pattern>
+        <pattern>NIKAH</pattern>
         <template>
             <think><set name="topic">nikah</set></think>
             Ada 3 jenis paket yang ada:
@@ -10,23 +10,29 @@
                 [li]Classic[/li]
                 [li]Romantic[/li]
                 [li]Royal[/li]
+                [footer]Paket apa yang ingin Anda ketahui lebih detail?[/footer]
             [/ul]
         </template>
     </category>
 
     <category>
-        <pattern>INFO NIKAH</pattern>
+        <pattern>TEMPAT</pattern>
         <template>
             <think><set name="topic">nikah</set></think>
-            Informasi tambahan untuk paket pernikahan:
-            [ul]
-                [li]Acara pernikahan bertempat di ballroom.[/li]
-                [li]Kapasitas maksimal adalah 800 orang[/li]
-                [li]Dapat melakukan request ke vendor luar tanpa biaya tambahan. Diperlukan deposit untuk kerusakan.[/li]
-            [/ul]
+                Acara pernikahan bertempat di ballroom dengan kapasitas maksimal adalah 800 orang
+                [footer]Adakah yang ingin Anda tanyakan lagi?[/footer]
         </template>
     </category>
 
+     <category>
+        <pattern>VENDOR</pattern>
+        <template>
+            <think><set name="topic">nikah</set></think>
+                Anda dapat memilih vendor luar tanpa biaya tambahan, hanya diperlukan deposit untuk kerusakan.
+                [footer]Adakah yang ingin Anda tanyakan lagi?[/footer]
+        </template>
+    </category>
+   
     <category>
         <pattern>CLASSIC</pattern>
         <template>
@@ -156,5 +162,32 @@
             <srai>ROYAL</srai>    
         </template>
     </category>
-
+    
+     <category>
+        <pattern>INFO NIKAH</pattern>
+        <template>
+            <srai>NIKAH</srai>   
+        </template>
+    </category>
+ 
+    <category>
+        <pattern>ACARA NIKAH</pattern>
+        <template>
+            <srai>NIKAH</srai>   
+        </template>
+    </category>
+    
+    <category>
+        <pattern>VENDOR NIKAH _</pattern>
+        <template>
+            <srai>VENDOR</srai>   
+        </template>
+    </category>
+    
+    <category>
+        <pattern>VENDOR LUAR _</pattern>
+        <template>
+            <srai>VENDOR</srai>   
+        </template>
+    </category>
 </aiml>
