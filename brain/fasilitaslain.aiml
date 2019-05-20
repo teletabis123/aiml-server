@@ -5,7 +5,7 @@
         <pattern>FASILITAS</pattern>
         <template>
             Santika Premiere Slipi memiliki kolam renang, Kids Zone, Health Club, dan tempat parkir. 
-            Fasilitas apa yang ingin Anda ketahui lebih lanjut?
+            [footer]Fasilitas apa yang ingin Anda ketahui lebih lanjut?[/footer]
         </template>
    </category>
 
@@ -14,10 +14,10 @@
         <template>
             Informasi mengenai Kolam Renang:
             [ul]
-                [li]Buka jam 6 pagi sampai dengan 8 malam.[/li]
+                [li]Buka pukul 06.00 - 20.00.[/li]
                 [li]Ukuran Kolam Renang: 15 X 40 m[/li]
                 [li]Kedalaman Kolam Renang: 1,5 m[/li]
-                [li]Ada area untuk anak-anak dan dewasa yang dipartisi.[/li]
+                [li]Tersedia area untuk anak-anak dan dewasa.[/li]
                 [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
             [/ul]
         </template>
@@ -41,7 +41,7 @@
             Informasi mengenai Health Club:
             [ul]
                 [li]Fasilitas: Fitness Center, Sauna, dan Massage.[/li]
-                [li]Buka jam 6 pagi sampai 10 malam.[/li]
+                [li]Buka pukul 06.00-22.00.[/li]
                 [li]Massage dapat dilakukan langsung di kamar ataupun langsung di tempat.[/li]
                 [li]Massage tidak terbatas hanya untuk yang menginap.[/li]
                 [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
