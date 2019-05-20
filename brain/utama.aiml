@@ -91,9 +91,8 @@
         <pattern>SANTIKA PREMIERE SLIP</pattern>
         <template>
             <think><set name="topic">santika</set></think>
-            Santika Premiere Slipi:
+            Santika Premiere Slipi adalah salah satu hotel Santika Group di Indonesia.
             [ul]
-                [li]Santika Premiere Slipi adalah salah satu hotel Santika Group di Indonesia.[/li]
                 [li]Lokasi Hotel: Jl. Ks. Tubun No.7, RT.1/RW.7, Slipi, Palmerah, Jakarta Barat.[/li]
                                 <!--  https://goo.gl/maps/ZetbFZYG9AFwEooY8[/li]-->
                 [li]Phone: +62-21-5361777[/li]
