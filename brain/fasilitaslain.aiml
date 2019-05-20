@@ -18,6 +18,7 @@
                 [li]Ukuran Kolam Renang: 15 X 40 m[/li]
                 [li]Kedalaman Kolam Renang: 1,5 m[/li]
                 [li]Ada area untuk anak-anak dan dewasa yang dipartisi.[/li]
+                [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
             [/ul]
         </template>
     </category>
@@ -29,6 +30,7 @@
             [ul]
                 [li]Adalah area bermain anak-anak.[/li]
                 [li]Berada di sebelah kiri dari pool.[/li]
+                [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
             [/ul]
         </template>
     </category>
@@ -42,6 +44,7 @@
                 [li]Buka jam 6 pagi sampai 10 malam.[/li]
                 [li]Massage dapat dilakukan langsung di kamar ataupun langsung di tempat.[/li]
                 [li]Massage tidak terbatas hanya untuk yang menginap.[/li]
+                [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
             [/ul]
         </template>
     </category>
@@ -49,7 +52,8 @@
     <category>
         <pattern>PARKIR</pattern>
         <template>
-            Tempat parkir kami terdiri dari 2 lantai basement yang dapat memuat 400 mobil dan 50 motor, serta tidak ada biaya parkir.
+            Tempat parkir kami terdiri dari 2 lantai basement yang dapat memuat 400 mobil dan 50 motor, serta tidak ada biaya parkir.[enter]
+            [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
         </template>
     </category>
 
