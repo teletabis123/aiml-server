@@ -359,5 +359,12 @@
             <srai>RESERVASI</srai>
         </template>
     </category>
+    
+    <category>
+        <pattern>MESAN _</pattern>
+        <template>
+            <srai>RESERVASI</srai>
+        </template>
+    </category>
 
 </aiml>
