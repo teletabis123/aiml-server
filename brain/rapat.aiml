@@ -28,7 +28,8 @@
         <pattern>PAKET MEETING</pattern>
         <template>
             <think><set name="topic">rapat</set></think>
-            Untuk pemesanan, dapat langsung ke sales. Paket rapat yang tersedia:[enter]
+            <!--Untuk pemesanan, dapat langsung ke sales.-->
+            Beberapa paket rapat yang tersedia:[enter]
             <!-- <srai>PAKET MEETING 2</srai> -->
             Half Day Meeting
             [ul]
@@ -190,11 +191,10 @@
         <pattern>PROSES PESAN</pattern>
         <template>
             <think><set name="topic">rapat</set></think>
-            Proses untuk memesan Ruangan Rapat
-            [ul]
-                [li]Contact Sales.[/li]
+             Untuk proses pemesanan Anda dapat meninggalkan email atau telpon yang dapat kami hubungi. Sales kami akan segera menghubungi Anda.
+           <!-- [ul]
                 [li]Meninggalkan contact email/telp[/li]
-                [li]Akan di-follow up oleh sales masing-masing[/li]
+                [li]Sales Akan di-follow up oleh sales masing-masing[/li]
                 [li]Bila pemesanan OK maka akan dikirimkan surat penawaran melalui email[/li]
                 [li]Bila pemesanan disetujui maka akan dikirimkan confirmation letter[/li]
                 [li]Dari Pemesan akan mengirimkan confirmation letter dan DP 50% via email/WA[/li]
@@ -202,7 +202,7 @@
                 [li]Untuk special request, early checkin bisa langsung ke sales[/li]
                 [li]Pembatalan akan menyebabkan DP hangus[/li]
                 [footer]Untuk reservasi dan info lebih lanjut mengenai ruangan rapat, silahkan tinggalkan nomor telepon atau email.[/footer]
-            [/ul]
+            [/ul]-->
         </template>
     </category>
 
