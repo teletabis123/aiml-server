@@ -56,7 +56,7 @@
                 <li>Halo, ada yang dapat saya bantu? </li>
                 <li>Informasi apa yang Anda butuhkan?</li>
             </random>
-            [ul]
+           <!-- [ul]
                 [li]Tentang Santika Premiere SLIPI[/li]
                 [li]Kamar Hotel[/li]
                 [li]Cek Ketersediaan Kamar[/li]
@@ -67,7 +67,7 @@
                 [li]Transportasi[/li]
                 [li]Restoran[/li]
                 [li]Fasilitas Lain.[/li]
-            [/ul]
+            [/ul]-->
         </template>
     </category>
 
