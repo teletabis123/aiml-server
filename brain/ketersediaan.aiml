@@ -10,7 +10,7 @@
                 [li]Kamar Deluxe Room : Deluxe[/li]
                 [li]Kamar Club Premiere : Club Premiere[/li]
                 [li]Kamar Deluxe Suite : Deluxe Suite[/li]
-                [footer]Tipe kamar apa yang ingin Anda cek ketersediannya? (kirim "hai" tanpa tanda petik untuk batal)[/footer]
+                [footer]Tipe kamar apa yang ingin Anda cek ketersediannya? (kirim \""hai\"" tanpa tanda petik untuk batal)[/footer]
             [/ul]
         </template>
     </category>
