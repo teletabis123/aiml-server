@@ -32,7 +32,7 @@
                 [li]Pegipegi[/li]
                 [footer]Syarat dan ketentuan dapat dilihat pada booking details masing-masing agen.[/footer]
             [/ul] -->
-            Untuk saat ini kami belum dapat melayani pemesanan kamar melalui Chatbot. Anda dapat melakukan reservasi melalui aplikasi mySantika dan website santika.com. Ada informasi lain yang ingin Anda tanyakan?
+            Untuk saat ini kami belum dapat melayani pemesanan kamar melalui Chatbot. Anda dapat melakukan reservasi melalui aplikasi mySantika atau website santika.com. Ada informasi lain yang ingin Anda tanyakan?
         </template>
     </category>
 
@@ -40,7 +40,7 @@
         <pattern>BAYAR</pattern>
         <template>
             Anda dapat menggunakan kartu kredit, kartu debit, tunai, dan poin myValue.[enter]
-            Jika Customer memiliki myValue ID (SIP Santika Important Person):
+            Jika Anda memiliki myValue ID (SIP Santika Important Person):
             [ul]
                 [li]Payment dapat dilakukan menggunakan poin myValue[/li]
                 [li]Bisa mendapatkan potongan biaya sebesar Rp 50.000,-[/li]
