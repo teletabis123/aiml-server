@@ -10,7 +10,7 @@
                 [li]Kamar Deluxe Room : Deluxe[/li]
                 [li]Kamar Club Premiere : Club Premiere[/li]
                 [li]Kamar Deluxe Suite : Deluxe Suite[/li]
-                [footer]Tipe kamar apa yang ingin Anda cek ketersediannya? (kirim 'hai' tanpa tanda petik untuk batal)[/footer]
+                [footer]Tipe kamar apa yang ingin Anda cek ketersediannya?[/footer]
             [/ul]
         </template>
     </category>
@@ -27,7 +27,7 @@
         <template>
             <condition name = "sedia">
                 <li value = "tanggal">
-                    Tanggal berapa Anda akan check-in?  (kirim 'hai' tanpa tanda petik untuk batal)
+                    Tanggal berapa Anda akan check-in?
                 </li>
                 <li>
                     Maaf, informasi mengenai tanggal belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
@@ -41,7 +41,7 @@
         <template>
             <condition name = "sedia">
                 <li value = "malam">
-                    Berapa malam Anda akan menginap di kamar <get name="kamar"/>? (kirim 'hai' tanpa tanda petik untuk batal)
+                    Berapa malam Anda akan menginap di kamar <get name="kamar"/>? 
                 </li>
                 <li>
                     Maaf, informasi mengenai malam belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
@@ -55,7 +55,7 @@
         <template>
             <condition name = "sedia">
                 <li value = "banyak">
-                    Berapa kamar <get name="kamar"/> yang ingin Anda cek ketersediannya? (kirim 'hai' tanpa tanda petik untuk batal)
+                    Berapa kamar <get name="kamar"/> yang ingin Anda cek ketersediannya? 
                 </li>
                 <li>
                     Maaf, informasi mengenai banyak belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
