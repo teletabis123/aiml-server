@@ -356,7 +356,7 @@ def index(query):
     
 
     if isemail :
-        query = "THE EMAIL ADDRESS IS " + email
+        query = "THE EMAIL ADDRESS IS THIS IS AN EMAIL" 
         
     
     
