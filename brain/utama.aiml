@@ -54,7 +54,7 @@
             <!-- Halo, Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang: -->
             <random>
                 <li>Halo, ada yang dapat saya bantu? </li>
-                <li>Informasi apa yang Anda butuhkan?</li>
+                <li>Halo, informasi apa yang Anda butuhkan?</li>
             </random>
            <!-- [ul]
                 [li]Tentang Santika Premiere SLIPI[/li]
