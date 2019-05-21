@@ -373,5 +373,12 @@
             <srai>PROSES PESAN</srai>
         </template>
     </category>
+    
+     <category>
+        <pattern>_ MEETING _</pattern>
+        <template>
+            <srai>PAKET MEETING</srai>
+        </template>
+    </category>
 
 </aiml>
