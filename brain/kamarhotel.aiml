@@ -34,7 +34,7 @@
         <template>
             <think><set name="sedia">sedia</set></think>
             <think><set name="topic">hotel</set></think>
-            Kami menyediakan smoking room. Untuk informasi lebih lanjut dapat langsung bertanya ke resepsionis saat pemilihan kamar
+            Kami menyediakan fasilitas smoking room. Untuk informasi lebih lanjut dapat langsung bertanya ke resepsionis saat pemilihan kamar
         </template>
     </category>
     
@@ -1014,14 +1014,14 @@
     </category>
     
     <category>
-        <pattern>ROKOK</pattern>
+        <pattern># ROKOK #</pattern>
         <template>
             <srai>SMOKING ROOM</srai>    
         </template>
     </category>
     
     <category>
-        <pattern>KAMAR ROKOK</pattern>
+        <pattern># SMOKING #</pattern>
         <template>
             <srai>SMOKING ROOM</srai>    
         </template>
