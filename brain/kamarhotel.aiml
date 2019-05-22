@@ -1021,7 +1021,14 @@
     </category>
     
     <category>
-        <pattern>SMOKING</pattern>
+        <pattern># SMOKING</pattern>
+        <template>
+            <srai>SMOKING ROOM</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SMOKING #</pattern>
         <template>
             <srai>SMOKING ROOM</srai>    
         </template>
