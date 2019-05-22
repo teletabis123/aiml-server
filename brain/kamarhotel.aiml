@@ -1034,4 +1034,18 @@
         </template>
     </category>
     
+      <category>
+        <pattern># SMOKING ROOM</pattern>
+        <template>
+            <srai>SMOKING ROOM</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SMOKING ROOM #</pattern>
+        <template>
+            <srai>SMOKING ROOM</srai>    
+        </template>
+    </category>
+    
 </aiml>
