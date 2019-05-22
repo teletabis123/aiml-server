@@ -40,16 +40,24 @@
     <category>
         <pattern>BAYAR</pattern>
         <template>
-            Anda dapat menggunakan kartu kredit, kartu debit, tunai, dan poin myValue.[enter]
-            Jika Anda memiliki myValue ID (SIP Santika Important Person):
+            Anda dapat menggunakan kartu kredit, kartu debit, tunai, dan poin myValue.
+         <!--   Jika Anda memiliki myValue ID (SIP Santika Important Person):
             [ul]
                 [li]Payment dapat dilakukan menggunakan poin myValue[/li]
                 [li]Bisa mendapatkan potongan biaya sebesar Rp 50.000,-[/li]
                 [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
-            [/ul]
+            [/ul]-->
         </template>
     </category>
-
+    
+    <category>
+        <pattern>MYVALUE</pattern>
+        <template>
+            Jika Anda memiliki myValue ID, Anda dapat mendapatkan potongan biaya sebesar Rp 50.000,-
+            Ada informasi lain yang ingin Anda tanyakan?
+        </template>
+    </category>
+    
     <category>
         <pattern>UPSALE</pattern>
         <template>
@@ -187,6 +195,27 @@
         <pattern>_ DISKON _</pattern>
         <template>
             <srai>PROMO</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern># MYVALUE ID #</pattern>
+        <template>
+            <srai>MYVALUE</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>MYVALUE ID #</pattern>
+        <template>
+            <srai>MYVALUE</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern># MYVALUE ID</pattern>
+        <template>
+            <srai>MYVALUE</srai>
         </template>
     </category>
 
