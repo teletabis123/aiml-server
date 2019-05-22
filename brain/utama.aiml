@@ -110,7 +110,7 @@
     </category>
     
     <category>
-        <pattern>* TELEPON *</pattern>
+        <pattern>TELEPON</pattern>
         <template>
             <think><set name="topic">santika</set></think>
             Nomor telepon yang dapat dihubungi adalah +62-21-5361777
@@ -1264,6 +1264,19 @@
         </template>
     </category>
 
+    <category>
+        <pattern>* TELEPON </pattern>
+        <template>
+            <srai>TELEPON</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* TELEPON SANTIKA PREMIERE SLIP </pattern>
+        <template>
+            <srai>TELEPON</srai>
+        </template>
+    </category>
     
     <category>
         <pattern>TELETABIS</pattern>
