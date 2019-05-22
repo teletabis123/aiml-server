@@ -206,6 +206,13 @@
     </category>
     
      <category>
+        <pattern>MYVALUE ID</pattern>
+        <template>
+            <srai>MYVALUE</srai>
+        </template>
+    </category>
+    
+     <category>
         <pattern>MYVALUE ID #</pattern>
         <template>
             <srai>MYVALUE</srai>
