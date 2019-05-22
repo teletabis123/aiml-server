@@ -1272,7 +1272,14 @@
     </category>
     
     <category>
-        <pattern>NOMOR TELEPON</pattern>
+        <pattern>NOMOR TELEPON #</pattern>
+        <template>
+            <srai>TELEPON</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern># NOMOR TELEPON</pattern>
         <template>
             <srai>TELEPON</srai>
         </template>
@@ -1294,6 +1301,20 @@
     
     <category>
         <pattern>_ LOKASI</pattern>
+        <template>
+            <srai>LOKASI</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ALAMAT _</pattern>
+        <template>
+            <srai>LOKASI</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>_ ALAMAT</pattern>
         <template>
             <srai>LOKASI</srai>
         </template>
