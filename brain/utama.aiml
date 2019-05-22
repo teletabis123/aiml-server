@@ -1285,15 +1285,15 @@
         </template>
     </category>
     
-    <!--<category>
+    <category>
         <pattern>LOKASI _</pattern>
         <template>
             <srai>LOKASI</srai>
         </template>
-    </category>-->
+    </category>
     
     <category>
-        <pattern># LOKASI #</pattern>
+        <pattern>_ LOKASI</pattern>
         <template>
             <srai>LOKASI</srai>
         </template>
