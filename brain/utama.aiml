@@ -75,7 +75,7 @@
         <pattern>SANTIKA</pattern>
         <template>
             <think><set name="topic">santika</set></think>
-            Santika Hotel dan Resorts adalah salah satu grup hotel terbesar di Indonesia. Dikelola oleh PT. Grahawita Santika, unit bisnis Kelompok Kompas Gramedia. PT. Grahawita Santika didirikan pada tanggal 22 Agustus 1981.
+            Santika Hotel dan Resorts adalah salah satu grup hotel terbesar di Indonesia. Dikelola oleh PT. Grahawita Santika yang didirikan pada 22 Agustus 1981.
         </template>
     </category>
 
@@ -91,13 +91,37 @@
         <pattern>SANTIKA PREMIERE SLIP</pattern>
         <template>
             <think><set name="topic">santika</set></think>
-            Santika Premiere Slipi adalah salah satu hotel Santika Group di Indonesia.
-            [ul]
+            Santika Premiere Slipi adalah salah satu hotel Santika Group di Indonesia
+            <!--[ul]
                 [li]Lokasi Hotel: Jl. Ks. Tubun No.7, RT.1/RW.7, Slipi, Palmerah, Jakarta Barat.[/li]
-                                <!--  https://goo.gl/maps/ZetbFZYG9AFwEooY8[/li]-->
+                                  https://goo.gl/maps/ZetbFZYG9AFwEooY8[/li]
                 [li]Phone: +62-21-5361777[/li]
                 [li]Email: slipipremiere@reservation.santika.com[/li]
-            [/ul]
+            [/ul]-->
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* LOKASI *</pattern>
+        <template>
+            <think><set name="topic">santika</set></think>
+            Santika Premiere Slipi berlokasi di Jl. Ks. Tubun No.7, RT.1/RW.7, Slipi, Palmerah, Jakarta Barat
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* TELEPON *</pattern>
+        <template>
+            <think><set name="topic">santika</set></think>
+            Nomor telepon yang dapat dihubungi adalah +62-21-5361777
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* EMAIL *</pattern>
+        <template>
+            <think><set name="topic">santika</set></think>
+            Berikut adalah email Santika Premiere Slipi: slipipremiere@reservation.santika.com
         </template>
     </category>
     
@@ -1239,42 +1263,8 @@
             Terima kasih, kontak anda telah tersimpan. Mohon tunggu kabar selanjutnya dari kami.
         </template>
     </category>
+
     
-    <category>
-        <pattern>TELETUBBIES</pattern>
-        <template>
-            <srai>TELETABIS</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>TINKYWINKY</pattern>
-        <template>
-            <srai>TELETABIS</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>DIPSY</pattern>
-        <template>
-            <srai>TELETABIS</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>LAALAA</pattern>
-        <template>
-            <srai>TELETABIS</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>PO</pattern>
-        <template>
-            <srai>TELETABIS</srai>
-        </template>
-    </category>
-
     <category>
         <pattern>TELETABIS</pattern>
         <template>
