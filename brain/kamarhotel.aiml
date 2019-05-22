@@ -1048,4 +1048,11 @@
         </template>
     </category>
     
+    <category>
+        <pattern>FASILITAS SMOKING ROOM _</pattern>
+        <template>
+            <srai>SMOKING ROOM</srai>    
+        </template>
+    </category>
+    
 </aiml>
