@@ -14,7 +14,7 @@
                 [li]Executive Suite[/li]
                 [li]Family Suite[/li]
                 [li]Santika Suite[/li]
-                [li]Info lain[/li]    
+               <!-- [li]Info lain[/li]   --> 
                 [footer]Tipe kamar apa yang ingin Anda ketahui?[/footer]
             [/ul]
         </template>
