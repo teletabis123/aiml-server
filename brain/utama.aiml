@@ -102,7 +102,7 @@
     </category>
     
     <category>
-        <pattern>* SANTIKA PREMIERE SLIP LOKASI *</pattern>
+        <pattern>* LOKASI *</pattern>
         <template>
             <think><set name="topic">santika</set></think>
             Santika Premiere Slipi berlokasi di Jl. Ks. Tubun No.7, RT.1/RW.7, Slipi, Palmerah, Jakarta Barat
