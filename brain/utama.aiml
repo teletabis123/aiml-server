@@ -1286,7 +1286,14 @@
     </category>
     
     <category>
-        <pattern>LOKASI MANA</pattern>
+        <pattern>LOKASI _</pattern>
+        <template>
+            <srai>LOKASI</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ LOKASI _</pattern>
         <template>
             <srai>LOKASI</srai>
         </template>
