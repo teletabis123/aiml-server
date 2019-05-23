@@ -7,9 +7,12 @@
             <think><set name="sedia">kamar</set></think>
             Kamar yang tersedia untuk dipesan:
             [ul]
-                [li]Kamar Deluxe Room : Deluxe[/li]
-                [li]Kamar Club Premiere : Club Premiere[/li]
-                [li]Kamar Deluxe Suite : Deluxe Suite[/li]
+                [li]Deluxe[/li]
+                [li]Club Premiere[/li]
+                [li]Deluxe Suite[/li]
+                [li]Executive Suite[/li]
+                [li]Family Suite[/li]
+                [li]Santika Suite[/li]
                 [footer]Tipe kamar apa yang ingin Anda cek ketersediannya?[/footer]
             [/ul]
         </template>
@@ -18,8 +21,19 @@
     <category>
         <pattern>KAMAR *</pattern>
         <template>
-            <srai><star index="1"/></srai>
+            <condition name = "sedia">
+                <srai><star index="1"/></srai>
+            </condition>
         </template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <template>
+            <condition name = "sedia">
+                <srai><star index="1"/></srai>
+            </condition>
+        </template
     </category>
 
     <category>
