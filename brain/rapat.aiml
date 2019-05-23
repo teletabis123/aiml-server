@@ -30,7 +30,7 @@
         <template>
             <think><set name="topic">rapat</set></think>
             <!--Untuk pemesanan, dapat langsung ke sales.-->
-            Beberapa paket rapat yang tersedia:[enter]
+            Beberapa paket rapat yang tersedia:
             <!-- <srai>PAKET MEETING 2</srai> -->
             [ul]
                 [li]Half Day Meeting[/li]
