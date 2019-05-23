@@ -1272,14 +1272,21 @@
     </category>
     
     <category>
-        <pattern>NOMOR TELEPON #</pattern>
+        <pattern>NOMOR TELEPON</pattern>
         <template>
             <srai>TELEPON</srai>
         </template>
     </category>
     
     <category>
-        <pattern># NOMOR TELEPON</pattern>
+        <pattern>NOMOR TELEPON *</pattern>
+        <template>
+            <srai>TELEPON</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* NOMOR TELEPON</pattern>
         <template>
             <srai>TELEPON</srai>
         </template>
