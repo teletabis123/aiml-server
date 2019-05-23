@@ -27,14 +27,14 @@
         </template>
     </category>
     
-    <category>
+  <!--  <category>
         <pattern>*</pattern>
         <template>
             <condition name = "sedia">
                 <srai><star index="1"/></srai>
             </condition>
         </template>
-    </category>
+    </category>-->
 
     <category>
         <pattern>TANGGAL</pattern>
