@@ -564,7 +564,7 @@
     </category>
     
     <category>
-        <pattern>FULL BOARD *</pattern>
+        <pattern>FULL BOARD</pattern>
         <template>
             <srai>FULL BOARD</srai>
         </template>
@@ -592,6 +592,13 @@
     </category>
     
     <category>
+        <pattern>HALFDAY *</pattern>
+        <template>
+            <srai>HALF DAY</srai>
+        </template>
+    </category>
+    
+    <category>
         <pattern>FULL DAY *</pattern>
         <template>
             <srai>FULL DAY</srai>
@@ -599,7 +606,14 @@
     </category>
     
      <category>
-        <pattern>FULLDAY #</pattern>
+        <pattern>FULLDAY</pattern>
+        <template>
+            <srai>FULL DAY</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>FULLDAY *</pattern>
         <template>
             <srai>FULL DAY</srai>
         </template>
