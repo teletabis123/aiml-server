@@ -1035,21 +1035,21 @@
     </category>
     
       <category>
-        <pattern>_ SMOKING ROOM</pattern>
+        <pattern>* SMOKING ROOM</pattern>
         <template>
             <srai>SMOKING ROOM</srai>    
         </template>
     </category>
     
     <category>
-        <pattern>SMOKING ROOM _</pattern>
+        <pattern>SMOKING ROOM *</pattern>
         <template>
             <srai>SMOKING ROOM</srai>    
         </template>
     </category>
     
     <category>
-        <pattern>FASILITAS SMOKING ROOM _</pattern>
+        <pattern>FASILITAS SMOKING ROOM *</pattern>
         <template>
             <srai>SMOKING ROOM</srai>    
         </template>
