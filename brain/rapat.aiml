@@ -4,22 +4,23 @@
     <category>
         <pattern>RUANG RAPAT</pattern>
         <template>
-            Informasi mengenai ruangan rapat yang ada.[enter]
+           <!-- Informasi mengenai ruangan rapat yang ada.[enter]-->
             <think><set name="topic">rapat</set></think>
-            Fasilitas yang tersedia:
+            Beberapa fasilitas untuk ruang rapat adalah:
             [ul]
                 [li]Sound System, Microphone, LCD Projector dan Screen[/li]
                 [li]Flip Chart, Board Marker, Meeting Kits[/li]
                 [li]Mineral Water, Reception Table, Wi-fi[/li]
+                [footer]Informasi apa yang ingin Anda tanyakan?[/footer]
             [/ul]
-            Informasi lain yang dapat diketahui mengenai Ruangan Rapat:
+           <!-- Informasi lain yang dapat diketahui mengenai Ruangan Rapat:
             [ul]
                 [li]Paket Meeting, Pemesanan Paket Meeting[/li]
                 [li]Paket Kamar Meeting, Ruangan dan Kamar yang tersedia untuk pemesanan paket meeting[/li]
                 [li]Jenis Ruang Rapat, Jenis kamar hotel yang tersedia[/li]
                 [li]Proses Pemesanan Ruang Rapat[/li]
                 [footer]Adakah yang ingin Anda tanyakan lagi?[/footer]
-            [/ul]
+            [/ul]-->
         </template>
     </category>
 
@@ -31,8 +32,15 @@
             <!--Untuk pemesanan, dapat langsung ke sales.-->
             Beberapa paket rapat yang tersedia:[enter]
             <!-- <srai>PAKET MEETING 2</srai> -->
-            Half Day Meeting
             [ul]
+                [li]Half Day Meeting[/li]
+                [li]Full Day Meeting[/li]
+                [li]Full Board Meeting[/li]
+                [li]Full Board Meeting Residential Twin[/li]
+                [li]Full Board Meeting Residential Single[/li]
+                [footer]Paket apa yang ingin Anda ketahui?[/footer]
+            [/ul]
+           <!-- [ul]
                 [li]Rp. 380.000,- /pax/day[/li]
                 [li]1 Coffee Break, 1 Meal[/li]
                 [li]Waktu penggunaan 4 jam[/li]
@@ -62,10 +70,77 @@
                 [li]2 Coffee Break, 2 Meal[/li]
                 [li]Waktu penggunaan 12 jam[/li]
                 [li]Deluxe Queen Room[/li]
-            [/ul]
+            [/ul]-->
         </template>
     </category>
 
+    <category>
+        <pattern>HALF DAY</pattern>
+        <template>
+            <think><set name="topic">rapat</set></think>
+            [ul]
+                [li]Rp. 380.000,- /pax/day[/li]
+                [li]1 Coffee Break, 1 Meal[/li]
+                [li]Waktu penggunaan 4 jam[/li]
+                [footer]Ada yang ingin ditanyakan kembali?[/footer]
+            [/ul]
+        </template>
+    </category>
+    
+     <category>
+        <pattern>FULL DAY</pattern>
+        <template>
+            <think><set name="topic">rapat</set></think>
+            [ul]
+                [li]Rp. 480.000,- /pax/day[/li]
+                [li]2 Coffee Break, 1 Meal[/li]
+                [li]Waktu penggunaan 8 jam[/li]
+                [footer]Ada yang ingin ditanyakan kembali?[/footer]
+            [/ul]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>FULL BOARD</pattern>
+        <template>
+            <think><set name="topic">rapat</set></think>
+            [ul]
+                [li]Rp. 580.000,- /pax/day[/li]
+                [li]2 Coffee Break, 2 Meal[/li]
+                [li]Waktu penggunaan 12 jam[/li]
+                [footer]Ada yang ingin ditanyakan kembali?[/footer]
+            [/ul]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>FULL BOARD MEETING RESIDENTIAL TWIN</pattern>
+        <template>
+            <think><set name="topic">rapat</set></think>
+            [ul]
+                [li]Rp. 925.000,- /pax/day[/li]
+                [li]2 Coffee Break, 2 Meal[/li]
+                [li]Waktu penggunaan 12 jam[/li]
+                [li]Deluxe Twin Room[/li]
+                [footer]Ada yang ingin ditanyakan kembali?[/footer]
+            [/ul]
+        </template>
+    </category>
+    
+     <category>
+        <pattern>FULL BOARD MEETING RESIDENTIAL SINGLE</pattern>
+        <template>
+            <think><set name="topic">rapat</set></think>
+            [ul]
+                [li]Rp. 1.375.000,- /pax/day[/li]
+                [li]2 Coffee Break, 2 Meal[/li]
+                [li]Waktu penggunaan 12 jam[/li]
+                [li]Deluxe Queen Room[/li]
+                [footer]Ada yang ingin ditanyakan kembali?[/footer]
+            [/ul]
+        </template>
+    </category>
+    
     <!-- Room rate -->
     <category>
         <pattern>PAKET KAMAR MEETING</pattern>
@@ -80,15 +155,26 @@
             [/ul]
         </template>
     </category>
+    
 
     <!-- Ruangan 1, awalnya -->
     <category>
         <pattern>JENIS RUANG RAPAT</pattern>
         <template>
             <think><set name="topic">rapat</set></think>
-            Ruangan Rapat Yang Tersedia:[enter]
+            <!--Jenis ruangan rapat ditentukan berdasarkan jumlah peserta rapat. Berapa peserta rapat yang akan hadir?-->
             <!-- <srai>RUANGAN 2</srai> -->
-            Balai Agung Betawi
+            Ruang rapat yang tersedia adalah
+            [ul]
+                [li]Balai Agung Betawi[/li]
+                [li]Betawi[/li]
+                [li]Seruni[/li]
+                [li]Cempaka[/li]
+                [li]Kenanga[/li]
+                [li]Mawar[/li]
+                [footer]Ruang rapat apa yang ingin Anda ketahui lebih lanjut?[/footer]
+            [/ul]
+           <!-- Balai Agung Betawi
             [ul]
                 [li]Ukuran: 24.6M x 16M[/li]
                 [li]Kapasitas Theater: 500 orang[/li]
@@ -183,6 +269,90 @@
                 [li]Ukuran: 11.9M x 7.4M[/li]
                 [li]Kapasitas Theater: 80 orang[/li]
                 [li]Kapasitas Class Room: 36 orang[/li]
+            [/ul]-->
+        </template>
+    </category>
+    
+    <category>
+        <pattern>BALAI AGUNG BETAWI</pattern>
+        <template>
+            <think><set name="topic">rapat</set></think>
+            Harga kamar dengan pemesanan ruangan rapat
+            [ul]
+                [li]Ukuran: 24.6M x 16M[/li]
+                [li]Kapasitas Theater: 500 orang[/li]
+                [li]Kapasitas Class Room: 210 orang[/li]
+                [footer]Ada yang ingin ditanyakan kembali?[/footer]
+            [/ul]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SERUNI</pattern>
+        <template>
+            <think><set name="topic">rapat</set></think>
+            Harga kamar dengan pemesanan ruangan rapat
+            [ul]
+                [li]Ukuran: 21.6M x 7.7M[/li]
+                [li]Kapasitas Theater: 216 orang[/li]
+                [li]Kapasitas Class Room: 90 orang[/li]
+                [footer]Ada yang ingin ditanyakan kembali?[/footer]
+            [/ul]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>BETAWI</pattern>
+        <template>
+            <think><set name="topic">rapat</set></think>
+            Harga kamar dengan pemesanan ruangan rapat
+            [ul]
+                [li]Ukuran: 8.9M x 16M[/li]
+                [li]Kapasitas Theater: 154 orang[/li]
+                [li]Kapasitas Class Room: 84 orang[/li]
+                [footer]Ada yang ingin ditanyakan kembali?[/footer]
+            [/ul]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CEMPAKA</pattern>
+        <template>
+            <think><set name="topic">rapat</set></think>
+            Harga kamar dengan pemesanan ruangan rapat
+            [ul]
+                [li]Ukuran: 16.5M x 5.15M[/li]
+                [li]Kapasitas Theater: 96 orang[/li]
+                [li]Kapasitas Class Room: 36 orang[/li]
+                [footer]Ada yang ingin ditanyakan kembali?[/footer]
+            [/ul]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>KENANGA</pattern>
+        <template>
+            <think><set name="topic">rapat</set></think>
+            Harga kamar dengan pemesanan ruangan rapat
+            [ul]
+                [li]Ukuran: 10.2M x 6.75M[/li]
+                [li]Kapasitas Theater: 50 orang[/li]
+                [li]Kapasitas Class Room: 24 orang[/li]
+                [footer]Ada yang ingin ditanyakan kembali?[/footer]
+            [/ul]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>MAWAR</pattern>
+        <template>
+            <think><set name="topic">rapat</set></think>
+            Harga kamar dengan pemesanan ruangan rapat
+            [ul]
+                [li]Ukuran: 19.8M x 6.5M[/li]
+                [li]Kapasitas Theater: 160 orang[/li]
+                [li]Kapasitas Class Room: 60 orang[/li]
+                [footer]Ada yang ingin ditanyakan kembali?[/footer]
             [/ul]
         </template>
     </category>
@@ -208,6 +378,13 @@
 
     <category>
         <pattern>PAKET MEETING _</pattern>
+        <template>
+            <srai>PAKET MEETING</srai>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>PAKET MEETINGNYA _</pattern>
         <template>
             <srai>PAKET MEETING</srai>    
         </template>
@@ -380,5 +557,166 @@
             <srai>PAKET MEETING</srai>
         </template>
     </category>
+    
+    <category>
+        <pattern>FULL BOARD *</pattern>
+        <template>
+            <srai>FULL BOARD</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>FULLBOARD</pattern>
+        <template>
+            <srai>FULL BOARD</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HALF DAY *</pattern>
+        <template>
+            <srai>HALF DAY</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>HALFDAY</pattern>
+        <template>
+            <srai>HALF DAY</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>FULL DAY *</pattern>
+        <template>
+            <srai>FULL DAY</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>FULLDAY #</pattern>
+        <template>
+            <srai>FULL DAY</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>FULL BOARD RESIDENTIAL TWIN #</pattern>
+        <template>
+            <srai>FULL BOARD RESIDENTIAL TWIN</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>FULLBOARD RESIDENTIAL TWIN #</pattern>
+        <template>
+            <srai>FULL BOARD RESIDENTIAL TWIN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>FULL BOARD RESIDENTIAL SINGLE #</pattern>
+        <template>
+            <srai>FULL BOARD RESIDENTIAL SINGLE</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>FULLBOARD RESIDENTIAL SINGLE #</pattern>
+        <template>
+            <srai>FULL BOARD RESIDENTIAL SINGLE</srai>
+        </template>
+    </category>
 
+    <category>
+        <pattern>* BETAWI</pattern>
+        <template>
+            <srai>BETAWI</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>BETAWI *</pattern>
+        <template>
+            <srai>BETAWI</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* KENANGA</pattern>
+        <template>
+            <srai>KENANGA</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>KENANGA *</pattern>
+        <template>
+            <srai>KENANGA</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>* MAWAR</pattern>
+        <template>
+            <srai>MAWAR</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>MAWAR *</pattern>
+        <template>
+            <srai>MAWAR</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* CEMPAKA</pattern>
+        <template>
+            <srai>CEMPAKA</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>CEMPAKA *</pattern>
+        <template>
+            <srai>CEMPAKA</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* SERUNI</pattern>
+        <template>
+            <srai>SERUNI</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>SERUNI *</pattern>
+        <template>
+            <srai>SERUNI</srai>
+        </template>
+    </category>
+    
+      <category>
+        <pattern>BALAI AGUNG</pattern>
+        <template>
+            <srai>BALAI AGUNG BETAWI</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>BALAI AGUNG BETAWI *</pattern>
+        <template>
+            <srai>BALAI AGUNG BETAWI</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>* BALAI AGUNG BETAWI</pattern>
+        <template>
+            <srai>BALAI AGUNG BETAWI</srai>
+        </template>
+    </category>
+    
 </aiml>
