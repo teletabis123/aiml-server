@@ -620,21 +620,21 @@
     </category>
     
     <category>
-        <pattern>FULL BOARD RESIDENTIAL TWIN #</pattern>
+        <pattern>FULL BOARD RESIDENTIAL TWIN *</pattern>
         <template>
             <srai>FULL BOARD RESIDENTIAL TWIN</srai>
         </template>
     </category>
     
      <category>
-        <pattern>FULLBOARD RESIDENTIAL TWIN #</pattern>
+        <pattern>FULLBOARD RESIDENTIAL TWIN *</pattern>
         <template>
             <srai>FULL BOARD RESIDENTIAL TWIN</srai>
         </template>
     </category>
     
     <category>
-        <pattern>FULL BOARD RESIDENTIAL SINGLE #</pattern>
+        <pattern>FULL BOARD RESIDENTIAL SINGLE *</pattern>
         <template>
             <srai>FULL BOARD RESIDENTIAL SINGLE</srai>
         </template>
@@ -648,7 +648,7 @@
     </category>
 
     <category>
-        <pattern>* BETAWI</pattern>
+        <pattern>_ BETAWI</pattern>
         <template>
             <srai>BETAWI</srai>
         </template>
@@ -662,7 +662,7 @@
     </category>
     
     <category>
-        <pattern>* KENANGA</pattern>
+        <pattern>_ KENANGA</pattern>
         <template>
             <srai>KENANGA</srai>
         </template>
@@ -676,7 +676,7 @@
     </category>
     
      <category>
-        <pattern>* MAWAR</pattern>
+        <pattern>_ MAWAR</pattern>
         <template>
             <srai>MAWAR</srai>
         </template>
@@ -690,7 +690,7 @@
     </category>
     
     <category>
-        <pattern>* CEMPAKA</pattern>
+        <pattern>_ CEMPAKA</pattern>
         <template>
             <srai>CEMPAKA</srai>
         </template>
@@ -704,7 +704,7 @@
     </category>
     
     <category>
-        <pattern>* SERUNI</pattern>
+        <pattern>_ SERUNI</pattern>
         <template>
             <srai>SERUNI</srai>
         </template>
@@ -732,7 +732,7 @@
     </category>
     
      <category>
-        <pattern>* BALAI AGUNG BETAWI</pattern>
+        <pattern>_ BALAI AGUNG BETAWI</pattern>
         <template>
             <srai>BALAI AGUNG BETAWI</srai>
         </template>
