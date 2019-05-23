@@ -18,9 +18,9 @@
     <category>
         <pattern>KAMAR *</pattern>
         <template>
-            <condition name = "sedia">
+            <!-- <condition name = "sedia"> -->
                 <srai><star index="1"/></srai>
-            </condition>
+            <!-- </condition> -->
         </template>
     </category>
     
