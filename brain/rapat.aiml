@@ -78,6 +78,7 @@
         <pattern>HALF DAY</pattern>
         <template>
             <think><set name="topic">rapat</set></think>
+            Rincian Half Day Meeting adalah
             [ul]
                 [li]Rp. 380.000,- /pax/day[/li]
                 [li]1 Coffee Break, 1 Meal[/li]
@@ -91,6 +92,7 @@
         <pattern>FULL DAY</pattern>
         <template>
             <think><set name="topic">rapat</set></think>
+             Rincian Full Day Meeting adalah
             [ul]
                 [li]Rp. 480.000,- /pax/day[/li]
                 [li]2 Coffee Break, 1 Meal[/li]
@@ -104,6 +106,7 @@
         <pattern>FULL BOARD</pattern>
         <template>
             <think><set name="topic">rapat</set></think>
+            Rincian Full Board Meeting adalah
             [ul]
                 [li]Rp. 580.000,- /pax/day[/li]
                 [li]2 Coffee Break, 2 Meal[/li]
@@ -117,6 +120,7 @@
         <pattern>FULL BOARD MEETING RESIDENTIAL TWIN</pattern>
         <template>
             <think><set name="topic">rapat</set></think>
+             Rincian Full Day Meeting Residential Twin adalah
             [ul]
                 [li]Rp. 925.000,- /pax/day[/li]
                 [li]2 Coffee Break, 2 Meal[/li]
@@ -131,6 +135,7 @@
         <pattern>FULL BOARD MEETING RESIDENTIAL SINGLE</pattern>
         <template>
             <think><set name="topic">rapat</set></think>
+            Rincian Full Board Meeting Residential Single adalah
             [ul]
                 [li]Rp. 1.375.000,- /pax/day[/li]
                 [li]2 Coffee Break, 2 Meal[/li]
@@ -277,7 +282,7 @@
         <pattern>BALAI AGUNG BETAWI</pattern>
         <template>
             <think><set name="topic">rapat</set></think>
-            Harga kamar dengan pemesanan ruangan rapat
+            Rincian Ruang Balai Agung Betawi adalah
             [ul]
                 [li]Ukuran: 24.6M x 16M[/li]
                 [li]Kapasitas Theater: 500 orang[/li]
@@ -291,7 +296,7 @@
         <pattern>SERUNI</pattern>
         <template>
             <think><set name="topic">rapat</set></think>
-            Harga kamar dengan pemesanan ruangan rapat
+            Rincian Ruang Seruni adalah
             [ul]
                 [li]Ukuran: 21.6M x 7.7M[/li]
                 [li]Kapasitas Theater: 216 orang[/li]
@@ -305,7 +310,7 @@
         <pattern>BETAWI</pattern>
         <template>
             <think><set name="topic">rapat</set></think>
-            Harga kamar dengan pemesanan ruangan rapat
+            Rincian Ruang Betawi adalah
             [ul]
                 [li]Ukuran: 8.9M x 16M[/li]
                 [li]Kapasitas Theater: 154 orang[/li]
@@ -319,7 +324,7 @@
         <pattern>CEMPAKA</pattern>
         <template>
             <think><set name="topic">rapat</set></think>
-            Harga kamar dengan pemesanan ruangan rapat
+             Rincian Ruang Cempaka adalah
             [ul]
                 [li]Ukuran: 16.5M x 5.15M[/li]
                 [li]Kapasitas Theater: 96 orang[/li]
@@ -333,7 +338,7 @@
         <pattern>KENANGA</pattern>
         <template>
             <think><set name="topic">rapat</set></think>
-            Harga kamar dengan pemesanan ruangan rapat
+            Rincian Ruang Kenanga adalah
             [ul]
                 [li]Ukuran: 10.2M x 6.75M[/li]
                 [li]Kapasitas Theater: 50 orang[/li]
@@ -347,7 +352,7 @@
         <pattern>MAWAR</pattern>
         <template>
             <think><set name="topic">rapat</set></think>
-            Harga kamar dengan pemesanan ruangan rapat
+            Rincian Ruang Mawar adalah
             [ul]
                 [li]Ukuran: 19.8M x 6.5M[/li]
                 [li]Kapasitas Theater: 160 orang[/li]
