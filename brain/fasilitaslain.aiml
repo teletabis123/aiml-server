@@ -115,14 +115,13 @@
     <category>
         <pattern>HEALTH CLUB</pattern>
         <template>
-            <set name="topic">healthclub</set>
-            Health club yang disediakan adalah Fitness Center, Sauna, dan Massage.
-            Ada informasi lain yang ingin Anda tanyakan?[/footer]
-            [/ul]
+            
+            <set name="topic">Health club</set> yang disediakan adalah Fitness Center, Sauna, dan Massage.
+            Ada informasi lain yang ingin Anda tanyakan?
         </template>
     </category>
 
-    <topic name="healthclub">
+    <topic name="Health club">
         <category>
             <pattern>JAM</pattern>
             <template>
