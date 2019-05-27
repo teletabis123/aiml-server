@@ -4,7 +4,7 @@
      <category>
         <pattern>SANTIKA</pattern>
         <template>
-            <think><set name="topic">santika</set></think>
+            <set name="topic">santika</set>
             Santika Hotel dan Resorts adalah salah satu grup hotel terbesar di Indonesia. Dikelola oleh PT. Grahawita Santika yang didirikan pada 22 Agustus 1981.
         </template>
     </category>
@@ -21,7 +21,7 @@
    <category>
         <pattern>KOLAM RENANG</pattern>
         <template>
-            <think><set name="topic">kolamrenang</set></think>
+            <set name="topic">kolamrenang</set>
             Santika Premiere Slipi memiliki fasilitas kolam renang untuk anak-anak dan dewasa.
             Ada informasi lain yang ingin Anda tanyakan?
         </template>
@@ -76,7 +76,7 @@
     <category>
         <pattern>KIDS ZONE</pattern>
         <template>
-            <think><set name="topic">kidszone</set></think>
+            <set name="topic">kidszone</set>
             Kids Zone adalah area bermain anak-anak yang difasilitasi oleh Santika Premiere Slipi
         </template>
     </category>
@@ -115,7 +115,7 @@
     <category>
         <pattern>HEALTH CLUB</pattern>
         <template>
-            <think><set name="topic">healthclub</set></think>
+            <set name="topic">healthclub</set>
             Health club yang disediakan adalah Fitness Center, Sauna, dan Massage.
             Ada informasi lain yang ingin Anda tanyakan?[/footer]
             [/ul]
@@ -171,7 +171,7 @@
     <category>
         <pattern>PARKIR</pattern>
         <template>
-            <think><set name="topic">parkir</set></think>
+            <set name="topic">parkir</set>
             Tempat parkir kami terdiri dari 2 lantai basement yang dapat memuat 400 mobil dan 50 motor[enter]
             [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
         </template>
@@ -205,7 +205,7 @@
     <category>
         <pattern>CHECK IN</pattern>
         <template>
-            <think><set name="topic">checkin</set></think>
+            <set name="topic">checkin</set>
             Jam Check-in adalah pukul 14.00 WIB
         </template>
     </category>
@@ -236,7 +236,7 @@
     <category>
         <pattern>CHECK OUT</pattern>
         <template>
-            <think><set name="topic">checkout</set></think>
+            <set name="topic">checkout</set>
             Jam Check-out adalah pukul 12.00 WIB
         </template>
     </category>
@@ -274,7 +274,7 @@
      <category>
         <pattern>EARLY CHECK IN</pattern>
         <template>
-            <think><set name="topic">earlycheckin</set></think>
+            <set name="topic">earlycheckin</set>
             Jika kamar tersedia dan check-in sebelum pukul 08.00, akan ditambah biaya 25% dari harga kamar
         </template>
     </category>
@@ -282,7 +282,7 @@
     <category>
         <pattern>LATE CHECK OUT</pattern>
         <template>
-            <think><set name="topic">latecheckout</set></think>
+            <set name="topic">latecheckout</set>
             Jika check-out dilakukan sebelum pukul 18.00, akan dikenakan tambahan biaya 50% dari harga kamar. 
             Setelah pukul 18.00, dikenakan tambahan biaya 100%
         </template>
