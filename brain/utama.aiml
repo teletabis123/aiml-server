@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-
     <category>
         <pattern>*</pattern>
         <template>
@@ -51,23 +50,10 @@
         <pattern>HALO</pattern>
         <template>
             <think><set name="sedia">sedia</set></think>
-            <!-- Halo, Saya Chatbot yang akan membantu Anda menjelajahi informasi dan reservasi tentang: -->
             <random>
                 <li>Halo, ada yang dapat saya bantu? </li>
                 <li>Halo, informasi apa yang Anda butuhkan?</li>
             </random>
-           <!-- [ul]
-                [li]Tentang Santika Premiere SLIPI[/li]
-                [li]Kamar Hotel[/li]
-                [li]Cek Ketersediaan Kamar[/li]
-                [li]Mengenai Reservasi[/li]
-                [li]Mengenai pembayaran[/li]
-                [li]Acara Pernikahan[/li]
-                [li]Ruangan Rapat[/li]
-                [li]Transportasi[/li]
-                [li]Restoran[/li]
-                [li]Fasilitas Lain.[/li]
-            [/ul]-->
         </template>
     </category>
 
@@ -82,7 +68,7 @@
     <category>
         <pattern>SANTIKA PREMIERE</pattern>
         <template>
-            <think><set name="topic">santika</set></think>
+            <think><set name="topic">santikapre</set></think>
             Santika Premiere adalah salah satu brand hotel berbintang empat dari Santika Group.
         </template>
     </category>
@@ -90,7 +76,7 @@
     <category>
         <pattern>SANTIKA PREMIERE SLIP</pattern>
         <template>
-            <think><set name="topic">santika</set></think>
+            <think><set name="topic">santikaslipi</set></think>
             Santika Premiere Slipi adalah salah satu hotel Santika Group di Indonesia
             <!--[ul]
                 [li]Lokasi Hotel: Jl. Ks. Tubun No.7, RT.1/RW.7, Slipi, Palmerah, Jakarta Barat.[/li]
@@ -101,30 +87,94 @@
         </template>
     </category>
     
-    <category>
-        <pattern>LOKASI</pattern>
-        <template>
-            <think><set name="topic">santika</set></think>
-            Santika Premiere Slipi berlokasi di Jl. Ks. Tubun No.7, RT.1/RW.7, Slipi, Palmerah, Jakarta Barat
-        </template>
-    </category>
-    
-    <category>
-        <pattern>TELEPON</pattern>
-        <template>
-            <think><set name="topic">santika</set></think>
-            Nomor telepon yang dapat dihubungi adalah +62-21-5361777
-        </template>
-    </category>
-    
-    <category>
-        <pattern>* EMAIL *</pattern>
-        <template>
-            <think><set name="topic">santika</set></think>
-            Berikut adalah email Santika Premiere Slipi: slipipremiere@reservation.santika.com
-        </template>
-    </category>
-    
+    <topic name="santikaslipi">
+        <category>
+            <pattern>LOKASI</pattern>
+            <template>
+                Santika Premiere Slipi berlokasi di Jl. Ks. Tubun No.7, RT.1/RW.7, Slipi, Palmerah, Jakarta Barat
+            </template>
+        </category>
+        
+        <category>
+            <pattern>TELEPON</pattern>
+            <template>
+                Nomor telepon yang dapat dihubungi adalah +62-21-5361777
+            </template>
+        </category>
+        
+        <category>
+            <pattern>EMAIL</pattern>
+            <template>
+                Berikut adalah email Santika Premiere Slipi: slipipremiere@reservation.santika.com
+            </template>
+        </category>
+
+        <category>
+            <pattern>* TELEPON</pattern>
+            <template>
+                <srai>TELEPON</srai>
+            </template>
+        </category>
+        
+        <!--<category>
+            <pattern>NOMOR TELEPON</pattern>
+            <template>
+                <srai>TELEPON</srai>
+            </template>
+        </category>
+        
+        <category>
+            <pattern>NOMOR TELEPON *</pattern>
+            <template>
+                <srai>TELEPON</srai>
+            </template>
+        </category>
+        
+        <category>
+            <pattern>* NOMOR TELEPON</pattern>
+            <template>
+                <srai>TELEPON</srai>
+            </template>
+        </category>
+        -->
+        
+        <category>
+            <pattern>* TELEPON SANTIKA PREMIERE SLIP</pattern>
+            <template>
+                <srai>TELEPON</srai>
+            </template>
+        </category>
+        
+        <category>
+            <pattern>LOKASI *</pattern>
+            <template>
+                <srai>LOKASI</srai>
+            </template>
+        </category>
+        
+        <category>
+            <pattern>* LOKASI</pattern>
+            <template>
+                <srai>LOKASI</srai>
+            </template>
+        </category>
+        
+        <category>
+            <pattern>ALAMAT *</pattern>
+            <template>
+                <srai>LOKASI</srai>
+            </template>
+        </category>
+        
+         <category>
+            <pattern>* ALAMAT</pattern>
+            <template>
+                <srai>LOKASI</srai>
+            </template>
+        </category>
+    </topic>
+
+
     <category>
         <pattern>BATAL</pattern>
         <template>
@@ -1263,81 +1313,4 @@
             Terima kasih, kontak anda telah tersimpan. Mohon tunggu kabar selanjutnya dari kami.
         </template>
     </category>
-
-    <category>
-        <pattern>* TELEPON </pattern>
-        <template>
-            <srai>TELEPON</srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>NOMOR TELEPON</pattern>
-        <template>
-            <srai>TELEPON</srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>NOMOR TELEPON *</pattern>
-        <template>
-            <srai>TELEPON</srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>* NOMOR TELEPON</pattern>
-        <template>
-            <srai>TELEPON</srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>* TELEPON SANTIKA PREMIERE SLIP </pattern>
-        <template>
-            <srai>TELEPON</srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>LOKASI _</pattern>
-        <template>
-            <srai>LOKASI</srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>_ LOKASI</pattern>
-        <template>
-            <srai>LOKASI</srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>ALAMAT _</pattern>
-        <template>
-            <srai>LOKASI</srai>
-        </template>
-    </category>
-    
-     <category>
-        <pattern>_ ALAMAT</pattern>
-        <template>
-            <srai>LOKASI</srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>TELETABIS</pattern>
-        <template>
-            Made By:
-            [ul]
-                [li]Aldric Leonardo[/li]
-                [li]Vionie Laorensa[/li]
-                [li]Matthew Evans Audric Rengkung[/li]
-                [li]James Christian Wira[/li]
-            [/ul]
-        </template>
-    </category>
-
 </aiml>
