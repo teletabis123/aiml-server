@@ -172,6 +172,13 @@
                 <srai>LOKASI</srai>
             </template>
         </category>
+        
+        <category>
+            <pattern>ALAMAT</pattern>
+            <template>
+                <srai>LOKASI</srai>
+            </template>
+        </category>
     </topic>
 
 
