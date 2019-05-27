@@ -9,18 +9,18 @@
                     Maaf, informasi mengenai <star/> belum tersedia. Silahkan menghubungi front office Santika Hotel Premiere untuk informasi lebih lanjut.
                 </li>
                 <li value="tanggal">
-                    <think><set name="tangal"><star index="1"/></set></think>
-                    <think><set name="sedia">malam</set></think>
+                    <set name="tangal"><star index="1"/></set>
+                    <set name="sedia">malam</set>
                     <srai>MALAM</srai>
                 </li>
                 <li value="malam">
-                    <think><set name="malam"><star index="1"/></set></think>
-                    <think><set name="sedia">banyak</set></think>
+                    <set name="malam"><star index="1"/></set>
+                    <set name="sedia">banyak</set>
                     <srai>BANYAK</srai>
                 </li>
                 <li value="banyak">
-                    <think><set name="banyak"><star index="1"/></set></think>
-                    <think><set name="sedia">sedia</set></think>
+                    <set name="banyak"><star index="1"/></set>
+                    <set name="sedia">sedia</set>
                     [request] kamar <get name="kamar"/> tanggal <get name="tangal"/> malam <get name="malam"/> banyak <get name="banyak"/>
                 </li>
                 <li>
@@ -49,7 +49,7 @@
     <category>
         <pattern>HALO</pattern>
         <template>
-            <think><set name="sedia">sedia</set></think>
+            <set name="sedia">sedia</set>
             <random>
                 <li>Halo, ada yang dapat saya bantu? </li>
                 <li>Halo, informasi apa yang Anda butuhkan?</li>
@@ -60,7 +60,7 @@
     <category>
         <pattern>SANTIKA</pattern>
         <template>
-            <think><set name="topic">santika</set></think>
+            <set name="topic">santika</set>
             Santika Hotel dan Resorts adalah salah satu grup hotel terbesar di Indonesia. Dikelola oleh PT. Grahawita Santika yang didirikan pada 22 Agustus 1981.
         </template>
     </category>
@@ -68,7 +68,7 @@
     <category>
         <pattern>SANTIKA PREMIERE</pattern>
         <template>
-            <think><set name="topic">santikapre</set></think>
+            <set name="topic">santikapre</set>
             Santika Premiere adalah salah satu brand hotel berbintang empat dari Santika Group.
         </template>
     </category>
@@ -76,7 +76,7 @@
     <category>
         <pattern>SANTIKA PREMIERE SLIP</pattern>
         <template>
-            <think><set name="topic">santikaslipi</set></think>
+            <set name="topic">santikaslipi</set>
             Santika Premiere Slipi adalah salah satu hotel Santika Group di Indonesia
             <!--[ul]
                 [li]Lokasi Hotel: Jl. Ks. Tubun No.7, RT.1/RW.7, Slipi, Palmerah, Jakarta Barat.[/li]
@@ -160,6 +160,13 @@
         </category>
         
         <category>
+            <pattern>ALAMAT</pattern>
+            <template>
+                <srai>LOKASI</srai>
+            </template>
+        </category>
+
+        <category>
             <pattern>ALAMAT *</pattern>
             <template>
                 <srai>LOKASI</srai>
@@ -168,13 +175,6 @@
         
          <category>
             <pattern>* ALAMAT</pattern>
-            <template>
-                <srai>LOKASI</srai>
-            </template>
-        </category>
-        
-        <category>
-            <pattern>ALAMAT</pattern>
             <template>
                 <srai>LOKASI</srai>
             </template>
