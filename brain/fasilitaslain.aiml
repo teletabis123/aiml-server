@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 
+     <category>
+        <pattern>SANTIKA</pattern>
+        <template>
+            <think><set name="topic">santika</set></think>
+            Santika Hotel dan Resorts adalah salah satu grup hotel terbesar di Indonesia. Dikelola oleh PT. Grahawita Santika yang didirikan pada 22 Agustus 1981.
+        </template>
+    </category>
+
     <category>
         <pattern>FASILITAS</pattern>
         <template>
@@ -9,74 +17,274 @@
         </template>
    </category>
 
+   <!--KOLAM RENANG-->
    <category>
         <pattern>KOLAM RENANG</pattern>
         <template>
-            Informasi mengenai Kolam Renang:
-            [ul]
-                [li]Buka pukul 06.00 - 20.00.[/li]
-                [li]Ukuran Kolam Renang: 15 X 40 m[/li]
-                [li]Kedalaman Kolam Renang: 1,5 m[/li]
-                [li]Tersedia area untuk anak-anak dan dewasa.[/li]
-                [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
-            [/ul]
+            <think><set name="topic">kolamrenang</set></think>
+            Santika Premiere Slipi memiliki fasilitas kolam renang untuk anak-anak dan dewasa.
+            Ada informasi lain yang ingin Anda tanyakan?
         </template>
     </category>
 
+
+    <topic name="kolamrenang">
+        <category>
+            <pattern>JAM</pattern>
+            <template>
+                Kolam renang beroperasi pada pukul 06.00 - 20.00 WIB
+            </template>
+        </category>
+
+        <category>
+            <pattern>JAM *</pattern>
+            <template>
+                <srai>JAM</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>* JAM *</pattern>
+            <template>
+                <srai>JAM</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>UKURAN</pattern>
+            <template>
+                Kolam renang yang tersedia berukuran 15 x 40 m dengan kedalaman maksimum 1,5 m
+            </template>
+        </category>
+
+        <category>
+            <pattern>UKURAN *</pattern>
+            <template>
+                <srai>UKURAN</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>* UKURAN *</pattern>
+            <template>
+                <srai>UKURAN</srai>
+            </template>
+        </category>
+    </topic>
+
+     <!--KIDS ZONE-->
     <category>
         <pattern>KIDS ZONE</pattern>
         <template>
-            Informasi mengenai Kids Zone:
-            [ul]
-                [li]Adalah area bermain anak-anak.[/li]
-                [li]Berada di sebelah kiri dari pool.[/li]
-                [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
-            [/ul]
+            <think><set name="topic">kidszone</set></think>
+            Kids Zone adalah area bermain anak-anak yang difasilitasi oleh Santika Premiere Slipi
         </template>
     </category>
+
+    <topic name="kidszone">
+        <category>
+            <pattern>LOKASI</pattern>
+            <template>
+                Kids Zone terletak berdekatan dengan kolam renang
+            </template>
+        </category>
+
+        <category>
+            <pattern>JAM</pattern>
+            <template>
+                Kids Zone tidak memiliki jam operasional yang ditetapkan
+            </template>
+        </category>
+
+        <category>
+            <pattern>JAM *</pattern>
+            <template>
+                <srai>JAM</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>* JAM *</pattern>
+            <template>
+                <srai>JAM</srai>
+            </template>
+        </category>
+
+    </topic>
 
     <category>
         <pattern>HEALTH CLUB</pattern>
         <template>
-            Informasi mengenai Health Club:
-            [ul]
-                [li]Fasilitas: Fitness Center, Sauna, dan Massage.[/li]
-                [li]Buka pukul 06.00-22.00.[/li]
-                [li]Massage dapat dilakukan langsung di kamar ataupun langsung di tempat.[/li]
-                [li]Massage tidak terbatas hanya untuk yang menginap.[/li]
-                [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
+            <think><set name="topic">healthclub</set></think>
+            Health club yang disediakan adalah Fitness Center, Sauna, dan Massage.
+            Ada informasi lain yang ingin Anda tanyakan?[/footer]
             [/ul]
         </template>
     </category>
+
+    <topic name="healthclub">
+        <category>
+            <pattern>JAM</pattern>
+            <template>
+                Health club beroperasi pada pukul 06.00 - 22.00 WIB
+            </template>
+        </category>
+
+        <category>
+            <pattern>JAM *</pattern>
+            <template>
+                <srai>JAM</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>* JAM *</pattern>
+            <template>
+                <srai>JAM</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>MASSAGE</pattern>
+            <template>
+                Massage dapat dilakukan di kamar maupun di tempat massage. Massage tidak hanya terbatas untuk yang menginap di hotel.
+            </template>
+        </category>
+
+        <category>
+            <pattern>MASSAGE *</pattern>
+            <template>
+                <srai>MASSAGE</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>* MASSAGE *</pattern>
+            <template>
+                <srai>MASSAGE</srai>
+            </template>
+        </category>
+
+    </topic>
+
 
     <category>
         <pattern>PARKIR</pattern>
         <template>
-            Tempat parkir kami terdiri dari 2 lantai basement yang dapat memuat 400 mobil dan 50 motor, serta tidak ada biaya parkir.[enter]
+            <think><set name="topic">parkir</set></think>
+            Tempat parkir kami terdiri dari 2 lantai basement yang dapat memuat 400 mobil dan 50 motor[enter]
             [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
         </template>
     </category>
 
+    <topic name="parkir">
+        <category>
+            <pattern>BIAYA</pattern>
+            <template>
+                Santika Premiere Slipi tidak mengenakan biaya parkir
+            </template>
+        </category>
+
+        <category>
+            <pattern>BIAYA *</pattern>
+            <template>
+                Santika Premiere Slipi tidak mengenakan biaya parkir
+            </template>
+        </category>
+
+         <category>
+            <pattern>* BIAYA</pattern>
+            <template>
+                Santika Premiere Slipi tidak mengenakan biaya parkir
+            </template>
+        </category>
+
+    </topic>
+
+
     <category>
-        <pattern>CHECK IN CHECK OUT</pattern>
+        <pattern>CHECK IN</pattern>
         <template>
-            Untuk early check-in atau late check-out dikenakan biaya tambahan sesuai ketentuan yang berlaku.[enter]
-            Informasi Umum:
-            [ul]
-                [li]Jam Check In jam 2 siang dan Check Out jam 12 siang. Diberikan toleransi 1/2 jam.[/li]
-                [li]Untuk Check Out akan ditelpon jam 10 untuk diingatkan.[/li]
-            [/ul]
-            Early Check In
-            [ul]
-                [li]Sampai sebelum jam 8 pagi, ditambah 50% dari biaya kamar.[/li]
-                [li]Dari jam 9 pagi sampai dengan jam Check Out Normal, ditambah 25% dari biaya kamar.[/li]
-            [/ul]
-            Late Check Out
-            [ul]
-                [li]Dari jam Check Out Normal sampai jam 6 sore, ditambah 50% dari biaya kamar.[/li]
-                [li]Jam Check Out setelah jam 6 sore, ditambah 100% dari biaya kamar.[/li]
-                [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
-            [/ul]
+            <think><set name="topic">checkin</set></think>
+            Jam Check-in adalah pukul 14.00 WIB
+        </template>
+    </category>
+
+    <topic name="checkin">
+        <category>
+            <pattern>TOLERANSI</pattern>
+            <template>
+                Check-in akan diberikan toleransi 30 menit
+            </template>
+        </category>
+
+        <category>
+            <pattern>* TOLERANSI</pattern>
+            <template>
+                <srai>TOLERANSI</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>TOLERANSI *</pattern>
+            <template>
+                <srai>TOLERANSI</srai>
+            </template>
+        </category>
+    </topic>
+
+    <category>
+        <pattern>CHECK OUT</pattern>
+        <template>
+            <think><set name="topic">checkout</set></think>
+            Jam Check-out adalah pukul 12.00 WIB
+        </template>
+    </category>
+
+    <topic name="checkout">
+        <category>
+            <pattern>TOLERANSI</pattern>
+            <template>
+                Check-out akan diberikan toleransi 30 menit
+            </template>
+        </category>
+
+        <category>
+            <pattern>* TOLERANSI</pattern>
+            <template>
+                <srai>TOLERANSI</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>TOLERANSI *</pattern>
+            <template>
+                <srai>TOLERANSI</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>INGAT</pattern>
+            <template>
+                Pihak hotel akan menelpon Anda sebagai pengingat pukul 10.00 WIB
+            </template>
+        </category>
+    </topic>
+
+     <category>
+        <pattern>EARLY CHECK IN</pattern>
+        <template>
+            <think><set name="topic">earlycheckin</set></think>
+            Jika kamar tersedia dan check-in sebelum pukul 08.00, akan ditambah biaya 25% dari harga kamar
+        </template>
+    </category>
+
+    <category>
+        <pattern>LATE CHECK OUT</pattern>
+        <template>
+            <think><set name="topic">latecheckout</set></think>
+            Jika check-out dilakukan sebelum pukul 18.00, akan dikenakan tambahan biaya 50% dari harga kamar. 
+            Setelah pukul 18.00, dikenakan tambahan biaya 100%
         </template>
     </category>
 
@@ -221,66 +429,72 @@
     </category>
 
     <category>
-        <pattern>CHECK IN</pattern>
-        <template>
-            <srai>CHECK IN CHECK OUT</srai>    
-        </template>
-    </category>
-
-    <category>
-        <pattern>CHECK OUT</pattern>
-        <template>
-            <srai>CHECK IN CHECK OUT</srai>    
-        </template>
-    </category>
-
-    <category>
         <pattern>CHECK OUT _</pattern>
         <template>
-            <srai>CHECK IN CHECK OUT</srai>    
+            <srai>CHECK OUT</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>CHECK IN CHECK OUT _</pattern>
+        <pattern>CHECK-OUT _</pattern>
         <template>
-            <srai>CHECK IN CHECK OUT</srai>    
+            <srai>CHECK OUT</srai>    
+        </template>
+    </category>
+
+     <category>
+        <pattern>CHECK IN _</pattern>
+        <template>
+            <srai>CHECK IN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>CHECK-IN _</pattern>
+        <template>
+            <srai>CHECK IN</srai>    
         </template>
     </category>
     
     <category>
         <pattern>CEK IN</pattern>
         <template>
-            <srai>CHECK IN CHECK OUT</srai>    
+            <srai>CHECK IN</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>CEK OUT</pattern>
+        <pattern>CEK-IN</pattern>
         <template>
-            <srai>CHECK IN CHECK OUT</srai>    
+            <srai>CHECK IN</srai>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>CEK-OUT</pattern>
+        <template>
+            <srai>CHECK OUT</srai>    
         </template>
     </category>
 
     <category>
         <pattern>CEK OUT _</pattern>
         <template>
-            <srai>CHECK IN CHECK OUT</srai>    
-        </template>
-    </category>
-    
-    <category>
-        <pattern>CEK IN CEK OUT</pattern>
-        <template>
-            <srai>CHECK IN CHECK OUT</srai>    
+            <srai>CHECK OUT</srai>    
         </template>
     </category>
 
     <category>
-        <pattern>CEK IN CEK OUT _</pattern>
+        <pattern>CEK-OUT _</pattern>
         <template>
-            <srai>CHECK IN CHECK OUT</srai>    
+            <srai>CHECK OUT</srai>    
         </template>
     </category>
 
+    <category>
+        <pattern>CEK-IN _</pattern>
+        <template>
+            <srai>CHECK IN</srai>    
+        </template>
+    </category>
 </aiml>
