@@ -49,7 +49,7 @@
     <category>
         <pattern>HALO</pattern>
         <template>
-            <set name="sedia">sedia</set>
+            <think><set name="sedia">sedia</set></think>
             <random>
                 <li>Halo, ada yang dapat saya bantu? </li>
                 <li>Halo, informasi apa yang Anda butuhkan?</li>
@@ -68,7 +68,7 @@
     <category>
         <pattern>SANTIKA PREMIERE</pattern>
         <template>
-            <set name="topic">santikapre</set>
+            <think><set name="topic">santikapre</set></think>
             Santika Premiere adalah salah satu brand hotel berbintang empat dari Santika Group.
         </template>
     </category>
@@ -76,7 +76,7 @@
     <category>
         <pattern>SANTIKA PREMIERE SLIP</pattern>
         <template>
-            <set name="topic">santikaslipi</set>
+            <think><set name="topic">santikaslipi</set></think>
             Santika Premiere Slipi adalah salah satu hotel Santika Group di Indonesia
             <!--[ul]
                 [li]Lokasi Hotel: Jl. Ks. Tubun No.7, RT.1/RW.7, Slipi, Palmerah, Jakarta Barat.[/li]
