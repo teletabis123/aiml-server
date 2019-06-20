@@ -172,7 +172,7 @@
         <template>
             <think><set name="topic">parkir</set></think>
             Tempat parkir kami terdiri dari 2 lantai basement yang dapat memuat 400 mobil dan 50 motor[enter]
-            [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
+            Ada informasi lain yang ingin Anda tanyakan?
         </template>
     </category>
 
