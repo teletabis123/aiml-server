@@ -50,7 +50,7 @@
     <category>
         <pattern>MALAM</pattern>
         <template>
-            <condition name = "sedia">
+            <think><condition name = "sedia"></think>
                 <li value = "malam">
                     Berapa malam Anda akan menginap di kamar <get name="kamar"/>? 
                 </li>
@@ -64,7 +64,7 @@
     <category>
         <pattern>BANYAK</pattern>
         <template>
-            <condition name = "sedia">
+            <think><condition name = "sedia"></think>
                 <li value = "banyak">
                     Berapa kamar <get name="kamar"/> yang ingin Anda cek ketersediannya? 
                 </li>
