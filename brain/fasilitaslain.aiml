@@ -21,7 +21,7 @@
    <category>
         <pattern>KOLAM RENANG</pattern>
         <template>
-            <set name="topic">kolamrenang</set>
+            <think><set name="topic">kolamrenang</set></think>
             Santika Premiere Slipi memiliki fasilitas kolam renang untuk anak-anak dan dewasa.
             Ada informasi lain yang ingin Anda tanyakan?
         </template>
@@ -76,7 +76,7 @@
     <category>
         <pattern>KIDS ZONE</pattern>
         <template>
-            <set name="topic">kidszone</set>
+            <think><set name="topic">kidszone</set></think>
             Kids Zone adalah area bermain anak-anak yang difasilitasi oleh Santika Premiere Slipi
         </template>
     </category>
@@ -170,7 +170,7 @@
     <category>
         <pattern>PARKIR</pattern>
         <template>
-            <set name="topic">parkir</set>
+            <think><set name="topic">parkir</set></think>
             Tempat parkir kami terdiri dari 2 lantai basement yang dapat memuat 400 mobil dan 50 motor[enter]
             [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
         </template>
@@ -204,7 +204,7 @@
     <category>
         <pattern>CHECK IN</pattern>
         <template>
-            <set name="topic">checkin</set>
+            <think><set name="topic">checkin</set></think>
             Jam Check-in adalah pukul 14.00 WIB
         </template>
     </category>
