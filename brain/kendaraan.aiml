@@ -5,7 +5,20 @@
         <pattern>KENDARA</pattern>
         <template>
             <think><set name="topic">kendara</set></think>
-            Kami menyediakan transportasi ke/dari Bandara yang dapat direservasi sehari sebelum penggunaan. Reservasi dilakukan melalui telepon atau front office. Kendaraan yang tersedia adalah
+            Kami menyediakan transportasi ke/dari Bandara yang dapat direservasi sehari sebelum penggunaan. 
+            <!--Reservasi dilakukan melalui telepon atau front office. Kendaraan yang tersedia adalah
+            [ul]
+                [li]Mobil Innova, Avanza  : Rp. 330.000,00 per hari[/li]
+                [li]Mobil Hyundai h1      : Rp. 450.000,00 per hari[/li]
+                [footer]Ada informasi lain yang ingin Anda tanyakan?[/footer]
+            [/ul]-->
+        </template>
+    </category>
+    
+    <category>
+        <pattern>JENIS KENDARA</pattern>
+        <template>
+            Kendaraan yang tersedia adalah
             [ul]
                 [li]Mobil Innova, Avanza  : Rp. 330.000,00 per hari[/li]
                 [li]Mobil Hyundai h1      : Rp. 450.000,00 per hari[/li]
